@@ -1,0 +1,15 @@
+{
+  "name": "spark-dubbing-voix-38",
+  "private": true,
+  "type": "module",
+  "description": "Voix Gemini 3.8 du doublage : extraits d'écoute et ratios de débit, mesurés en local avec le code de prod.",
+  "scripts": {
+    "phrases": "node scripts/1-phrases.mjs",
+    "edge": "node scripts/2-edge.mjs",
+    "gemini": "node scripts/3-gemini.mjs",
+    "assembler": "node scripts/4-assembler.mjs"
+  },
+  "engines": {
+    "node": ">=20.10"
+  }
+}

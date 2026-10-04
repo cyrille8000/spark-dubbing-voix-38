@@ -1,0 +1,479 @@
+{
+  "genere_le": "2026-10-03T23:27:19.858Z",
+  "langues": {
+    "af": {
+      "voix_edge": "af-ZA-AdriNeural",
+      "texte_edge": "Eerlikwaar, ek het nie veel van hierdie plek verwag nie, maar die kos was heerlik en die personeel was regtig vriendelik.",
+      "edge_s": 5.928,
+      "total_s": 7.176
+    },
+    "am": {
+      "voix_edge": "am-ET-MekdesNeural",
+      "texte_edge": "እውነቱን ለመናገር፣ ከዚህ ቦታ ብዙ ነገር አልጠበቅኩም ነበር፣ ግን ምግቡ በጣም ጣፋጭ ነበር፣ ሰራተኞቹም በጣም ደግ ነበሩ።",
+      "edge_s": 6.4879999999999995,
+      "total_s": 7.512
+    },
+    "bn": {
+      "voix_edge": "bn-IN-TanishaaNeural",
+      "texte_edge": "সত্যি বলতে, এই জায়গাটা নিয়ে আমার তেমন কোনো আশা ছিল না, কিন্তু খাবারটা দারুণ ছিল আর কর্মীরা খুবই আন্তরিক ছিলেন।",
+      "edge_s": 7.511999999999999,
+      "total_s": 8.904
+    },
+    "bs": {
+      "voix_edge": "bs-BA-VesnaNeural",
+      "texte_edge": "Iskreno, nisam mnogo očekivao od ovog mjesta, ali hrana je bila ukusna, a osoblje zaista ljubazno.",
+      "edge_s": 5.744,
+      "total_s": 6.912
+    },
+    "bg": {
+      "voix_edge": "bg-BG-KalinaNeural",
+      "texte_edge": "Честно казано, не очаквах кой знае какво от това място, но храната беше много вкусна, а персоналът   наистина любезен.",
+      "edge_s": 6.4719999999999995,
+      "total_s": 8.088
+    },
+    "my": {
+      "voix_edge": "my-MM-NilarNeural",
+      "texte_edge": "အမှန်အတိုင်းပြောရရင် ဒီနေရာကနေ သိပ်မျှော်လင့်မထားခဲ့ပေမယ့် အစားအစာက အရမ်းစားကောင်းပြီး ဝန်ထမ်းတွေကလည်း တကယ်ကို ကြင်နာကြပါတယ်။",
+      "edge_s": 8.192,
+      "total_s": 9.408
+    },
+    "yue": {
+      "voix_edge": "zh-HK-HiuGaaiNeural",
+      "texte_edge": "老實講，我本來對呢度冇乜期望，但啲嘢食好好味，職員亦都好親切。",
+      "edge_s": 6.864000000000001,
+      "total_s": 9.264
+    },
+    "ca": {
+      "voix_edge": "ca-ES-JoanaNeural",
+      "texte_edge": "Sincerament, no m’esperava gran cosa d’aquest lloc, però el menjar era deliciós i el personal va ser molt amable.",
+      "edge_s": 7.031999999999999,
+      "total_s": 8.616
+    },
+    "cmn": {
+      "voix_edge": "zh-CN-XiaoxiaoNeural",
+      "texte_edge": "说实话，我本来没对这家店抱太大期待，没想到饭菜特别好吃，店员也特别热情。",
+      "edge_s": 6.36,
+      "total_s": 7.896
+    },
+    "cmn-tw": {
+      "voix_edge": "zh-TW-HsiaoChenNeural",
+      "texte_edge": "老實說，我本來對這家店沒抱太大期待，但食物很好吃，店員也真的很親切。",
+      "edge_s": 6.072,
+      "total_s": 7.848
+    },
+    "hr": {
+      "voix_edge": "hr-HR-GabrijelaNeural",
+      "texte_edge": "Iskreno, nisam puno očekivao od ovog mjesta, ali hrana je bila izvrsna, a osoblje jako ljubazno.",
+      "edge_s": 5.256,
+      "total_s": 7.128
+    },
+    "cs": {
+      "voix_edge": "cs-CZ-VlastaNeural",
+      "texte_edge": "Upřímně, od tohohle místa jsem moc nečekal, ale jídlo bylo výborné a obsluha byla opravdu milá.",
+      "edge_s": 6.056,
+      "total_s": 7.56
+    },
+    "da": {
+      "voix_edge": "da-DK-ChristelNeural",
+      "texte_edge": "Helt ærligt havde jeg ikke de store forventninger til stedet, men maden var lækker, og personalet var virkelig søde.",
+      "edge_s": 4.448,
+      "total_s": 6.288
+    },
+    "nl": {
+      "voix_edge": "nl-NL-ColetteNeural",
+      "texte_edge": "Eerlijk gezegd had ik niet veel van deze plek verwacht, maar het eten was heerlijk en het personeel was ontzettend aardig.",
+      "edge_s": 6.832,
+      "total_s": 8.256
+    },
+    "ar-eg": {
+      "voix_edge": "ar-EG-SalmaNeural",
+      "texte_edge": "بصراحة، ماكنتش متوقع كتير من المكان ده، بس الأكل كان لذيذ والموظفين كانوا طيبين جدًا.",
+      "edge_s": 7.151999999999999,
+      "total_s": 8.88
+    },
+    "en": {
+      "voix_edge": "en-US-AvaNeural",
+      "texte_edge": "Honestly, I didn’t expect much from this place, but the food was delicious and the staff were really kind.",
+      "edge_s": 6.192,
+      "total_s": 6.72
+    },
+    "en-gb": {
+      "voix_edge": "en-GB-LibbyNeural",
+      "texte_edge": "Honestly, I didn’t expect much from this place, but the food was delicious and the staff were really kind.",
+      "edge_s": 5.504,
+      "total_s": 7.296
+    },
+    "en-au": {
+      "voix_edge": "en-AU-NatashaNeural",
+      "texte_edge": "Honestly, I wasn’t expecting much from this place, but the food was delicious and the staff were really lovely.",
+      "edge_s": 5.5840000000000005,
+      "total_s": 7.2
+    },
+    "en-in": {
+      "voix_edge": "en-IN-NeerjaExpressiveNeural",
+      "texte_edge": "Honestly, I didn’t expect much from this place, but the food was delicious and the staff were really kind.",
+      "edge_s": 6.031999999999999,
+      "total_s": 7.536
+    },
+    "et": {
+      "voix_edge": "et-EE-AnuNeural",
+      "texte_edge": "Ausalt öeldes ei oodanud ma sellelt kohalt suurt midagi, aga toit oli maitsev ja personal väga sõbralik.",
+      "edge_s": 6.112,
+      "total_s": 7.104
+    },
+    "fil": {
+      "voix_edge": "fil-PH-BlessicaNeural",
+      "texte_edge": "Sa totoo lang, hindi ko masyadong inasahan ang lugar na ’to, pero masarap ang pagkain at napakabait ng mga staff.",
+      "edge_s": 5.824,
+      "total_s": 7.344
+    },
+    "fi": {
+      "voix_edge": "fi-FI-NooraNeural",
+      "texte_edge": "Rehellisesti sanottuna en odottanut tältä paikalta paljoakaan, mutta ruoka oli herkullista ja henkilökunta oli todella ystävällistä.",
+      "edge_s": 7.911999999999999,
+      "total_s": 8.808
+    },
+    "fr": {
+      "voix_edge": "fr-FR-DeniseNeural",
+      "texte_edge": "Honnêtement, je ne m’attendais pas à grand-chose de cet endroit, mais la nourriture était délicieuse et le personnel était vraiment adorable.",
+      "edge_s": 6.295999999999999,
+      "total_s": 7.8
+    },
+    "fr-ca": {
+      "voix_edge": "fr-CA-SylvieNeural",
+      "texte_edge": "Honnêtement, je m’attendais pas à grand-chose de cet endroit, mais la bouffe était délicieuse et le personnel était vraiment gentil.",
+      "edge_s": 6.048,
+      "total_s": 7.44
+    },
+    "gl": {
+      "voix_edge": "gl-ES-SabelaNeural",
+      "texte_edge": "Sinceramente, non esperaba gran cousa deste sitio, pero a comida estaba deliciosa e o persoal foi moi amable.",
+      "edge_s": 6.048000000000001,
+      "total_s": 7.296
+    },
+    "ka": {
+      "voix_edge": "ka-GE-EkaNeural",
+      "texte_edge": "სიმართლე გითხრათ, ამ ადგილისგან დიდად არაფერს ველოდი, მაგრამ საჭმელი უგემრიელესი იყო და პერსონალი ძალიან კეთილი აღმოჩნდა.",
+      "edge_s": 7.3039999999999985,
+      "total_s": 8.232
+    },
+    "de": {
+      "voix_edge": "de-DE-KatjaNeural",
+      "texte_edge": "Ehrlich gesagt hatte ich nicht viel von diesem Laden erwartet, aber das Essen war köstlich und das Personal war wirklich nett.",
+      "edge_s": 6.784,
+      "total_s": 7.872
+    },
+    "el": {
+      "voix_edge": "el-GR-AthinaNeural",
+      "texte_edge": "Ειλικρινά, δεν περίμενα και πολλά από αυτό το μέρος, αλλά το φαγητό ήταν πεντανόστιμο και το προσωπικό πολύ ευγενικό.",
+      "edge_s": 5.095999999999999,
+      "total_s": 6.504
+    },
+    "gu": {
+      "voix_edge": "gu-IN-DhwaniNeural",
+      "texte_edge": "સાચું કહું તો, મને આ જગ્યાથી ખાસ કોઈ અપેક્ષા નહોતી, પણ અહીંનું ભોજન બહુ સ્વાદિષ્ટ હતું અને સ્ટાફના લોકો ખરેખર બહુ માયાળુ હતા.",
+      "edge_s": 10.351999999999999,
+      "total_s": 12.048
+    },
+    "mn": {
+      "voix_edge": "mn-MN-YesuiNeural",
+      "texte_edge": "Үнэнийг хэлэхэд, энэ газраас нэг их юм хүлээгээгүй ч хоол нь маш амттай, ажилтнууд нь үнэхээр найрсаг байлаа.",
+      "edge_s": 5.3839999999999995,
+      "total_s": 6.312
+    },
+    "he": {
+      "voix_edge": "he-IL-HilaNeural",
+      "texte_edge": "האמת, לא ציפיתי להרבה מהמקום הזה, אבל האוכל היה טעים והצוות היה ממש נחמד.",
+      "edge_s": 4.88,
+      "total_s": 6.72
+    },
+    "hi": {
+      "voix_edge": "hi-IN-SwaraNeural",
+      "texte_edge": "सच कहूँ तो, मुझे इस जगह से ज़्यादा उम्मीद नहीं थी, लेकिन खाना बहुत स्वादिष्ट था और यहाँ का स्टाफ़ भी बेहद अच्छा था।",
+      "edge_s": 8.352,
+      "total_s": 10.272
+    },
+    "hu": {
+      "voix_edge": "hu-HU-NoemiNeural",
+      "texte_edge": "Őszintén szólva nem vártam sokat ettől a helytől, de az étel finom volt, a személyzet pedig nagyon kedves.",
+      "edge_s": 6.2,
+      "total_s": 7.656
+    },
+    "is": {
+      "voix_edge": "is-IS-GudrunNeural",
+      "texte_edge": "Ég bjóst satt að segja ekki við miklu af þessum stað, en maturinn var ljúffengur og starfsfólkið mjög almennilegt.",
+      "edge_s": 5.696,
+      "total_s": 7.056
+    },
+    "id": {
+      "voix_edge": "id-ID-GadisNeural",
+      "texte_edge": "Sejujurnya, saya nggak berharap banyak dari tempat ini, tapi makanannya enak banget dan stafnya baik sekali.",
+      "edge_s": 6.64,
+      "total_s": 8.544
+    },
+    "fa": {
+      "voix_edge": "fa-IR-DilaraNeural",
+      "texte_edge": "راستش انتظار زیادی از اینجا نداشتم، ولی غذاش خوشمزه بود و کارکنانش واقعاً مهربون بودن.",
+      "edge_s": 5.752,
+      "total_s": 6.792
+    },
+    "it": {
+      "voix_edge": "it-IT-ElsaNeural",
+      "texte_edge": "Onestamente, non mi aspettavo granché da questo posto, ma il cibo era delizioso e il personale è stato davvero gentile.",
+      "edge_s": 6.928,
+      "total_s": 7.248
+    },
+    "ja": {
+      "voix_edge": "ja-JP-NanamiNeural",
+      "texte_edge": "正直、この店にはあまり期待してなかったんですが、料理はすごくおいしかったし、店員さんも本当に親切でした。",
+      "edge_s": 7.976000000000003,
+      "total_s": 9.816
+    },
+    "jv": {
+      "voix_edge": "jv-ID-SitiNeural",
+      "texte_edge": "Jujur, aku ora ngarep-arep akeh saka panggonan iki, nanging panganane enak banget lan pegawene grapyak banget.",
+      "edge_s": 6.336,
+      "total_s": 8.064
+    },
+    "kn": {
+      "voix_edge": "kn-IN-SapnaNeural",
+      "texte_edge": "ನಿಜ ಹೇಳಬೇಕೆಂದರೆ, ಈ ಜಾಗದ ಬಗ್ಗೆ ನನಗೆ ಅಷ್ಟೇನೂ ನಿರೀಕ್ಷೆ ಇರಲಿಲ್ಲ, ಆದರೆ ಇಲ್ಲಿನ ಊಟ ತುಂಬಾ ರುಚಿಯಾಗಿತ್ತು ಮತ್ತು ಸಿಬ್ಬಂದಿಯವರು ತುಂಬಾ ಆತ್ಮೀಯವಾಗಿದ್ದರು.",
+      "edge_s": 8.991999999999999,
+      "total_s": 9.984
+    },
+    "kk": {
+      "voix_edge": "kk-KZ-AigulNeural",
+      "texte_edge": "Шынымды айтсам, бұл жерден көп үміт күтпеп едім, бірақ тамағы өте дәмді, ал қызметкерлері сондай мейірімді екен.",
+      "edge_s": 6.816,
+      "total_s": 8.256
+    },
+    "km": {
+      "voix_edge": "km-KH-SreymomNeural",
+      "texte_edge": "និយាយតាមត្រង់ទៅ ខ្ញុំមិនសូវរំពឹងអ្វីពីកន្លែងនេះទេ ប៉ុន្តែម្ហូបឆ្ងាញ់ណាស់ ហើយបុគ្គលិកក៏រួសរាយរាក់ទាក់មែនទែន។",
+      "edge_s": 6.792,
+      "total_s": 7.944
+    },
+    "ko": {
+      "voix_edge": "ko-KR-SunHiNeural",
+      "texte_edge": "솔직히 여기 별 기대 안 했는데, 음식도 맛있고 직원분들도 정말 친절했어요.",
+      "edge_s": 5.367999999999999,
+      "total_s": 6.648
+    },
+    "lo": {
+      "voix_edge": "lo-LA-KeomanyNeural",
+      "texte_edge": "ເວົ້າຕາມກົງ, ຂ້ອຍບໍ່ໄດ້ຄາດຫວັງຫຍັງຫຼາຍຈາກຮ້ານນີ້ ແຕ່ອາຫານແຊບຫຼາຍ ແລະພະນັກງານກໍໃຈດີຫຼາຍ.",
+      "edge_s": 6.4079999999999995,
+      "total_s": 7.896
+    },
+    "lt": {
+      "voix_edge": "lt-LT-OnaNeural",
+      "texte_edge": "Tiesą sakant, iš šios vietos daug nesitikėjau, bet maistas buvo labai skanus, o darbuotojai – tikrai malonūs.",
+      "edge_s": 6.568,
+      "total_s": 7.704
+    },
+    "mk": {
+      "voix_edge": "mk-MK-MarijaNeural",
+      "texte_edge": "Искрено, не очекував многу од ова место, но храната беше вкусна, а персоналот навистина љубезен.",
+      "edge_s": 5.4719999999999995,
+      "total_s": 6.768
+    },
+    "ml": {
+      "voix_edge": "ml-IN-SobhanaNeural",
+      "texte_edge": "സത്യത്തിൽ, ഈ സ്ഥലത്തെക്കുറിച്ച് വലിയ പ്രതീക്ഷയൊന്നും ഉണ്ടായിരുന്നില്ല, പക്ഷേ ഭക്ഷണം വളരെ രുചികരമായിരുന്നു, ജീവനക്കാരും ശരിക്കും നല്ല പെരുമാറ്റമുള്ളവരായിരുന്നു.",
+      "edge_s": 8.712,
+      "total_s": 9.912
+    },
+    "mt": {
+      "voix_edge": "mt-MT-GraceNeural",
+      "texte_edge": "Biex ngħid il-verità, ma kontx qed nistenna wisq minn dan il-post, imma l-ikel kien delizzjuż u l-istaff kienu tassew qalbhom tajba.",
+      "edge_s": 6.319999999999999,
+      "total_s": 7.536
+    },
+    "mr": {
+      "voix_edge": "mr-IN-AarohiNeural",
+      "texte_edge": "खरं सांगायचं तर, या ठिकाणाकडून मला फारशा अपेक्षा नव्हत्या, पण जेवण खूप चविष्ट होतं आणि कर्मचारीही खूप प्रेमळ होते.",
+      "edge_s": 8.455999999999998,
+      "total_s": 10.152
+    },
+    "ne": {
+      "voix_edge": "ne-NP-HemkalaNeural",
+      "texte_edge": "साँच्चै भन्नुपर्दा, मलाई यो ठाउँबाट धेरै आशा थिएन, तर यहाँको खाना निकै स्वादिलो थियो र कर्मचारीहरू पनि एकदमै दयालु थिए।",
+      "edge_s": 9.239999999999998,
+      "total_s": 10.008
+    },
+    "az": {
+      "voix_edge": "az-AZ-BanuNeural",
+      "texte_edge": "Düzünü desəm, bu yerdən elə də çox şey gözləmirdim, amma yeməklər çox dadlı idi, işçilər də həqiqətən mehriban idilər.",
+      "edge_s": 6.528,
+      "total_s": 7.584
+    },
+    "uz": {
+      "voix_edge": "uz-UZ-MadinaNeural",
+      "texte_edge": "Rostini aytsam, bu joydan uncha umid qilmagandim, lekin taomlari juda mazali, xodimlari esa nihoyatda mehribon ekan.",
+      "edge_s": 7.175999999999999,
+      "total_s": 8.232
+    },
+    "nb": {
+      "voix_edge": "nb-NO-PernilleNeural",
+      "texte_edge": "Ærlig talt hadde jeg ikke store forventninger til dette stedet, men maten var kjempegod, og de ansatte var veldig hyggelige.",
+      "edge_s": 4.848,
+      "total_s": 6.336
+    },
+    "nn": {
+      "voix_edge": "nb-NO-PernilleNeural",
+      "texte_edge": "Ærleg talt hadde eg ikkje store forventningar til denne staden, men maten var nydeleg, og dei tilsette var verkeleg hyggelege.",
+      "edge_s": 5.472000000000001,
+      "total_s": 7.152
+    },
+    "prs": {
+      "voix_edge": "fa-IR-DilaraNeural",
+      "texte_edge": "راستش، از این‌جا توقع زیادی نداشتم، اما غذا خیلی خوشمزه بود و کارمندان واقعاً مهربان بودند.",
+      "edge_s": 6.152,
+      "total_s": 7.176
+    },
+    "pl": {
+      "voix_edge": "pl-PL-ZofiaNeural",
+      "texte_edge": "Szczerze mówiąc, nie spodziewałem się wiele po tym miejscu, ale jedzenie było pyszne, a obsługa naprawdę miła.",
+      "edge_s": 5.672,
+      "total_s": 6.84
+    },
+    "pt": {
+      "voix_edge": "pt-BR-FranciscaNeural",
+      "texte_edge": "Sinceramente, eu não esperava muita coisa desse lugar, mas a comida estava deliciosa e o pessoal foi muito gentil.",
+      "edge_s": 6.296,
+      "total_s": 7.608
+    },
+    "pt-pt": {
+      "voix_edge": "pt-PT-RaquelNeural",
+      "texte_edge": "Sinceramente, não esperava grande coisa deste sítio, mas a comida estava deliciosa e o pessoal foi mesmo simpático.",
+      "edge_s": 6.4799999999999995,
+      "total_s": 7.536
+    },
+    "ro": {
+      "voix_edge": "ro-RO-AlinaNeural",
+      "texte_edge": "Sincer, nu mă așteptam la mare lucru de la locul ăsta, dar mâncarea a fost delicioasă, iar personalul a fost foarte amabil.",
+      "edge_s": 6.184,
+      "total_s": 7.992
+    },
+    "ru": {
+      "voix_edge": "ru-RU-SvetlanaNeural",
+      "texte_edge": "Честно говоря, я не особо рассчитывал на это место, но еда оказалась очень вкусной, а персонал   невероятно приветливым.",
+      "edge_s": 6.24,
+      "total_s": 7.44
+    },
+    "sr": {
+      "voix_edge": "sr-RS-SophieNeural",
+      "texte_edge": "Iskreno, očekivanja od ovog mesta su mi bila skromna, ali hrana je bila ukusna, a osoblje zaista ljubazno.",
+      "edge_s": 6.816,
+      "total_s": 8.544
+    },
+    "si": {
+      "voix_edge": "si-LK-ThiliniNeural",
+      "texte_edge": "ඇත්තම කිව්වොත්, මම මේ තැන ගැන ලොකු බලාපොරොත්තුවක් තියාගෙන හිටියේ නැහැ. ඒත් කෑම හරිම රසයි, සේවකයෝත් ඇත්තටම හරිම කරුණාවන්තයි.",
+      "edge_s": 7.256000000000001,
+      "total_s": 9.096
+    },
+    "sk": {
+      "voix_edge": "sk-SK-ViktoriaNeural",
+      "texte_edge": "Úprimne, od tohto miesta som veľa nečakal, ale jedlo bolo výborné a personál bol naozaj milý.",
+      "edge_s": 6,
+      "total_s": 7.248
+    },
+    "sl": {
+      "voix_edge": "sl-SI-PetraNeural",
+      "texte_edge": "Iskreno, od tega kraja nisem veliko pričakoval, ampak hrana je bila odlična, osebje pa res prijazno.",
+      "edge_s": 5.360000000000001,
+      "total_s": 6.768
+    },
+    "so": {
+      "voix_edge": "so-SO-UbaxNeural",
+      "texte_edge": "Run ahaantii, wax badan kamaan filayn meeshan, laakiin cuntadu aad bay u macaanayd, shaqaaluhuna runtii way naxariis badnaayeen.",
+      "edge_s": 7.68,
+      "total_s": 8.928
+    },
+    "ps": {
+      "voix_edge": "ps-AF-LatifaNeural",
+      "texte_edge": "رښتیا ووایم، له دې ځایه مې ډېر تمه نه درلوده، خو خواړه یې ډېر خوندور وو او کارکوونکي یې رښتیا هم مهربانه وو.",
+      "edge_s": 5.295999999999999,
+      "total_s": 6.336
+    },
+    "es": {
+      "voix_edge": "es-ES-ElviraNeural",
+      "texte_edge": "La verdad, no esperaba gran cosa de este sitio, pero la comida estaba buenísima y el personal fue muy amable.",
+      "edge_s": 5.48,
+      "total_s": 7.032
+    },
+    "es-us": {
+      "voix_edge": "es-MX-DaliaNeural",
+      "texte_edge": "La verdad, no esperaba mucho de este lugar, pero la comida estaba deliciosa y el personal fue muy amable.",
+      "edge_s": 5.352,
+      "total_s": 6.888
+    },
+    "ar": {
+      "voix_edge": "ar-EG-SalmaNeural",
+      "texte_edge": "بصراحة، لم أكن أتوقع الكثير من هذا المكان، لكن الطعام كان لذيذًا والموظفون كانوا لطفاء جدًا.",
+      "edge_s": 7.5920000000000005,
+      "total_s": 9.336
+    },
+    "lv": {
+      "voix_edge": "lv-LV-EveritaNeural",
+      "texte_edge": "Godīgi sakot, es no šīs vietas neko daudz negaidīju, bet ēdiens bija garšīgs un darbinieki ļoti laipni.",
+      "edge_s": 6.296,
+      "total_s": 7.512
+    },
+    "ms": {
+      "voix_edge": "ms-MY-YasminNeural",
+      "texte_edge": "Sejujurnya, saya tak mengharapkan apa-apa yang istimewa daripada tempat ini, tapi makanannya sedap dan kakitangannya sangat baik hati.",
+      "edge_s": 7.944000000000002,
+      "total_s": 9.816
+    },
+    "sw": {
+      "voix_edge": "sw-KE-ZuriNeural",
+      "texte_edge": "Kwa kweli, sikutarajia mengi kuhusu sehemu hii, lakini chakula kilikuwa kitamu sana na wahudumu walikuwa wakarimu kweli.",
+      "edge_s": 7.271999999999999,
+      "total_s": 8.184
+    },
+    "sv": {
+      "voix_edge": "sv-SE-SofieNeural",
+      "texte_edge": "Ärligt talat hade jag inte så höga förväntningar på det här stället, men maten var jättegod och personalen var verkligen trevlig.",
+      "edge_s": 6.336,
+      "total_s": 7.68
+    },
+    "ta": {
+      "voix_edge": "ta-IN-PallaviNeural",
+      "texte_edge": "உண்மையைச் சொல்லணும்னா, இந்த இடத்தைப் பற்றி எனக்கு பெருசா எதிர்பார்ப்பு இல்லை. ஆனா சாப்பாடு ரொம்ப ருசியா இருந்துச்சு, அங்கிருந்தவங்களும் ரொம்ப அன்பா நடந்துகிட்டாங்க.",
+      "edge_s": 9.896,
+      "total_s": 11.592
+    },
+    "te": {
+      "voix_edge": "te-IN-ShrutiNeural",
+      "texte_edge": "నిజం చెప్పాలంటే, ఈ చోటు గురించి నేను పెద్దగా ఆశలు పెట్టుకోలేదు, కానీ భోజనం చాలా రుచిగా ఉంది, సిబ్బంది కూడా చాలా మంచిగా ఉన్నారు.",
+      "edge_s": 8.312,
+      "total_s": 9.528
+    },
+    "th": {
+      "voix_edge": "th-TH-PremwadeeNeural",
+      "texte_edge": "พูดตรง ๆ นะ ตอนแรกฉันไม่ได้คาดหวังอะไรกับร้านนี้มาก แต่ทั้งอาหารอร่อยและพนักงานก็ใจดีมากจริง ๆ.",
+      "edge_s": 5.736,
+      "total_s": 6.84
+    },
+    "sq": {
+      "voix_edge": "sq-AL-AnilaNeural",
+      "texte_edge": "Sinqerisht, nuk prisja shumë nga ky vend, por ushqimi ishte i shijshëm dhe stafi ishte vërtet i sjellshëm.",
+      "edge_s": 5.528,
+      "total_s": 6.456
+    },
+    "tr": {
+      "voix_edge": "tr-TR-EmelNeural",
+      "texte_edge": "Açıkçası buradan pek bir şey beklemiyordum ama yemekler çok lezzetliydi, çalışanlar da gerçekten çok nazikti.",
+      "edge_s": 6.327999999999999,
+      "total_s": 7.512
+    },
+    "vi": {
+      "voix_edge": "vi-VN-HoaiMyNeural",
+      "texte_edge": "Thật lòng mà nói, tôi không kỳ vọng gì nhiều ở chỗ này, nhưng đồ ăn rất ngon và nhân viên thì cực kỳ thân thiện.",
+      "edge_s": 5.392,
+      "total_s": 6.912
+    }
+  }
+}

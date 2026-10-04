@@ -1,0 +1,4 @@
+node_modules/
+# Prises brutes (WAV) et journal des mesures : gardés en local pour reprendre
+# un lancement, jamais poussés.
+cache/

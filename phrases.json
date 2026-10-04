@@ -1,0 +1,322 @@
+{
+  "source": "Honestly, I didn’t expect much from this place, but the food was delicious and the staff were really kind.",
+  "modele": "gpt-6-luna",
+  "langues": {
+    "ca": {
+      "nom": "Catalan",
+      "texte": "Sincerament, no m’esperava gran cosa d’aquest lloc, però el menjar era deliciós i el personal va ser molt amable."
+    },
+    "bg": {
+      "nom": "Bulgarian",
+      "texte": "Честно казано, не очаквах кой знае какво от това място, но храната беше много вкусна, а персоналът — наистина любезен."
+    },
+    "af": {
+      "nom": "Afrikaans",
+      "texte": "Eerlikwaar, ek het nie veel van hierdie plek verwag nie, maar die kos was heerlik en die personeel was regtig vriendelik."
+    },
+    "bn": {
+      "nom": "Bengali",
+      "texte": "সত্যি বলতে, এই জায়গাটা নিয়ে আমার তেমন কোনো আশা ছিল না, কিন্তু খাবারটা দারুণ ছিল আর কর্মীরা খুবই আন্তরিক ছিলেন।"
+    },
+    "bs": {
+      "nom": "Bosnian",
+      "texte": "Iskreno, nisam mnogo očekivao od ovog mjesta, ali hrana je bila ukusna, a osoblje zaista ljubazno."
+    },
+    "yue": {
+      "nom": "Cantonese",
+      "texte": "老實講，我本來對呢度冇乜期望，但啲嘢食好好味，職員亦都好親切。"
+    },
+    "my": {
+      "nom": "Burmese",
+      "texte": "အမှန်အတိုင်းပြောရရင် ဒီနေရာကနေ သိပ်မျှော်လင့်မထားခဲ့ပေမယ့် အစားအစာက အရမ်းစားကောင်းပြီး ဝန်ထမ်းတွေကလည်း တကယ်ကို ကြင်နာကြပါတယ်။"
+    },
+    "am": {
+      "nom": "Amharic",
+      "texte": "እውነቱን ለመናገር፣ ከዚህ ቦታ ብዙ ነገር አልጠበቅኩም ነበር፣ ግን ምግቡ በጣም ጣፋጭ ነበር፣ ሰራተኞቹም በጣም ደግ ነበሩ።"
+    },
+    "nl": {
+      "nom": "Dutch",
+      "texte": "Eerlijk gezegd had ik niet veel van deze plek verwacht, maar het eten was heerlijk en het personeel was ontzettend aardig."
+    },
+    "cmn": {
+      "nom": "Mandarin Chinese (Simplified)",
+      "texte": "说实话，我本来没对这家店抱太大期待，没想到饭菜特别好吃，店员也特别热情。"
+    },
+    "ar-eg": {
+      "nom": "Egyptian Arabic",
+      "texte": "بصراحة، ماكنتش متوقع كتير من المكان ده، بس الأكل كان لذيذ والموظفين كانوا طيبين جدًا."
+    },
+    "cs": {
+      "nom": "Czech",
+      "texte": "Upřímně, od tohohle místa jsem moc nečekal, ale jídlo bylo výborné a obsluha byla opravdu milá."
+    },
+    "da": {
+      "nom": "Danish",
+      "texte": "Helt ærligt havde jeg ikke de store forventninger til stedet, men maden var lækker, og personalet var virkelig søde."
+    },
+    "hr": {
+      "nom": "Croatian",
+      "texte": "Iskreno, nisam puno očekivao od ovog mjesta, ali hrana je bila izvrsna, a osoblje jako ljubazno."
+    },
+    "en": {
+      "nom": "English (United States)",
+      "texte": "Honestly, I didn’t expect much from this place, but the food was delicious and the staff were really kind."
+    },
+    "cmn-tw": {
+      "nom": "Mandarin Chinese (Traditional, Taiwan)",
+      "texte": "老實說，我本來對這家店沒抱太大期待，但食物很好吃，店員也真的很親切。"
+    },
+    "en-gb": {
+      "nom": "English (United Kingdom)",
+      "texte": "Honestly, I didn’t expect much from this place, but the food was delicious and the staff were really kind."
+    },
+    "en-in": {
+      "nom": "English (India)",
+      "texte": "Honestly, I didn’t expect much from this place, but the food was delicious and the staff were really kind."
+    },
+    "en-au": {
+      "nom": "English (Australia)",
+      "texte": "Honestly, I wasn’t expecting much from this place, but the food was delicious and the staff were really lovely."
+    },
+    "fi": {
+      "nom": "Finnish",
+      "texte": "Rehellisesti sanottuna en odottanut tältä paikalta paljoakaan, mutta ruoka oli herkullista ja henkilökunta oli todella ystävällistä."
+    },
+    "fil": {
+      "nom": "Filipino",
+      "texte": "Sa totoo lang, hindi ko masyadong inasahan ang lugar na ’to, pero masarap ang pagkain at napakabait ng mga staff."
+    },
+    "fr": {
+      "nom": "French (France)",
+      "texte": "Honnêtement, je ne m’attendais pas à grand-chose de cet endroit, mais la nourriture était délicieuse et le personnel était vraiment adorable."
+    },
+    "et": {
+      "nom": "Estonian",
+      "texte": "Ausalt öeldes ei oodanud ma sellelt kohalt suurt midagi, aga toit oli maitsev ja personal väga sõbralik."
+    },
+    "fr-ca": {
+      "nom": "French (Canada)",
+      "texte": "Honnêtement, je m’attendais pas à grand-chose de cet endroit, mais la bouffe était délicieuse et le personnel était vraiment gentil."
+    },
+    "ka": {
+      "nom": "Georgian",
+      "texte": "სიმართლე გითხრათ, ამ ადგილისგან დიდად არაფერს ველოდი, მაგრამ საჭმელი უგემრიელესი იყო და პერსონალი ძალიან კეთილი აღმოჩნდა."
+    },
+    "el": {
+      "nom": "Greek",
+      "texte": "Ειλικρινά, δεν περίμενα και πολλά από αυτό το μέρος, αλλά το φαγητό ήταν πεντανόστιμο και το προσωπικό πολύ ευγενικό."
+    },
+    "he": {
+      "nom": "Hebrew",
+      "texte": "האמת, לא ציפיתי להרבה מהמקום הזה, אבל האוכל היה טעים והצוות היה ממש נחמד."
+    },
+    "de": {
+      "nom": "German",
+      "texte": "Ehrlich gesagt hatte ich nicht viel von diesem Laden erwartet, aber das Essen war köstlich und das Personal war wirklich nett."
+    },
+    "hi": {
+      "nom": "Hindi",
+      "texte": "सच कहूँ तो, मुझे इस जगह से ज़्यादा उम्मीद नहीं थी, लेकिन खाना बहुत स्वादिष्ट था और यहाँ का स्टाफ़ भी बेहद अच्छा था।"
+    },
+    "mn": {
+      "nom": "Mongolian (Halh)",
+      "texte": "Үнэнийг хэлэхэд, энэ газраас нэг их юм хүлээгээгүй ч хоол нь маш амттай, ажилтнууд нь үнэхээр найрсаг байлаа."
+    },
+    "gu": {
+      "nom": "Gujarati",
+      "texte": "સાચું કહું તો, મને આ જગ્યાથી ખાસ કોઈ અપેક્ષા નહોતી, પણ અહીંનું ભોજન બહુ સ્વાદિષ્ટ હતું અને સ્ટાફના લોકો ખરેખર બહુ માયાળુ હતા."
+    },
+    "gl": {
+      "nom": "Galician",
+      "texte": "Sinceramente, non esperaba gran cousa deste sitio, pero a comida estaba deliciosa e o persoal foi moi amable."
+    },
+    "is": {
+      "nom": "Icelandic",
+      "texte": "Ég bjóst satt að segja ekki við miklu af þessum stað, en maturinn var ljúffengur og starfsfólkið mjög almennilegt."
+    },
+    "id": {
+      "nom": "Indonesian",
+      "texte": "Sejujurnya, saya nggak berharap banyak dari tempat ini, tapi makanannya enak banget dan stafnya baik sekali."
+    },
+    "fa": {
+      "nom": "Persian (Iran)",
+      "texte": "راستش انتظار زیادی از اینجا نداشتم، ولی غذاش خوشمزه بود و کارکنانش واقعاً مهربون بودن."
+    },
+    "it": {
+      "nom": "Italian",
+      "texte": "Onestamente, non mi aspettavo granché da questo posto, ma il cibo era delizioso e il personale è stato davvero gentile."
+    },
+    "ja": {
+      "nom": "Japanese",
+      "texte": "正直、この店にはあまり期待してなかったんですが、料理はすごくおいしかったし、店員さんも本当に親切でした。"
+    },
+    "hu": {
+      "nom": "Hungarian",
+      "texte": "Őszintén szólva nem vártam sokat ettől a helytől, de az étel finom volt, a személyzet pedig nagyon kedves."
+    },
+    "kn": {
+      "nom": "Kannada",
+      "texte": "ನಿಜ ಹೇಳಬೇಕೆಂದರೆ, ಈ ಜಾಗದ ಬಗ್ಗೆ ನನಗೆ ಅಷ್ಟೇನೂ ನಿರೀಕ್ಷೆ ಇರಲಿಲ್ಲ, ಆದರೆ ಇಲ್ಲಿನ ಊಟ ತುಂಬಾ ರುಚಿಯಾಗಿತ್ತು ಮತ್ತು ಸಿಬ್ಬಂದಿಯವರು ತುಂಬಾ ಆತ್ಮೀಯವಾಗಿದ್ದರು."
+    },
+    "kk": {
+      "nom": "Kazakh",
+      "texte": "Шынымды айтсам, бұл жерден көп үміт күтпеп едім, бірақ тамағы өте дәмді, ал қызметкерлері сондай мейірімді екен."
+    },
+    "km": {
+      "nom": "Khmer",
+      "texte": "និយាយតាមត្រង់ទៅ ខ្ញុំមិនសូវរំពឹងអ្វីពីកន្លែងនេះទេ ប៉ុន្តែម្ហូបឆ្ងាញ់ណាស់ ហើយបុគ្គលិកក៏រួសរាយរាក់ទាក់មែនទែន។"
+    },
+    "mk": {
+      "nom": "Macedonian",
+      "texte": "Искрено, не очекував многу од ова место, но храната беше вкусна, а персоналот навистина љубезен."
+    },
+    "lt": {
+      "nom": "Lithuanian",
+      "texte": "Tiesą sakant, iš šios vietos daug nesitikėjau, bet maistas buvo labai skanus, o darbuotojai – tikrai malonūs."
+    },
+    "jv": {
+      "nom": "Javanese",
+      "texte": "Jujur, aku ora ngarep-arep akeh saka panggonan iki, nanging panganane enak banget lan pegawene grapyak banget."
+    },
+    "mt": {
+      "nom": "Maltese",
+      "texte": "Biex ngħid il-verità, ma kontx qed nistenna wisq minn dan il-post, imma l-ikel kien delizzjuż u l-istaff kienu tassew qalbhom tajba."
+    },
+    "ko": {
+      "nom": "Korean",
+      "texte": "솔직히 여기 별 기대 안 했는데, 음식도 맛있고 직원분들도 정말 친절했어요."
+    },
+    "az": {
+      "nom": "Azerbaijani",
+      "texte": "Düzünü desəm, bu yerdən elə də çox şey gözləmirdim, amma yeməklər çox dadlı idi, işçilər də həqiqətən mehriban idilər."
+    },
+    "ne": {
+      "nom": "Nepali",
+      "texte": "साँच्चै भन्नुपर्दा, मलाई यो ठाउँबाट धेरै आशा थिएन, तर यहाँको खाना निकै स्वादिलो थियो र कर्मचारीहरू पनि एकदमै दयालु थिए।"
+    },
+    "nn": {
+      "nom": "Norwegian Nynorsk",
+      "texte": "Ærleg talt hadde eg ikkje store forventningar til denne staden, men maten var nydeleg, og dei tilsette var verkeleg hyggelege."
+    },
+    "ml": {
+      "nom": "Malayalam",
+      "texte": "സത്യത്തിൽ, ഈ സ്ഥലത്തെക്കുറിച്ച് വലിയ പ്രതീക്ഷയൊന്നും ഉണ്ടായിരുന്നില്ല, പക്ഷേ ഭക്ഷണം വളരെ രുചികരമായിരുന്നു, ജീവനക്കാരും ശരിക്കും നല്ല പെരുമാറ്റമുള്ളവരായിരുന്നു."
+    },
+    "uz": {
+      "nom": "Uzbek",
+      "texte": "Rostini aytsam, bu joydan uncha umid qilmagandim, lekin taomlari juda mazali, xodimlari esa nihoyatda mehribon ekan."
+    },
+    "lo": {
+      "nom": "Lao",
+      "texte": "ເວົ້າຕາມກົງ, ຂ້ອຍບໍ່ໄດ້ຄາດຫວັງຫຍັງຫຼາຍຈາກຮ້ານນີ້ ແຕ່ອາຫານແຊບຫຼາຍ ແລະພະນັກງານກໍໃຈດີຫຼາຍ."
+    },
+    "nb": {
+      "nom": "Norwegian Bokmål",
+      "texte": "Ærlig talt hadde jeg ikke store forventninger til dette stedet, men maten var kjempegod, og de ansatte var veldig hyggelige."
+    },
+    "pt": {
+      "nom": "Portuguese (Brazil)",
+      "texte": "Sinceramente, eu não esperava muita coisa desse lugar, mas a comida estava deliciosa e o pessoal foi muito gentil."
+    },
+    "pt-pt": {
+      "nom": "Portuguese (Portugal)",
+      "texte": "Sinceramente, não esperava grande coisa deste sítio, mas a comida estava deliciosa e o pessoal foi mesmo simpático."
+    },
+    "mr": {
+      "nom": "Marathi",
+      "texte": "खरं सांगायचं तर, या ठिकाणाकडून मला फारशा अपेक्षा नव्हत्या, पण जेवण खूप चविष्ट होतं आणि कर्मचारीही खूप प्रेमळ होते."
+    },
+    "pl": {
+      "nom": "Polish",
+      "texte": "Szczerze mówiąc, nie spodziewałem się wiele po tym miejscu, ale jedzenie było pyszne, a obsługa naprawdę miła."
+    },
+    "ru": {
+      "nom": "Russian",
+      "texte": "Честно говоря, я не особо рассчитывал на это место, но еда оказалась очень вкусной, а персонал — невероятно приветливым."
+    },
+    "ro": {
+      "nom": "Romanian",
+      "texte": "Sincer, nu mă așteptam la mare lucru de la locul ăsta, dar mâncarea a fost delicioasă, iar personalul a fost foarte amabil."
+    },
+    "prs": {
+      "nom": "Dari (Afghan Persian)",
+      "texte": "راستش، از این‌جا توقع زیادی نداشتم، اما غذا خیلی خوشمزه بود و کارمندان واقعاً مهربان بودند."
+    },
+    "sl": {
+      "nom": "Slovenian",
+      "texte": "Iskreno, od tega kraja nisem veliko pričakoval, ampak hrana je bila odlična, osebje pa res prijazno."
+    },
+    "si": {
+      "nom": "Sinhala",
+      "texte": "ඇත්තම කිව්වොත්, මම මේ තැන ගැන ලොකු බලාපොරොත්තුවක් තියාගෙන හිටියේ නැහැ. ඒත් කෑම හරිම රසයි, සේවකයෝත් ඇත්තටම හරිම කරුණාවන්තයි."
+    },
+    "es": {
+      "nom": "Spanish (Spain)",
+      "texte": "La verdad, no esperaba gran cosa de este sitio, pero la comida estaba buenísima y el personal fue muy amable."
+    },
+    "ps": {
+      "nom": "Pashto",
+      "texte": "رښتیا ووایم، له دې ځایه مې ډېر تمه نه درلوده، خو خواړه یې ډېر خوندور وو او کارکوونکي یې رښتیا هم مهربانه وو."
+    },
+    "so": {
+      "nom": "Somali",
+      "texte": "Run ahaantii, wax badan kamaan filayn meeshan, laakiin cuntadu aad bay u macaanayd, shaqaaluhuna runtii way naxariis badnaayeen."
+    },
+    "es-us": {
+      "nom": "Spanish (Latin America)",
+      "texte": "La verdad, no esperaba mucho de este lugar, pero la comida estaba deliciosa y el personal fue muy amable."
+    },
+    "lv": {
+      "nom": "Latvian",
+      "texte": "Godīgi sakot, es no šīs vietas neko daudz negaidīju, bet ēdiens bija garšīgs un darbinieki ļoti laipni."
+    },
+    "ar": {
+      "nom": "Modern Standard Arabic",
+      "texte": "بصراحة، لم أكن أتوقع الكثير من هذا المكان، لكن الطعام كان لذيذًا والموظفون كانوا لطفاء جدًا."
+    },
+    "sr": {
+      "nom": "Serbian",
+      "texte": "Iskreno, očekivanja od ovog mesta su mi bila skromna, ali hrana je bila ukusna, a osoblje zaista ljubazno."
+    },
+    "sv": {
+      "nom": "Swedish",
+      "texte": "Ärligt talat hade jag inte så höga förväntningar på det här stället, men maten var jättegod och personalen var verkligen trevlig."
+    },
+    "sw": {
+      "nom": "Swahili",
+      "texte": "Kwa kweli, sikutarajia mengi kuhusu sehemu hii, lakini chakula kilikuwa kitamu sana na wahudumu walikuwa wakarimu kweli."
+    },
+    "ms": {
+      "nom": "Malay",
+      "texte": "Sejujurnya, saya tak mengharapkan apa-apa yang istimewa daripada tempat ini, tapi makanannya sedap dan kakitangannya sangat baik hati."
+    },
+    "sk": {
+      "nom": "Slovak",
+      "texte": "Úprimne, od tohto miesta som veľa nečakal, ale jedlo bolo výborné a personál bol naozaj milý."
+    },
+    "th": {
+      "nom": "Thai",
+      "texte": "พูดตรง ๆ นะ ตอนแรกฉันไม่ได้คาดหวังอะไรกับร้านนี้มาก แต่ทั้งอาหารอร่อยและพนักงานก็ใจดีมากจริง ๆ."
+    },
+    "te": {
+      "nom": "Telugu",
+      "texte": "నిజం చెప్పాలంటే, ఈ చోటు గురించి నేను పెద్దగా ఆశలు పెట్టుకోలేదు, కానీ భోజనం చాలా రుచిగా ఉంది, సిబ్బంది కూడా చాలా మంచిగా ఉన్నారు."
+    },
+    "ta": {
+      "nom": "Tamil",
+      "texte": "உண்மையைச் சொல்லணும்னா, இந்த இடத்தைப் பற்றி எனக்கு பெருசா எதிர்பார்ப்பு இல்லை. ஆனா சாப்பாடு ரொம்ப ருசியா இருந்துச்சு, அங்கிருந்தவங்களும் ரொம்ப அன்பா நடந்துகிட்டாங்க."
+    },
+    "sq": {
+      "nom": "Albanian",
+      "texte": "Sinqerisht, nuk prisja shumë nga ky vend, por ushqimi ishte i shijshëm dhe stafi ishte vërtet i sjellshëm."
+    },
+    "vi": {
+      "nom": "Vietnamese",
+      "texte": "Thật lòng mà nói, tôi không kỳ vọng gì nhiều ở chỗ này, nhưng đồ ăn rất ngon và nhân viên thì cực kỳ thân thiện."
+    },
+    "tr": {
+      "nom": "Turkish",
+      "texte": "Açıkçası buradan pek bir şey beklemiyordum ama yemekler çok lezzetliydi, çalışanlar da gerçekten çok nazikti."
+    }
+  }
+}
