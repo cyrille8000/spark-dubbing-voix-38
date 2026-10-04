@@ -42,5 +42,14 @@ node scripts/4-assembler.mjs    # ratios.json, voices.json, gemini/*.mp3
 node scripts/5-vers-backend.mjs # copie la table dans backend/.../shared/ratios-gemini/
 ```
 
-`3-gemini.mjs --a-blanc` montre la requête exacte sans appeler. Google renvoie des 429
-par vagues : le script fait une pause commune, et relancer reprend les prises manquantes.
+`3-gemini.mjs --a-blanc` montre la requête exacte sans appeler. Relancer reprend les
+prises manquantes.
+
+**Google freine les appels partis d'un poste** (~10/min, puis 429 sur toutes les clés),
+pas ceux partis de Cloudflare comme la prod (~190/min). Pour les prises, passer par le
+relais `outils/relais` : le déployer le temps des mesures (`npx wrangler deploy`), poser
+son mot de passe (`cache/relais.cle`, secret `RELAIS_CLE` par `wrangler secret put`),
+lancer avec `GEMINI_RELAIS=https://relais-gemini-voix-38.<compte>.workers.dev`, puis le
+SUPPRIMER (`npx wrangler delete`) et effacer `cache/relais.cle`.
+
+Mesures du 2026-10-04 : 7 110 prises, 0 échec, 1,69 M jetons audio (~30 $ au tarif plein).

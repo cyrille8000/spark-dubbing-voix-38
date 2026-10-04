@@ -7,24 +7,32 @@ import { MODELE_TTS, fichier } from './config.mjs';
 import { requeteGemini } from './prod.mjs';
 import { attendre, secret } from './outils.mjs';
 
+/**
+ * D'où partent les appels. Google FREINE ceux de ce poste (~10/min, rafales de
+ * ~35 puis refus sur toutes les clés, mesuré le 2026-10-04) alors que la prod,
+ * depuis Cloudflare, n'a aucun refus : `GEMINI_RELAIS` = le relais
+ * outils/relais lancé en `wrangler dev --remote` (les appels partent de Cloudflare).
+ */
+const API_GEMINI = process.env.GEMINI_RELAIS || 'https://generativelanguage.googleapis.com';
+/** Le mot de passe du relais (cache/relais.cle, jamais affiché). */
+const ENTETE_RELAIS = process.env.GEMINI_RELAIS && fs.existsSync(fichier('cache', 'relais.cle'))
+  ? { 'x-relais-cle': fs.readFileSync(fichier('cache', 'relais.cle'), 'utf8').trim() }
+  : {};
+
 let cles = null;
 const clesEnPause = new Map();
 
-/**
- * PAUSE COMMUNE. Le 429 « Resource has been exhausted » de la 3.8 vient par
- * VAGUES (saturation chez Google, pas un quota de nos clés : la même rafale
- * passe entière quelques minutes plus tard). Au premier refus, TOUS les appels
- * attendent ensemble — 15 s, puis plus longtemps si les refus se suivent
- * (jusqu'à 2 min) — au lieu d'insister chacun de leur côté.
- */
-let pauseJusqua = 0;
-let refusDeSuite = 0;
-async function respecterLaPause() {
-  for (;;) {
-    const reste = pauseJusqua - Date.now();
-    if (reste <= 0) return;
-    await attendre(reste);
-  }
+/** Journal de CHAQUE requête (heure, durée, statut, langue, voix — jamais de
+ *  clé) et corps des premiers refus : sert à comprendre les 429. */
+let refusEnregistres = 0;
+function noter(ligne) {
+  fs.appendFileSync(fichier('cache', 'requetes.log'), `${ligne}\n`);
+}
+
+/** Le délai que Google demande dans un 429 (`"retryDelay": "12s"`), en ms. */
+function delaiDemande(texte) {
+  const m = /"retryDelay"\s*:\s*"(\d+(?:\.\d+)?)s"/.exec(texte || '');
+  return m ? Math.ceil(Number(m[1]) * 1000) : null;
 }
 
 function uneCle() {
@@ -44,13 +52,13 @@ export async function priseGemini({ voix, texte, langue }) {
   const { corps } = requeteGemini({ voix, texte, langue });
   let derniere = '';
   for (let essai = 1; essai <= ESSAIS; essai++) {
-    await respecterLaPause();
     const cle = uneCle();
+    const debut = Date.now();
     let rep;
     try {
-      rep = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${MODELE_TTS}:generateContent`, {
+      rep = await fetch(`${API_GEMINI}/v1beta/models/${MODELE_TTS}:generateContent`, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json', 'x-goog-api-key': cle },
+        headers: { 'Content-Type': 'application/json', 'x-goog-api-key': cle, ...ENTETE_RELAIS },
         body: JSON.stringify(corps),
         signal: AbortSignal.timeout(180_000),
       });
@@ -59,15 +67,17 @@ export async function priseGemini({ voix, texte, langue }) {
       await attendre(1000 * essai);
       continue;
     }
+    noter(`${new Date(debut).toISOString()} ${Date.now() - debut}ms ${rep.status} ${langue} ${voix} essai${essai} cle#${cles.indexOf(cle)}`);
     if (rep.status === 429) {
       clesEnPause.set(cle, Date.now() + 60_000);
       const corps429 = await rep.text();
-      // Journal des refus (heure, numéro de clé — jamais sa valeur) : sert à
-      // trouver le rythme que Google tolère.
-      fs.appendFileSync(fichier('cache', 'refus.log'), `${new Date().toISOString()} cle#${cles.indexOf(cle)}\n`);
+      if (refusEnregistres++ < 5) {
+        const entetes = [...rep.headers].map(([k, v]) => `${k}: ${v}`).join('\n');
+        const corpsMasque = corps429.replace(/AIza[0-9A-Za-z_-]+/g, '***');
+        fs.appendFileSync(fichier('cache', 'refus_corps.txt'), `=== ${new Date().toISOString()}\n${entetes}\n\n${corpsMasque}\n\n`);
+      }
       derniere = `HTTP 429 ${(/"message":\s*"([^"]{0,220})/.exec(corps429) || [])[1] || ''}`;
-      refusDeSuite++;
-      pauseJusqua = Math.max(pauseJusqua, Date.now() + Math.min(120_000, 15_000 * refusDeSuite) * (0.8 + 0.4 * Math.random()));
+      await attendre(delaiDemande(corps429) ?? Math.min(60_000, 5000 * 2 ** (essai - 1)) * (0.5 + Math.random()));
       continue;
     }
     if (!rep.ok) {
@@ -76,7 +86,6 @@ export async function priseGemini({ voix, texte, langue }) {
       if (rep.status >= 500) { await attendre(1500 * essai); continue; }
       throw new Error(derniere);
     }
-    refusDeSuite = 0;
     const json = await rep.json();
     const part = json?.candidates?.[0]?.content?.parts?.find((p) => p?.inlineData?.data);
     if (!part) {

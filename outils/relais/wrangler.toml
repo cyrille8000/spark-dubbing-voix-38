@@ -1,0 +1,7 @@
+# Relais TEMPORAIRE vers l API Gemini (2026-10-04) : les appels partent de
+# Cloudflare, comme ceux de la prod. Déployé le temps des mesures, puis SUPPRIMÉ
+# (npx wrangler delete). Protégé par le secret RELAIS_CLE ; ne stocke aucune clé Gemini.
+name = "relais-gemini-voix-38"
+main = "index.js"
+compatibility_date = "2026-03-03"
+workers_dev = true
