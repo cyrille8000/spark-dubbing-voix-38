@@ -16,6 +16,10 @@ export const voixEdge = (langue) => langue.edge || 'en-US-EmmaMultilingualNeural
 
 export const { GEMINI_VOICES } = await import(prod('shared/voice-catalog-js/index.js'));
 export const { buildGeminiApiRequest } = await import(prod('spark-gemini-flash-tts/src/lib/gemini-api-prompt.js'));
+/** Gemini 3.8 rend un WAV COMPLET (entête + `data` + bloc C2PA de ~6 Ko) : la
+ *  prod n'en garde que le chunk `data` (`pcmDuWav`). Lu tel quel, le bloc C2PA
+ *  s'entend comme ~0,12 s de grésillement en fin d'extrait (2026-10-04). */
+export const { pcmDuWav } = await import(prod('spark-gemini-flash-tts/src/lib/gemini-api-call.js'));
 
 /**
  * Le texte envoyé à Edge — `nettoyerTexteSonde` de

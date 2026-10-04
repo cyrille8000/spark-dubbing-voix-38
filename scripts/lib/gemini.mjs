@@ -4,7 +4,7 @@
 // réponse sans audio → nouvel essai ; 400/403/404 → échec franc.
 import fs from 'node:fs';
 import { MODELE_TTS, fichier } from './config.mjs';
-import { requeteGemini } from './prod.mjs';
+import { pcmDuWav, requeteGemini } from './prod.mjs';
 import { attendre, secret } from './outils.mjs';
 
 /**
@@ -92,8 +92,12 @@ export async function priseGemini({ voix, texte, langue }) {
       derniere = `réponse sans audio (${json?.candidates?.[0]?.finishReason || '?'})`;
       continue;
     }
-    const taux = Number((/rate=(\d+)/.exec(part.inlineData.mimeType || '') || [])[1]) || 24000;
-    const octets = Buffer.from(part.inlineData.data, 'base64');
+    const brut = new Uint8Array(Buffer.from(part.inlineData.data, 'base64'));
+    // Un WAV complet (Gemini 3.8) : le chunk `data` seul, comme la prod ;
+    // sinon du PCM brut (audio/L16), au taux de son type MIME.
+    const wav = pcmDuWav(brut);
+    const octets = wav ? wav.pcm : brut;
+    const taux = wav ? wav.sampleRate : (Number((/rate=(\d+)/.exec(part.inlineData.mimeType || '') || [])[1]) || 24000);
     // Copie alignée : un Buffer issu du pool peut commencer sur un octet impair.
     const pcm = new Int16Array(octets.byteLength >> 1);
     new Uint8Array(pcm.buffer).set(octets.subarray(0, pcm.byteLength));
