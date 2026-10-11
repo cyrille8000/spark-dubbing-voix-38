@@ -21,6 +21,8 @@ export const PRISES = Number(process.env.PRISES || 3);
 // Les workers de prod lancés en local (`npx wrangler dev`, voir README).
 export const VAD_URL = process.env.VAD_URL || 'http://127.0.0.1:8990';
 export const EDGE_URL = process.env.EDGE_URL || 'http://127.0.0.1:8991';
+/** spark-duree (l'estimation de la durée parlée, référence des ratios depuis le 2026-10-11). */
+export const DUREE_URL = process.env.DUREE_URL || 'http://127.0.0.1:8797';
 
 /** Appels Gemini en vol en même temps. */
 export const EN_PARALLELE = Number(process.env.EN_PARALLELE || 32);

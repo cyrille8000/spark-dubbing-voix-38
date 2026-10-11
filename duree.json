@@ -1,0 +1,222 @@
+{
+  "genere_le": "2026-10-10T23:09:35.076Z",
+  "estimateur": "spark-duree",
+  "langues": {
+    "bn": {
+      "texte": "সত্যি বলতে, এই জায়গাটা নিয়ে আমার তেমন কোনো আশা ছিল না, কিন্তু খাবারটা দারুণ ছিল আর কর্মীরা খুবই আন্তরিক ছিলেন।",
+      "duree_s": 5.19
+    },
+    "bg": {
+      "texte": "Честно казано, не очаквах кой знае какво от това място, но храната беше много вкусна, а персоналът   наистина любезен.",
+      "duree_s": 5.736
+    },
+    "ca": {
+      "texte": "Sincerament, no m’esperava gran cosa d’aquest lloc, però el menjar era deliciós i el personal va ser molt amable.",
+      "duree_s": 5.69
+    },
+    "cmn": {
+      "texte": "说实话，我本来没对这家店抱太大期待，没想到饭菜特别好吃，店员也特别热情。",
+      "duree_s": 7.234
+    },
+    "cmn-tw": {
+      "texte": "老實說，我本來對這家店沒抱太大期待，但食物很好吃，店員也真的很親切。",
+      "duree_s": 6.514
+    },
+    "cs": {
+      "texte": "Upřímně, od tohohle místa jsem moc nečekal, ale jídlo bylo výborné a obsluha byla opravdu milá.",
+      "duree_s": 7.28
+    },
+    "da": {
+      "texte": "Helt ærligt havde jeg ikke de store forventninger til stedet, men maden var lækker, og personalet var virkelig søde.",
+      "duree_s": 4.714
+    },
+    "nl": {
+      "texte": "Eerlijk gezegd had ik niet veel van deze plek verwacht, maar het eten was heerlijk en het personeel was ontzettend aardig.",
+      "duree_s": 4.691
+    },
+    "ar-eg": {
+      "texte": "بصراحة، ماكنتش متوقع كتير من المكان ده، بس الأكل كان لذيذ والموظفين كانوا طيبين جدًا.",
+      "duree_s": 9.323
+    },
+    "en": {
+      "texte": "Honestly, I didn’t expect much from this place, but the food was delicious and the staff were really kind.",
+      "duree_s": 4.888
+    },
+    "en-gb": {
+      "texte": "Honestly, I didn’t expect much from this place, but the food was delicious and the staff were really kind.",
+      "duree_s": 4.958
+    },
+    "en-au": {
+      "texte": "Honestly, I wasn’t expecting much from this place, but the food was delicious and the staff were really lovely.",
+      "duree_s": 4.993
+    },
+    "en-in": {
+      "texte": "Honestly, I didn’t expect much from this place, but the food was delicious and the staff were really kind.",
+      "duree_s": 4.958
+    },
+    "et": {
+      "texte": "Ausalt öeldes ei oodanud ma sellelt kohalt suurt midagi, aga toit oli maitsev ja personal väga sõbralik.",
+      "duree_s": 4.656
+    },
+    "fi": {
+      "texte": "Rehellisesti sanottuna en odottanut tältä paikalta paljoakaan, mutta ruoka oli herkullista ja henkilökunta oli todella ystävällistä.",
+      "duree_s": 7.292
+    },
+    "fr": {
+      "texte": "Honnêtement, je ne m’attendais pas à grand-chose de cet endroit, mais la nourriture était délicieuse et le personnel était vraiment adorable.",
+      "duree_s": 5.724
+    },
+    "fr-ca": {
+      "texte": "Honnêtement, je m’attendais pas à grand-chose de cet endroit, mais la bouffe était délicieuse et le personnel était vraiment gentil.",
+      "duree_s": 5.376
+    },
+    "ka": {
+      "texte": "სიმართლე გითხრათ, ამ ადგილისგან დიდად არაფერს ველოდი, მაგრამ საჭმელი უგემრიელესი იყო და პერსონალი ძალიან კეთილი აღმოჩნდა.",
+      "duree_s": 7.536
+    },
+    "de": {
+      "texte": "Ehrlich gesagt hatte ich nicht viel von diesem Laden erwartet, aber das Essen war köstlich und das Personal war wirklich nett.",
+      "duree_s": 4.703
+    },
+    "el": {
+      "texte": "Ειλικρινά, δεν περίμενα και πολλά από αυτό το μέρος, αλλά το φαγητό ήταν πεντανόστιμο και το προσωπικό πολύ ευγενικό.",
+      "duree_s": 7.478
+    },
+    "he": {
+      "texte": "האמת, לא ציפיתי להרבה מהמקום הזה, אבל האוכל היה טעים והצוות היה ממש נחמד.",
+      "duree_s": 3.832
+    },
+    "hi": {
+      "texte": "सच कहूँ तो, मुझे इस जगह से ज़्यादा उम्मीद नहीं थी, लेकिन खाना बहुत स्वादिष्ट था और यहाँ का स्टाफ़ भी बेहद अच्छा था।",
+      "duree_s": 6.386
+    },
+    "hu": {
+      "texte": "Őszintén szólva nem vártam sokat ettől a helytől, de az étel finom volt, a személyzet pedig nagyon kedves.",
+      "duree_s": 5.84
+    },
+    "is": {
+      "texte": "Ég bjóst satt að segja ekki við miklu af þessum stað, en maturinn var ljúffengur og starfsfólkið mjög almennilegt.",
+      "duree_s": 5.794
+    },
+    "id": {
+      "texte": "Sejujurnya, saya nggak berharap banyak dari tempat ini, tapi makanannya enak banget dan stafnya baik sekali.",
+      "duree_s": 6.2
+    },
+    "fa": {
+      "texte": "راستش انتظار زیادی از اینجا نداشتم، ولی غذاش خوشمزه بود و کارکنانش واقعاً مهربون بودن.",
+      "duree_s": 5.446
+    },
+    "it": {
+      "texte": "Onestamente, non mi aspettavo granché da questo posto, ma il cibo era delizioso e il personale è stato davvero gentile.",
+      "duree_s": 5.608
+    },
+    "ja": {
+      "texte": "正直、この店にはあまり期待してなかったんですが、料理はすごくおいしかったし、店員さんも本当に親切でした。",
+      "duree_s": 6.827
+    },
+    "kk": {
+      "texte": "Шынымды айтсам, бұл жерден көп үміт күтпеп едім, бірақ тамағы өте дәмді, ал қызметкерлері сондай мейірімді екен.",
+      "duree_s": 5.33
+    },
+    "ko": {
+      "texte": "솔직히 여기 별 기대 안 했는데, 음식도 맛있고 직원분들도 정말 친절했어요.",
+      "duree_s": 4.517
+    },
+    "lt": {
+      "texte": "Tiesą sakant, iš šios vietos daug nesitikėjau, bet maistas buvo labai skanus, o darbuotojai – tikrai malonūs.",
+      "duree_s": 5.039
+    },
+    "ml": {
+      "texte": "സത്യത്തിൽ, ഈ സ്ഥലത്തെക്കുറിച്ച് വലിയ പ്രതീക്ഷയൊന്നും ഉണ്ടായിരുന്നില്ല, പക്ഷേ ഭക്ഷണം വളരെ രുചികരമായിരുന്നു, ജീവനക്കാരും ശരിക്കും നല്ല പെരുമാറ്റമുള്ളവരായിരുന്നു.",
+      "duree_s": 10.821
+    },
+    "mr": {
+      "texte": "खरं सांगायचं तर, या ठिकाणाकडून मला फारशा अपेक्षा नव्हत्या, पण जेवण खूप चविष्ट होतं आणि कर्मचारीही खूप प्रेमळ होते.",
+      "duree_s": 7.373
+    },
+    "ne": {
+      "texte": "साँच्चै भन्नुपर्दा, मलाई यो ठाउँबाट धेरै आशा थिएन, तर यहाँको खाना निकै स्वादिलो थियो र कर्मचारीहरू पनि एकदमै दयालु थिए।",
+      "duree_s": 5.875
+    },
+    "nb": {
+      "texte": "Ærlig talt hadde jeg ikke store forventninger til dette stedet, men maten var kjempegod, og de ansatte var veldig hyggelige.",
+      "duree_s": 4.842
+    },
+    "pl": {
+      "texte": "Szczerze mówiąc, nie spodziewałem się wiele po tym miejscu, ale jedzenie było pyszne, a obsługa naprawdę miła.",
+      "duree_s": 5.678
+    },
+    "pt": {
+      "texte": "Sinceramente, eu não esperava muita coisa desse lugar, mas a comida estava deliciosa e o pessoal foi muito gentil.",
+      "duree_s": 6.409
+    },
+    "pt-pt": {
+      "texte": "Sinceramente, não esperava grande coisa deste sítio, mas a comida estava deliciosa e o pessoal foi mesmo simpático.",
+      "duree_s": 4.796
+    },
+    "ro": {
+      "texte": "Sincer, nu mă așteptam la mare lucru de la locul ăsta, dar mâncarea a fost delicioasă, iar personalul a fost foarte amabil.",
+      "duree_s": 7.001
+    },
+    "ru": {
+      "texte": "Честно говоря, я не особо рассчитывал на это место, но еда оказалась очень вкусной, а персонал   невероятно приветливым.",
+      "duree_s": 6.758
+    },
+    "sr": {
+      "texte": "Iskreno, očekivanja od ovog mesta su mi bila skromna, ali hrana je bila ukusna, a osoblje zaista ljubazno.",
+      "duree_s": 8.104
+    },
+    "sk": {
+      "texte": "Úprimne, od tohto miesta som veľa nečakal, ale jedlo bolo výborné a personál bol naozaj milý.",
+      "duree_s": 5.016
+    },
+    "sl": {
+      "texte": "Iskreno, od tega kraja nisem veliko pričakoval, ampak hrana je bila odlična, osebje pa res prijazno.",
+      "duree_s": 5.736
+    },
+    "es": {
+      "texte": "La verdad, no esperaba gran cosa de este sitio, pero la comida estaba buenísima y el personal fue muy amable.",
+      "duree_s": 5.121
+    },
+    "es-us": {
+      "texte": "La verdad, no esperaba mucho de este lugar, pero la comida estaba deliciosa y el personal fue muy amable.",
+      "duree_s": 6.084
+    },
+    "ar": {
+      "texte": "بصراحة، لم أكن أتوقع الكثير من هذا المكان، لكن الطعام كان لذيذًا والموظفون كانوا لطفاء جدًا.",
+      "duree_s": 10.31
+    },
+    "lv": {
+      "texte": "Godīgi sakot, es no šīs vietas neko daudz negaidīju, bet ēdiens bija garšīgs un darbinieki ļoti laipni.",
+      "duree_s": 5.26
+    },
+    "sw": {
+      "texte": "Kwa kweli, sikutarajia mengi kuhusu sehemu hii, lakini chakula kilikuwa kitamu sana na wahudumu walikuwa wakarimu kweli.",
+      "duree_s": 5.713
+    },
+    "sv": {
+      "texte": "Ärligt talat hade jag inte så höga förväntningar på det här stället, men maten var jättegod och personalen var verkligen trevlig.",
+      "duree_s": 6.943
+    },
+    "te": {
+      "texte": "నిజం చెప్పాలంటే, ఈ చోటు గురించి నేను పెద్దగా ఆశలు పెట్టుకోలేదు, కానీ భోజనం చాలా రుచిగా ఉంది, సిబ్బంది కూడా చాలా మంచిగా ఉన్నారు.",
+      "duree_s": 7.408
+    },
+    "th": {
+      "texte": "พูดตรง ๆ นะ ตอนแรกฉันไม่ได้คาดหวังอะไรกับร้านนี้มาก แต่ทั้งอาหารอร่อยและพนักงานก็ใจดีมากจริง ๆ.",
+      "duree_s": 7.419
+    },
+    "sq": {
+      "texte": "Sinqerisht, nuk prisja shumë nga ky vend, por ushqimi ishte i shijshëm dhe stafi ishte vërtet i sjellshëm.",
+      "duree_s": 4.656
+    },
+    "tr": {
+      "texte": "Açıkçası buradan pek bir şey beklemiyordum ama yemekler çok lezzetliydi, çalışanlar da gerçekten çok nazikti.",
+      "duree_s": 6.433
+    },
+    "vi": {
+      "texte": "Thật lòng mà nói, tôi không kỳ vọng gì nhiều ở chỗ này, nhưng đồ ăn rất ngon và nhân viên thì cực kỳ thân thiện.",
+      "duree_s": 5.318
+    }
+  }
+}

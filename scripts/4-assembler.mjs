@@ -1,7 +1,9 @@
 // 4. L'ASSEMBLAGE — depuis les prises mesurées :
 //   ratios.json : par langue et par voix, ratio = MÉDIANE des prises de
-//                 (parlé Gemini ÷ parlé Edge), silences retirés des deux côtés ;
-//                 c'est la table que le doublage lit (backend).
+//                 (parlé Gemini ÷ SONDE), silences retirés des deux côtés ; la sonde
+//                 est l'ESTIMATION de spark-duree depuis le 2026-10-11 (duree.json,
+//                 2-duree.mjs ; avant, la durée Edge d'edge.json) — les prises Gemini
+//                 restent celles du 2026-10-04 ; c'est la table que le doublage lit.
 //   gemini/<langue>/<voix>.mp3 : l'extrait d'écoute = la prise MÉDIANE, rognée
 //                 de ses silences de tête et de queue (TEN-VAD de la prod) ;
 //   voices.json : le catalogue que le front lit (voix, langues, extraits).
@@ -15,8 +17,8 @@ import { ecrireJson, enParallele, lireJson } from './lib/outils.mjs';
 const MARGE_S = 0.08;
 
 const phrases = lireJson(fichier('phrases.json'), null);
-const edge = lireJson(fichier('edge.json'), null);
-if (!phrases || !edge) throw new Error('phrases.json et edge.json requis');
+const reference = lireJson(fichier('duree.json'), null);
+if (!phrases || !reference) throw new Error('phrases.json et duree.json requis (2-duree.mjs)');
 const ancien = lireJson(`${ANCIEN_DEPOT}/voices.json`, { voices: {} });
 const precedent = lireJson(fichier('ratios.json'), { langues: {} });
 
@@ -35,20 +37,22 @@ const mediane = (xs) => {
 
 const ratios = {
   version: 1, modele: MODELE_TTS, prises_par_voix: PRISES,
-  methode: 'une phrase par langue, lue PRISES fois par chaque voix avec la requête du doublage de la prod ; ratio = médiane de (parlé Gemini ÷ parlé Edge), TEN-VAD de la prod (silences ≥ 150 ms retirés), voix Edge de référence de la langue',
+  methode: 'une phrase par langue, lue PRISES fois par chaque voix avec la requête du doublage de la prod ; ratio = médiane de (parlé Gemini ÷ sonde), TEN-VAD de la prod (silences ≥ 150 ms retirés) ; sonde = durée parlée ESTIMÉE par spark-duree (texte nettoyé comme les sondes de la prod)',
+  sonde: 'duree',
   genere_le: new Date().toISOString(), langues: {},
 };
 const extraits = [];
 const manquants = [];
 
 for (const l of LANGUES) {
-  const e = edge.langues[l.code];
-  const entree = { voix_edge: e.voix_edge, edge_s: e.edge_s, phrase: phrases.langues[l.code].texte, voix: {} };
+  const e = reference.langues[l.code];
+  if (!e) throw new Error(`duree.json sans ${l.code} : relancer 2-duree.mjs`);
+  const entree = { sonde: 'duree', duree_s: e.duree_s, phrase: phrases.langues[l.code].texte, voix: {} };
   for (const v of GEMINI_VOICES.map((x) => x.name)) {
     const mesures = [];
     for (let k = 1; k <= PRISES; k++) {
       const m = prises.get(`${l.code}|${v}|${k}`);
-      if (m && m.parle_s > 0) mesures.push({ k, parle_s: m.parle_s, ratio: m.parle_s / e.edge_s });
+      if (m && m.parle_s > 0) mesures.push({ k, parle_s: m.parle_s, ratio: m.parle_s / e.duree_s });
     }
     if (mesures.length < PRISES) { manquants.push(`${l.code}/${v} (${mesures.length}/${PRISES})`); continue; }
     const ratio = mediane(mesures.map((m) => m.ratio));

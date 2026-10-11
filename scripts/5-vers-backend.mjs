@@ -20,14 +20,14 @@ for (const l of LANGUES) {
     const r = e?.voix?.[v.name]?.ratio;
     if (r > 0) voix[v.name] = r; else trous.push(`${l.code}/${v.name}`);
   }
-  langues[l.code] = { voix_edge: e?.voix_edge, voix };
+  langues[l.code] = { sonde: e?.sonde, duree_s: e?.duree_s, voix };
 }
 if (trous.length) throw new Error(`table incomplète (${trous.length}) : ${trous.slice(0, 10).join(', ')}…`);
 
 const cible = path.join(WORKERS, 'shared/ratios-gemini/ratios.json');
 ecrireJson(cible, {
   version: ratios.version, modele: ratios.modele, genere_le: ratios.genere_le,
-  prises_par_voix: ratios.prises_par_voix, methode: ratios.methode,
+  prises_par_voix: ratios.prises_par_voix, methode: ratios.methode, sonde: ratios.sonde,
   source: 'dépôt spark-dubbing-voix-38 (scripts 1 à 5)',
   langues,
 });

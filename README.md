@@ -1,9 +1,11 @@
 # spark-dubbing-voix-38
 
-Les 30 voix Gemini 3.8 du doublage, dans les 79 langues et variantes proposées :
+Les 30 voix Gemini 3.8 du doublage :
 
-- **les extraits d'écoute** du studio (`gemini/<langue>/<voix>.mp3`, catalogue `voices.json`) ;
-- **la table des ratios de débit** (`ratios.json`) que le doublage lit au lieu de mesurer.
+- **les extraits d'écoute** du studio (`gemini/<langue>/<voix>.mp3`, catalogue `voices.json`),
+  79 langues et variantes ;
+- **la table des ratios de débit** (`ratios.json`) que le doublage lit au lieu de mesurer,
+  54 langues depuis le 2026-10-11 (celles que spark-duree estime ; 79 avant).
 
 Tout est mesuré **en local avec le code de la prod**, jamais recopié quand il s'importe.
 
@@ -11,32 +13,37 @@ Tout est mesuré **en local avec le code de la prod**, jamais recopié quand il 
 
 1. **Une phrase par langue** (`phrases.json`) : une phrase de taille moyenne traduite
    par le traducteur de la prod (OpenAI `gpt-6-luna`, effort bas).
-2. **Référence Edge** (`edge.json`) : la phrase dite par la voix Edge de la langue
-   (celle que le doublage sonde pour tout locuteur gemini), texte nettoyé comme les sondes.
+2. **Référence** (`duree.json`, depuis le 2026-10-11) : la durée parlée de la phrase
+   ESTIMÉE par le Worker `spark-duree` — l'estimation que le doublage fait pour toute
+   sonde depuis que Microsoft a coupé Edge (2026-10-10) —, texte nettoyé comme les
+   sondes. 54 langues. Avant : la phrase dite par la voix Edge de la langue (`edge.json`,
+   gardé pour mémoire).
 3. **Prises Gemini** : chaque voix lit la phrase 3 fois, avec **la requête du doublage**
    (`buildGeminiApiRequest` de la prod : tiret de continuation, minuscule,
    style `no filler words, no non-verbal sounds`, `languageCode`).
-4. **Durées parlées** par le TEN-VAD de la prod, silences de 150 ms et plus retirés
-   des deux côtés. Edge : le worker `spark-vad` lancé en local. Gemini : le même
-   `vad.js` et le même `ten_vad.wasm` dans Node, sur plusieurs fils
+4. **Durées parlées** des prises par le TEN-VAD de la prod, silences de 150 ms et plus
+   retirés : le même `vad.js` et le même `ten_vad.wasm` dans Node, sur plusieurs fils
    (`scripts/verifier-vad.mjs` vérifie la parité : résultats identiques).
-5. **Ratio** = médiane des 3 prises de (parlé Gemini ÷ parlé Edge). L'extrait d'écoute
-   est la prise médiane, rognée de ses silences de tête et de queue.
+5. **Ratio** = médiane des 3 prises de (parlé Gemini ÷ durée estimée). L'extrait d'écoute
+   est la prise médiane, rognée de ses silences de tête et de queue. Changer de
+   référence ne coûte rien : les prises sont dans `cache/`, seul le dénominateur change.
 
 ## Lancer
 
 Les workers de prod en local (depuis `backend/cloudflare/workers`) :
 
 ```bash
-cd spark-vad && npx wrangler dev --port 8990
-cd spark-edge-tts && npx wrangler dev --port 8991
+cd spark-duree && npx wrangler dev --port 8797
 ```
+
+(Pour le japonais et le thaï, le serveur de `containers/spark-phonemes` aussi : voir le
+`WORKER.md` de spark-duree.)
 
 Puis, depuis ce dépôt (Doppler connecté ; les clés ne s'affichent jamais) :
 
 ```bash
 node scripts/1-phrases.mjs      # phrases.json
-node scripts/2-edge.mjs         # edge.json
+node scripts/2-duree.mjs        # duree.json (2-edge.mjs : l'ancienne référence Edge)
 node scripts/3-gemini.mjs       # cache/ : prises WAV + journal (reprend où il s'est arrêté)
 node scripts/4-assembler.mjs    # ratios.json, voices.json, gemini/*.mp3
 node scripts/5-vers-backend.mjs # copie la table dans backend/.../shared/ratios-gemini/
