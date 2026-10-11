@@ -1,12 +1,12 @@
 // 4b. LE LISSAGE d'un ratios.json déjà assemblé, sans rien remesurer (4-assembler.mjs le fait aussi) :
 // ratio = vitesse de la langue × vitesse de la voix (voir lib/lissage.mjs). Puis 5-vers-backend.mjs.
 import { fichier } from './lib/config.mjs';
-import { lisser } from './lib/lissage.mjs';
+import { lisser, vitessesMesurees } from './lib/lissage.mjs';
 import { ecrireJson, lireJson } from './lib/outils.mjs';
 
 const ratios = lireJson(fichier('ratios.json'), null);
 if (!ratios) throw new Error('ratios.json absent : lancer 4-assembler.mjs');
-lisser(ratios);
+lisser(ratios, vitessesMesurees((l) => fichier('phrases_multiples', `${l}_mesure.json`), Object.keys(ratios.langues)));
 ecrireJson(fichier('ratios.json'), ratios);
 
 const ecarts = Object.values(ratios.langues).flatMap((e) => Object.values(e.voix).map((x) => Math.abs(x.ratio / x.ratio_mesure - 1)));

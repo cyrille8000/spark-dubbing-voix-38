@@ -16,8 +16,11 @@
 // toujours de `ratio_mesure` quand il existe.
 //
 // CE QUE ÇA NE CORRIGE PAS : la phrase d'une langue qui se dit, avec toutes les voix, plus vite ou
-// plus lentement qu'un texte ordinaire (thaï ~ −7 %, japonais ~ −6 %, mesuré le 2026-10-11) — il
-// faudrait plusieurs phrases par langue (des appels payants).
+// plus lentement qu'un texte ordinaire (japonais ~ −6 %, mesuré le 2026-10-11). Une langue MESURÉE sur
+// plusieurs phrases (6-mesure-langue.mjs, appels payants) garde sa vitesse mesurée à la place :
+// le thaï depuis le 2026-10-11 (30 répliques × 3 voix).
+
+import fs from 'node:fs';
 
 const TOURS = 6;
 
@@ -29,8 +32,27 @@ const mediane = (xs) => {
 
 const arrondi = (x) => Number(x.toFixed(4));
 
-/** Lisse `ratios` (le format de ratios.json) en place et le rend. */
-export function lisser(ratios) {
+/**
+ * Les vitesses de langue MESURÉES sur plusieurs phrases (6-mesure-langue.mjs → phrases_multiples/
+ * <langue>_mesure.json) : `{ th: 0.77, … }`. Elles remplacent la vitesse tirée de la phrase unique.
+ */
+export function vitessesMesurees(fichierDe, langues) {
+  const out = {};
+  for (const l of langues) {
+    const chemin = fichierDe(l);
+    try {
+      const m = JSON.parse(fs.readFileSync(chemin, 'utf8'));
+      if (m.vitesse_langue > 0) out[l] = m.vitesse_langue;
+    } catch { /* pas de mesure pour cette langue */ }
+  }
+  return out;
+}
+
+/**
+ * Lisse `ratios` (le format de ratios.json) en place et le rend. `mesurees` : les vitesses de langue
+ * mesurées sur plusieurs phrases (vitessesMesurees) ; elles priment sur la phrase unique.
+ */
+export function lisser(ratios, mesurees = {}) {
   const langues = Object.keys(ratios.langues).filter((l) => Object.keys(ratios.langues[l].voix || {}).length);
   const brut = (l, v) => {
     const x = ratios.langues[l].voix[v];
@@ -51,10 +73,16 @@ export function lisser(ratios) {
   const centre = mediane(Object.values(vitesseVoix));
   for (const v of voix) vitesseVoix[v] /= centre;
   for (const l of langues) vitesseLangue[l] *= centre;
+  // Une langue mesurée sur plusieurs phrases garde SA mesure (déjà ramenée aux vitesses des voix).
+  const mesure = {};
+  for (const [l, v] of Object.entries(mesurees)) {
+    if (vitesseLangue[l] && v > 0) { vitesseLangue[l] = v; mesure[l] = true; }
+  }
 
   for (const l of langues) {
     const entree = ratios.langues[l];
     entree.vitesse_langue = arrondi(vitesseLangue[l]);
+    if (mesure[l]) entree.vitesse_mesuree = true; else delete entree.vitesse_mesuree;
     for (const v of Object.keys(entree.voix)) {
       const x = entree.voix[v];
       x.ratio_mesure = arrondi(brut(l, v));
@@ -62,6 +90,7 @@ export function lisser(ratios) {
     }
   }
   ratios.vitesses_voix = Object.fromEntries(voix.map((v) => [v, arrondi(vitesseVoix[v])]));
-  ratios.lissage = 'ratio = vitesse de la langue × vitesse de la voix (médianes croisées sur toute la table, 2026-10-11) ; mesure brute dans ratio_mesure';
+  ratios.lissage = 'ratio = vitesse de la langue × vitesse de la voix (médianes croisées sur toute la table, 2026-10-11) ; '
+    + 'mesure brute dans ratio_mesure ; vitesse_mesuree = langue mesurée sur plusieurs phrases (phrases_multiples)';
   return ratios;
 }

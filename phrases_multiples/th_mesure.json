@@ -1,0 +1,652 @@
+{
+  "langue": "th",
+  "mesure_le": "2026-10-11T12:13:51.856Z",
+  "phrases": 30,
+  "voix": [
+    "Sadachbia",
+    "Laomedeia",
+    "Iapetus"
+  ],
+  "prises": 90,
+  "vitesse_langue": 0.7636,
+  "vitesse_phrase_unique": 0.851,
+  "ratio_par_voix": {
+    "Sadachbia": 0.7607,
+    "Laomedeia": 0.7751,
+    "Iapetus": 0.7433
+  },
+  "detail": [
+    {
+      "phrase": 0,
+      "voix": "Laomedeia",
+      "parle_s": 4.072,
+      "estimation": 5.782,
+      "ratio": 0.7043
+    },
+    {
+      "phrase": 0,
+      "voix": "Iapetus",
+      "parle_s": 4.264,
+      "estimation": 5.782,
+      "ratio": 0.7375
+    },
+    {
+      "phrase": 0,
+      "voix": "Sadachbia",
+      "parle_s": 3.824,
+      "estimation": 5.782,
+      "ratio": 0.6614
+    },
+    {
+      "phrase": 1,
+      "voix": "Iapetus",
+      "parle_s": 12.328000000000001,
+      "estimation": 13.561,
+      "ratio": 0.9091
+    },
+    {
+      "phrase": 1,
+      "voix": "Sadachbia",
+      "parle_s": 10.415999999999999,
+      "estimation": 13.561,
+      "ratio": 0.7681
+    },
+    {
+      "phrase": 1,
+      "voix": "Laomedeia",
+      "parle_s": 11.159999999999998,
+      "estimation": 13.561,
+      "ratio": 0.8229
+    },
+    {
+      "phrase": 2,
+      "voix": "Sadachbia",
+      "parle_s": 13.944,
+      "estimation": 19.123,
+      "ratio": 0.7292
+    },
+    {
+      "phrase": 2,
+      "voix": "Laomedeia",
+      "parle_s": 14.608,
+      "estimation": 19.123,
+      "ratio": 0.7639
+    },
+    {
+      "phrase": 2,
+      "voix": "Iapetus",
+      "parle_s": 13.615999999999998,
+      "estimation": 19.123,
+      "ratio": 0.712
+    },
+    {
+      "phrase": 3,
+      "voix": "Sadachbia",
+      "parle_s": 16.96,
+      "estimation": 21.712,
+      "ratio": 0.7811
+    },
+    {
+      "phrase": 3,
+      "voix": "Laomedeia",
+      "parle_s": 16.616,
+      "estimation": 21.712,
+      "ratio": 0.7653
+    },
+    {
+      "phrase": 3,
+      "voix": "Iapetus",
+      "parle_s": 17.264000000000003,
+      "estimation": 21.712,
+      "ratio": 0.7951
+    },
+    {
+      "phrase": 4,
+      "voix": "Laomedeia",
+      "parle_s": 3.6399999999999997,
+      "estimation": 4.622,
+      "ratio": 0.7875
+    },
+    {
+      "phrase": 4,
+      "voix": "Iapetus",
+      "parle_s": 3.24,
+      "estimation": 4.622,
+      "ratio": 0.701
+    },
+    {
+      "phrase": 4,
+      "voix": "Sadachbia",
+      "parle_s": 3.568,
+      "estimation": 4.622,
+      "ratio": 0.772
+    },
+    {
+      "phrase": 5,
+      "voix": "Sadachbia",
+      "parle_s": 3,
+      "estimation": 4.773,
+      "ratio": 0.6285
+    },
+    {
+      "phrase": 5,
+      "voix": "Laomedeia",
+      "parle_s": 3.2800000000000002,
+      "estimation": 4.773,
+      "ratio": 0.6872
+    },
+    {
+      "phrase": 5,
+      "voix": "Iapetus",
+      "parle_s": 3.104,
+      "estimation": 4.773,
+      "ratio": 0.6503
+    },
+    {
+      "phrase": 6,
+      "voix": "Sadachbia",
+      "parle_s": 5.959999999999999,
+      "estimation": 8.5,
+      "ratio": 0.7012
+    },
+    {
+      "phrase": 6,
+      "voix": "Laomedeia",
+      "parle_s": 5.76,
+      "estimation": 8.5,
+      "ratio": 0.6776
+    },
+    {
+      "phrase": 6,
+      "voix": "Iapetus",
+      "parle_s": 5.896,
+      "estimation": 8.5,
+      "ratio": 0.6936
+    },
+    {
+      "phrase": 7,
+      "voix": "Sadachbia",
+      "parle_s": 4.656000000000001,
+      "estimation": 5.423,
+      "ratio": 0.8586
+    },
+    {
+      "phrase": 7,
+      "voix": "Laomedeia",
+      "parle_s": 4.255999999999999,
+      "estimation": 5.423,
+      "ratio": 0.7848
+    },
+    {
+      "phrase": 7,
+      "voix": "Iapetus",
+      "parle_s": 4.696,
+      "estimation": 5.423,
+      "ratio": 0.8659
+    },
+    {
+      "phrase": 8,
+      "voix": "Laomedeia",
+      "parle_s": 3.584,
+      "estimation": 5.028,
+      "ratio": 0.7128
+    },
+    {
+      "phrase": 8,
+      "voix": "Sadachbia",
+      "parle_s": 3.832,
+      "estimation": 5.028,
+      "ratio": 0.7621
+    },
+    {
+      "phrase": 8,
+      "voix": "Iapetus",
+      "parle_s": 3.52,
+      "estimation": 5.028,
+      "ratio": 0.7001
+    },
+    {
+      "phrase": 9,
+      "voix": "Sadachbia",
+      "parle_s": 5.367999999999999,
+      "estimation": 6.224,
+      "ratio": 0.8625
+    },
+    {
+      "phrase": 9,
+      "voix": "Laomedeia",
+      "parle_s": 5.304,
+      "estimation": 6.224,
+      "ratio": 0.8522
+    },
+    {
+      "phrase": 9,
+      "voix": "Iapetus",
+      "parle_s": 5.312,
+      "estimation": 6.224,
+      "ratio": 0.8535
+    },
+    {
+      "phrase": 10,
+      "voix": "Iapetus",
+      "parle_s": 0.9360000000000002,
+      "estimation": 1.591,
+      "ratio": 0.5883
+    },
+    {
+      "phrase": 10,
+      "voix": "Laomedeia",
+      "parle_s": 1.264,
+      "estimation": 1.591,
+      "ratio": 0.7945
+    },
+    {
+      "phrase": 10,
+      "voix": "Sadachbia",
+      "parle_s": 1.56,
+      "estimation": 1.591,
+      "ratio": 0.9805
+    },
+    {
+      "phrase": 11,
+      "voix": "Sadachbia",
+      "parle_s": 2.608,
+      "estimation": 3.611,
+      "ratio": 0.7222
+    },
+    {
+      "phrase": 11,
+      "voix": "Laomedeia",
+      "parle_s": 3.048,
+      "estimation": 3.611,
+      "ratio": 0.8441
+    },
+    {
+      "phrase": 11,
+      "voix": "Iapetus",
+      "parle_s": 2.88,
+      "estimation": 3.611,
+      "ratio": 0.7976
+    },
+    {
+      "phrase": 12,
+      "voix": "Sadachbia",
+      "parle_s": 0.8720000000000001,
+      "estimation": 1.405,
+      "ratio": 0.6206
+    },
+    {
+      "phrase": 12,
+      "voix": "Iapetus",
+      "parle_s": 0.8,
+      "estimation": 1.405,
+      "ratio": 0.5694
+    },
+    {
+      "phrase": 12,
+      "voix": "Laomedeia",
+      "parle_s": 0.9039999999999999,
+      "estimation": 1.405,
+      "ratio": 0.6434
+    },
+    {
+      "phrase": 13,
+      "voix": "Sadachbia",
+      "parle_s": 3.104,
+      "estimation": 3.681,
+      "ratio": 0.8432
+    },
+    {
+      "phrase": 13,
+      "voix": "Iapetus",
+      "parle_s": 2.6239999999999997,
+      "estimation": 3.681,
+      "ratio": 0.7128
+    },
+    {
+      "phrase": 13,
+      "voix": "Laomedeia",
+      "parle_s": 3.056,
+      "estimation": 3.681,
+      "ratio": 0.8302
+    },
+    {
+      "phrase": 14,
+      "voix": "Sadachbia",
+      "parle_s": 2.704,
+      "estimation": 3.286,
+      "ratio": 0.8229
+    },
+    {
+      "phrase": 14,
+      "voix": "Laomedeia",
+      "parle_s": 2.6,
+      "estimation": 3.286,
+      "ratio": 0.7912
+    },
+    {
+      "phrase": 14,
+      "voix": "Iapetus",
+      "parle_s": 2.6,
+      "estimation": 3.286,
+      "ratio": 0.7912
+    },
+    {
+      "phrase": 15,
+      "voix": "Sadachbia",
+      "parle_s": 1.616,
+      "estimation": 1.603,
+      "ratio": 1.0081
+    },
+    {
+      "phrase": 15,
+      "voix": "Iapetus",
+      "parle_s": 1.104,
+      "estimation": 1.603,
+      "ratio": 0.6887
+    },
+    {
+      "phrase": 15,
+      "voix": "Laomedeia",
+      "parle_s": 1.2240000000000002,
+      "estimation": 1.603,
+      "ratio": 0.7636
+    },
+    {
+      "phrase": 16,
+      "voix": "Sadachbia",
+      "parle_s": 2.3680000000000003,
+      "estimation": 2.834,
+      "ratio": 0.8356
+    },
+    {
+      "phrase": 16,
+      "voix": "Iapetus",
+      "parle_s": 2.168,
+      "estimation": 2.834,
+      "ratio": 0.765
+    },
+    {
+      "phrase": 16,
+      "voix": "Laomedeia",
+      "parle_s": 2.36,
+      "estimation": 2.834,
+      "ratio": 0.8327
+    },
+    {
+      "phrase": 17,
+      "voix": "Sadachbia",
+      "parle_s": 2.8720000000000003,
+      "estimation": 3.844,
+      "ratio": 0.7471
+    },
+    {
+      "phrase": 17,
+      "voix": "Laomedeia",
+      "parle_s": 3.112,
+      "estimation": 3.844,
+      "ratio": 0.8096
+    },
+    {
+      "phrase": 18,
+      "voix": "Sadachbia",
+      "parle_s": 1.552,
+      "estimation": 2.044,
+      "ratio": 0.7593
+    },
+    {
+      "phrase": 17,
+      "voix": "Iapetus",
+      "parle_s": 2.88,
+      "estimation": 3.844,
+      "ratio": 0.7492
+    },
+    {
+      "phrase": 18,
+      "voix": "Laomedeia",
+      "parle_s": 1.72,
+      "estimation": 2.044,
+      "ratio": 0.8415
+    },
+    {
+      "phrase": 18,
+      "voix": "Iapetus",
+      "parle_s": 1.608,
+      "estimation": 2.044,
+      "ratio": 0.7867
+    },
+    {
+      "phrase": 19,
+      "voix": "Sadachbia",
+      "parle_s": 1.744,
+      "estimation": 3.077,
+      "ratio": 0.5668
+    },
+    {
+      "phrase": 19,
+      "voix": "Laomedeia",
+      "parle_s": 2.192,
+      "estimation": 3.077,
+      "ratio": 0.7124
+    },
+    {
+      "phrase": 19,
+      "voix": "Iapetus",
+      "parle_s": 2.016,
+      "estimation": 3.077,
+      "ratio": 0.6552
+    },
+    {
+      "phrase": 20,
+      "voix": "Sadachbia",
+      "parle_s": 1.296,
+      "estimation": 1.603,
+      "ratio": 0.8085
+    },
+    {
+      "phrase": 20,
+      "voix": "Laomedeia",
+      "parle_s": 1.04,
+      "estimation": 1.603,
+      "ratio": 0.6488
+    },
+    {
+      "phrase": 20,
+      "voix": "Iapetus",
+      "parle_s": 1.472,
+      "estimation": 1.603,
+      "ratio": 0.9183
+    },
+    {
+      "phrase": 21,
+      "voix": "Sadachbia",
+      "parle_s": 1.3519999999999999,
+      "estimation": 1.812,
+      "ratio": 0.7461
+    },
+    {
+      "phrase": 21,
+      "voix": "Iapetus",
+      "parle_s": 1.24,
+      "estimation": 1.812,
+      "ratio": 0.6843
+    },
+    {
+      "phrase": 21,
+      "voix": "Laomedeia",
+      "parle_s": 1.3839999999999997,
+      "estimation": 1.812,
+      "ratio": 0.7638
+    },
+    {
+      "phrase": 22,
+      "voix": "Sadachbia",
+      "parle_s": 2.4160000000000004,
+      "estimation": 2.636,
+      "ratio": 0.9165
+    },
+    {
+      "phrase": 22,
+      "voix": "Iapetus",
+      "parle_s": 2.048,
+      "estimation": 2.636,
+      "ratio": 0.7769
+    },
+    {
+      "phrase": 22,
+      "voix": "Laomedeia",
+      "parle_s": 2.12,
+      "estimation": 2.636,
+      "ratio": 0.8042
+    },
+    {
+      "phrase": 23,
+      "voix": "Sadachbia",
+      "parle_s": 2.2960000000000003,
+      "estimation": 2.926,
+      "ratio": 0.7847
+    },
+    {
+      "phrase": 23,
+      "voix": "Iapetus",
+      "parle_s": 2.728,
+      "estimation": 2.926,
+      "ratio": 0.9323
+    },
+    {
+      "phrase": 23,
+      "voix": "Laomedeia",
+      "parle_s": 2.4879999999999995,
+      "estimation": 2.926,
+      "ratio": 0.8503
+    },
+    {
+      "phrase": 24,
+      "voix": "Sadachbia",
+      "parle_s": 2.3680000000000003,
+      "estimation": 3.275,
+      "ratio": 0.7231
+    },
+    {
+      "phrase": 24,
+      "voix": "Iapetus",
+      "parle_s": 2.5759999999999996,
+      "estimation": 3.275,
+      "ratio": 0.7866
+    },
+    {
+      "phrase": 24,
+      "voix": "Laomedeia",
+      "parle_s": 2.3600000000000003,
+      "estimation": 3.275,
+      "ratio": 0.7206
+    },
+    {
+      "phrase": 25,
+      "voix": "Sadachbia",
+      "parle_s": 1.3679999999999999,
+      "estimation": 2.021,
+      "ratio": 0.6769
+    },
+    {
+      "phrase": 26,
+      "voix": "Sadachbia",
+      "parle_s": 1.392,
+      "estimation": 2.032,
+      "ratio": 0.685
+    },
+    {
+      "phrase": 25,
+      "voix": "Laomedeia",
+      "parle_s": 1.4000000000000001,
+      "estimation": 2.021,
+      "ratio": 0.6927
+    },
+    {
+      "phrase": 25,
+      "voix": "Iapetus",
+      "parle_s": 1.328,
+      "estimation": 2.021,
+      "ratio": 0.6571
+    },
+    {
+      "phrase": 26,
+      "voix": "Iapetus",
+      "parle_s": 1.432,
+      "estimation": 2.032,
+      "ratio": 0.7047
+    },
+    {
+      "phrase": 27,
+      "voix": "Sadachbia",
+      "parle_s": 1.392,
+      "estimation": 2.114,
+      "ratio": 0.6585
+    },
+    {
+      "phrase": 26,
+      "voix": "Laomedeia",
+      "parle_s": 1.6159999999999999,
+      "estimation": 2.032,
+      "ratio": 0.7953
+    },
+    {
+      "phrase": 27,
+      "voix": "Iapetus",
+      "parle_s": 1.6560000000000001,
+      "estimation": 2.114,
+      "ratio": 0.7833
+    },
+    {
+      "phrase": 27,
+      "voix": "Laomedeia",
+      "parle_s": 1.696,
+      "estimation": 2.114,
+      "ratio": 0.8023
+    },
+    {
+      "phrase": 28,
+      "voix": "Sadachbia",
+      "parle_s": 1.8800000000000001,
+      "estimation": 2.787,
+      "ratio": 0.6746
+    },
+    {
+      "phrase": 28,
+      "voix": "Iapetus",
+      "parle_s": 1.6720000000000002,
+      "estimation": 2.787,
+      "ratio": 0.5999
+    },
+    {
+      "phrase": 28,
+      "voix": "Laomedeia",
+      "parle_s": 1.8,
+      "estimation": 2.787,
+      "ratio": 0.6459
+    },
+    {
+      "phrase": 29,
+      "voix": "Sadachbia",
+      "parle_s": 2.192,
+      "estimation": 2.636,
+      "ratio": 0.8316
+    },
+    {
+      "phrase": 29,
+      "voix": "Iapetus",
+      "parle_s": 1.9839999999999998,
+      "estimation": 2.636,
+      "ratio": 0.7527
+    },
+    {
+      "phrase": 29,
+      "voix": "Laomedeia",
+      "parle_s": 1.952,
+      "estimation": 2.636,
+      "ratio": 0.7405
+    }
+  ],
+  "source": "7 répliques d'un vrai doublage (projet 1791117661527…) + 3 phrases de Wikipédia (ประเทศไทย…, pas régulier) ; réplique 1 sans le « ถวายสัตย์ » ajouté par erreur à la traduction ; phrases 11 à 22 : morceaux des répliques 2 à 4 coupés aux espaces ; 23 à 30 : morceaux courts de Wikipédia (pas régulier)",
+  "estimation": "thaï par propositions (spark-duree 2026-10-11, propositions-thai.js)"
+}

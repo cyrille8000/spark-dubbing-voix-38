@@ -13,7 +13,7 @@ import { ANCIEN_DEPOT, MODELE_TTS, PRISES, fichier } from './lib/config.mjs';
 import { GEMINI_VOICES, LANGUES } from './lib/prod.mjs';
 import { fermerVad, mesurerParoleNode } from './lib/vad-node.mjs';
 import { ecrireJson, enParallele, lireJson } from './lib/outils.mjs';
-import { lisser } from './lib/lissage.mjs';
+import { lisser, vitessesMesurees } from './lib/lissage.mjs';
 
 const MARGE_S = 0.08;
 
@@ -96,7 +96,7 @@ await enParallele(extraits.map(({ wav, mp3 }) => async () => {
 await fermerVad();
 // Le doublage lit le ratio LISSÉ (vitesse de la langue × vitesse de la voix, lib/lissage.mjs) ; la
 // médiane brute des prises reste en `ratio_mesure`. Les extraits ont été choisis sur la mesure brute.
-lisser(ratios);
+lisser(ratios, vitessesMesurees((l) => fichier('phrases_multiples', `${l}_mesure.json`), Object.keys(ratios.langues)));
 ecrireJson(fichier('ratios.json'), ratios);
 
 // Le catalogue du front : les champs d'affichage de l'ancien dépôt (genre,

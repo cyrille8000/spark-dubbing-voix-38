@@ -55,6 +55,20 @@ node scripts/4b-lisser.mjs      # (seul) relisser un ratios.json existant, sans 
 node scripts/5-vers-backend.mjs # copie la table dans backend/.../shared/ratios-gemini/
 ```
 
+Une langue dont la phrase unique ne représente pas un texte ordinaire se mesure sur plusieurs
+phrases (`phrases_multiples/<langue>.json`, N phrases × quelques voix × 1 prise, appels payants :
+montrer la requête avec `--a-blanc` d'abord) ; sa vitesse mesurée remplace alors celle de la phrase
+unique au lissage :
+
+```bash
+node scripts/6-mesure-langue.mjs --langue th --voix Sadachbia,Laomedeia,Iapetus --a-blanc
+node scripts/6-mesure-langue.mjs --langue th --voix Sadachbia,Laomedeia,Iapetus            # les prises
+node scripts/6-mesure-langue.mjs --langue th --voix Sadachbia,Laomedeia,Iapetus --estimer  # la vitesse
+```
+
+Fait pour le thaï le 2026-10-11 : 30 répliques (7 d'un vrai doublage, leurs morceaux, des phrases de
+Wikipédia) × 3 voix, ~0,10 $ ; vitesse 0,764 au lieu de 0,851.
+
 `3-gemini.mjs --a-blanc` montre la requête exacte sans appeler. Relancer reprend les
 prises manquantes.
 

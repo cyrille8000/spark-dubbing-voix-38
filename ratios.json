@@ -4,7 +4,7 @@
   "prises_par_voix": 3,
   "methode": "une phrase par langue, lue PRISES fois par chaque voix avec la requête du doublage de la prod ; ratio = médiane de (parlé Gemini ÷ sonde), TEN-VAD de la prod (silences ≥ 150 ms retirés) ; sonde = durée parlée ESTIMÉE par spark-duree (texte nettoyé comme les sondes de la prod)",
   "sonde": "duree",
-  "genere_le": "2026-10-10T23:12:09.965Z",
+  "genere_le": "2026-10-11T12:14:21.685Z",
   "langues": {
     "bn": {
       "sonde": "duree",
@@ -22908,15 +22908,15 @@
     },
     "th": {
       "sonde": "duree",
-      "duree_s": 7.419,
+      "duree_s": 8.279,
       "phrase": "พูดตรง ๆ นะ ตอนแรกฉันไม่ได้คาดหวังอะไรกับร้านนี้มาก แต่ทั้งอาหารอร่อยและพนักงานก็ใจดีมากจริง ๆ.",
       "voix": {
         "Achernar": {
-          "ratio": 0.8789,
+          "ratio": 0.7886,
           "ratios": [
-            0.923,
-            0.9554,
-            0.8842
+            0.8272,
+            0.8561,
+            0.7924
           ],
           "parle_s": [
             6.848000000000001,
@@ -22924,14 +22924,14 @@
             6.56
           ],
           "prise_extrait": 1,
-          "ratio_mesure": 0.923
+          "ratio_mesure": 0.8272
         },
         "Laomedeia": {
-          "ratio": 0.8511,
+          "ratio": 0.7637,
           "ratios": [
-            0.8724,
-            0.9273,
-            0.8907
+            0.7817,
+            0.831,
+            0.7982
           ],
           "parle_s": [
             6.4719999999999995,
@@ -22939,14 +22939,14 @@
             6.607999999999999
           ],
           "prise_extrait": 3,
-          "ratio_mesure": 0.8907
+          "ratio_mesure": 0.7982
         },
         "Leda": {
-          "ratio": 0.8653,
+          "ratio": 0.7764,
           "ratios": [
-            0.9198,
-            0.8271,
-            0.8939
+            0.8243,
+            0.7412,
+            0.8011
           ],
           "parle_s": [
             6.824,
@@ -22954,14 +22954,14 @@
             6.632
           ],
           "prise_extrait": 3,
-          "ratio_mesure": 0.8939
+          "ratio_mesure": 0.8011
         },
         "Zephyr": {
-          "ratio": 0.8604,
+          "ratio": 0.772,
           "ratios": [
-            0.8486,
-            0.8972,
-            0.8659
+            0.7605,
+            0.804,
+            0.7759
           ],
           "parle_s": [
             6.295999999999999,
@@ -22969,14 +22969,14 @@
             6.424
           ],
           "prise_extrait": 3,
-          "ratio_mesure": 0.8659
+          "ratio_mesure": 0.7759
         },
         "Aoede": {
-          "ratio": 0.8453,
+          "ratio": 0.7585,
           "ratios": [
-            0.854,
-            0.8853,
-            0.8486
+            0.7653,
+            0.7933,
+            0.7605
           ],
           "parle_s": [
             6.336,
@@ -22984,14 +22984,14 @@
             6.296
           ],
           "prise_extrait": 1,
-          "ratio_mesure": 0.854
+          "ratio_mesure": 0.7653
         },
         "Autonoe": {
-          "ratio": 0.8749,
+          "ratio": 0.7851,
           "ratios": [
-            0.8821,
-            0.8292,
-            0.8583
+            0.7904,
+            0.7431,
+            0.7692
           ],
           "parle_s": [
             6.5440000000000005,
@@ -22999,14 +22999,14 @@
             6.368
           ],
           "prise_extrait": 3,
-          "ratio_mesure": 0.8583
+          "ratio_mesure": 0.7692
         },
         "Callirrhoe": {
-          "ratio": 0.8756,
+          "ratio": 0.7857,
           "ratios": [
-            0.9036,
-            0.9532,
-            0.9036
+            0.8098,
+            0.8542,
+            0.8098
           ],
           "parle_s": [
             6.704000000000001,
@@ -23014,14 +23014,14 @@
             6.704
           ],
           "prise_extrait": 1,
-          "ratio_mesure": 0.9036
+          "ratio_mesure": 0.8098
         },
         "Despina": {
-          "ratio": 0.8861,
+          "ratio": 0.7951,
           "ratios": [
-            0.9748,
-            0.8066,
-            0.9004
+            0.8735,
+            0.7228,
+            0.8069
           ],
           "parle_s": [
             7.231999999999999,
@@ -23029,14 +23029,14 @@
             6.680000000000001
           ],
           "prise_extrait": 3,
-          "ratio_mesure": 0.9004
+          "ratio_mesure": 0.8069
         },
         "Erinome": {
-          "ratio": 0.8509,
+          "ratio": 0.7635,
           "ratios": [
-            0.8378,
-            0.8486,
-            0.8637
+            0.7508,
+            0.7605,
+            0.774
           ],
           "parle_s": [
             6.216,
@@ -23044,14 +23044,14 @@
             6.408
           ],
           "prise_extrait": 2,
-          "ratio_mesure": 0.8486
+          "ratio_mesure": 0.7605
         },
         "Gacrux": {
-          "ratio": 0.8725,
+          "ratio": 0.7829,
           "ratios": [
-            0.8325,
-            0.9802,
-            0.8637
+            0.746,
+            0.8784,
+            0.774
           ],
           "parle_s": [
             6.176,
@@ -23059,14 +23059,14 @@
             6.408000000000001
           ],
           "prise_extrait": 3,
-          "ratio_mesure": 0.8637
+          "ratio_mesure": 0.774
         },
         "Kore": {
-          "ratio": 0.8931,
+          "ratio": 0.8013,
           "ratios": [
-            1.0309,
-            0.9845,
-            0.8163
+            0.9238,
+            0.8822,
+            0.7315
           ],
           "parle_s": [
             7.648,
@@ -23074,14 +23074,14 @@
             6.056
           ],
           "prise_extrait": 2,
-          "ratio_mesure": 0.9845
+          "ratio_mesure": 0.8822
         },
         "Sulafat": {
-          "ratio": 0.8761,
+          "ratio": 0.7862,
           "ratios": [
-            0.9823,
-            0.9295,
-            0.8885
+            0.8803,
+            0.833,
+            0.7962
           ],
           "parle_s": [
             7.2879999999999985,
@@ -23089,14 +23089,14 @@
             6.592
           ],
           "prise_extrait": 2,
-          "ratio_mesure": 0.9295
+          "ratio_mesure": 0.833
         },
         "Vindemiatrix": {
-          "ratio": 0.8862,
+          "ratio": 0.7952,
           "ratios": [
-            0.867,
-            1.0686,
-            0.9349
+            0.7769,
+            0.9576,
+            0.8378
           ],
           "parle_s": [
             6.4319999999999995,
@@ -23104,14 +23104,14 @@
             6.936
           ],
           "prise_extrait": 3,
-          "ratio_mesure": 0.9349
+          "ratio_mesure": 0.8378
         },
         "Algenib": {
-          "ratio": 0.8564,
+          "ratio": 0.7684,
           "ratios": [
-            0.9004,
-            0.8077,
-            0.7397
+            0.8069,
+            0.7238,
+            0.6629
           ],
           "parle_s": [
             6.680000000000001,
@@ -23119,14 +23119,14 @@
             5.488
           ],
           "prise_extrait": 2,
-          "ratio_mesure": 0.8077
+          "ratio_mesure": 0.7238
         },
         "Algieba": {
-          "ratio": 0.8529,
+          "ratio": 0.7653,
           "ratios": [
-            0.8896,
-            0.9521,
-            0.8691
+            0.7972,
+            0.8532,
+            0.7788
           ],
           "parle_s": [
             6.6,
@@ -23134,14 +23134,14 @@
             6.447999999999999
           ],
           "prise_extrait": 1,
-          "ratio_mesure": 0.8896
+          "ratio_mesure": 0.7972
         },
         "Charon": {
-          "ratio": 0.8174,
+          "ratio": 0.7334,
           "ratios": [
-            0.8012,
-            0.7721,
-            0.8012
+            0.718,
+            0.6919,
+            0.718
           ],
           "parle_s": [
             5.944000000000001,
@@ -23149,14 +23149,14 @@
             5.943999999999999
           ],
           "prise_extrait": 3,
-          "ratio_mesure": 0.8012
+          "ratio_mesure": 0.718
         },
         "Enceladus": {
-          "ratio": 0.8594,
+          "ratio": 0.7711,
           "ratios": [
-            0.8799,
-            0.8486,
-            0.9069
+            0.7885,
+            0.7605,
+            0.8127
           ],
           "parle_s": [
             6.528000000000001,
@@ -23164,14 +23164,14 @@
             6.727999999999999
           ],
           "prise_extrait": 1,
-          "ratio_mesure": 0.8799
+          "ratio_mesure": 0.7885
         },
         "Sadachbia": {
-          "ratio": 0.8502,
+          "ratio": 0.7629,
           "ratios": [
-            0.7893,
-            0.7753,
-            0.813
+            0.7073,
+            0.6948,
+            0.7286
           ],
           "parle_s": [
             5.856000000000001,
@@ -23179,14 +23179,14 @@
             6.031999999999999
           ],
           "prise_extrait": 1,
-          "ratio_mesure": 0.7893
+          "ratio_mesure": 0.7073
         },
         "Achird": {
-          "ratio": 0.831,
+          "ratio": 0.7456,
           "ratios": [
-            0.7796,
-            0.8195,
-            0.785
+            0.6986,
+            0.7344,
+            0.7035
           ],
           "parle_s": [
             5.784,
@@ -23194,14 +23194,14 @@
             5.824
           ],
           "prise_extrait": 3,
-          "ratio_mesure": 0.785
+          "ratio_mesure": 0.7035
         },
         "Alnilam": {
-          "ratio": 0.8331,
+          "ratio": 0.7475,
           "ratios": [
-            0.9608,
-            0.7138,
-            0.7624
+            0.861,
+            0.6397,
+            0.6832
           ],
           "parle_s": [
             7.128,
@@ -23209,14 +23209,14 @@
             5.656
           ],
           "prise_extrait": 3,
-          "ratio_mesure": 0.7624
+          "ratio_mesure": 0.6832
         },
         "Fenrir": {
-          "ratio": 0.8472,
+          "ratio": 0.7602,
           "ratios": [
-            0.7527,
-            0.7656,
-            0.798
+            0.6745,
+            0.6861,
+            0.7151
           ],
           "parle_s": [
             5.584,
@@ -23224,14 +23224,14 @@
             5.92
           ],
           "prise_extrait": 2,
-          "ratio_mesure": 0.7656
+          "ratio_mesure": 0.6861
         },
         "Iapetus": {
-          "ratio": 0.8518,
+          "ratio": 0.7643,
           "ratios": [
-            0.854,
-            0.8508,
-            0.895
+            0.7653,
+            0.7624,
+            0.802
           ],
           "parle_s": [
             6.3359999999999985,
@@ -23239,14 +23239,14 @@
             6.64
           ],
           "prise_extrait": 1,
-          "ratio_mesure": 0.854
+          "ratio_mesure": 0.7653
         },
         "Orus": {
-          "ratio": 0.8372,
+          "ratio": 0.7512,
           "ratios": [
-            0.8346,
-            0.8012,
-            0.8303
+            0.7479,
+            0.718,
+            0.7441
           ],
           "parle_s": [
             6.192,
@@ -23254,14 +23254,14 @@
             6.160000000000001
           ],
           "prise_extrait": 3,
-          "ratio_mesure": 0.8303
+          "ratio_mesure": 0.7441
         },
         "Schedar": {
-          "ratio": 0.8434,
+          "ratio": 0.7568,
           "ratios": [
-            0.8659,
-            0.9446,
-            0.798
+            0.7759,
+            0.8465,
+            0.7151
           ],
           "parle_s": [
             6.4239999999999995,
@@ -23269,14 +23269,14 @@
             5.919999999999998
           ],
           "prise_extrait": 1,
-          "ratio_mesure": 0.8659
+          "ratio_mesure": 0.7759
         },
         "Umbriel": {
-          "ratio": 0.8332,
+          "ratio": 0.7476,
           "ratios": [
-            0.9079,
-            0.8422,
-            0.8626
+            0.8136,
+            0.7547,
+            0.773
           ],
           "parle_s": [
             6.736,
@@ -23284,14 +23284,14 @@
             6.3999999999999995
           ],
           "prise_extrait": 3,
-          "ratio_mesure": 0.8626
+          "ratio_mesure": 0.773
         },
         "Zubenelgenubi": {
-          "ratio": 0.8488,
+          "ratio": 0.7617,
           "ratios": [
-            0.7936,
-            0.8044,
-            0.8508
+            0.7112,
+            0.7209,
+            0.7624
           ],
           "parle_s": [
             5.888,
@@ -23299,14 +23299,14 @@
             6.312
           ],
           "prise_extrait": 2,
-          "ratio_mesure": 0.8044
+          "ratio_mesure": 0.7209
         },
         "Puck": {
-          "ratio": 0.8238,
+          "ratio": 0.7392,
           "ratios": [
-            0.7634,
-            0.8033,
-            0.7732
+            0.6841,
+            0.7199,
+            0.6928
           ],
           "parle_s": [
             5.664,
@@ -23314,14 +23314,14 @@
             5.736
           ],
           "prise_extrait": 3,
-          "ratio_mesure": 0.7732
+          "ratio_mesure": 0.6928
         },
         "Pulcherrima": {
-          "ratio": 0.8335,
+          "ratio": 0.7479,
           "ratios": [
-            0.7915,
-            0.8109,
-            0.8422
+            0.7093,
+            0.7267,
+            0.7547
           ],
           "parle_s": [
             5.872,
@@ -23329,14 +23329,14 @@
             6.248
           ],
           "prise_extrait": 2,
-          "ratio_mesure": 0.8109
+          "ratio_mesure": 0.7267
         },
         "Rasalgethi": {
-          "ratio": 0.8237,
+          "ratio": 0.7391,
           "ratios": [
-            0.8616,
-            0.7376,
-            0.7095
+            0.7721,
+            0.6609,
+            0.6358
           ],
           "parle_s": [
             6.392,
@@ -23344,14 +23344,14 @@
             5.263999999999999
           ],
           "prise_extrait": 2,
-          "ratio_mesure": 0.7376
+          "ratio_mesure": 0.6609
         },
         "Sadaltager": {
-          "ratio": 0.8421,
+          "ratio": 0.7556,
           "ratios": [
-            0.8077,
-            0.7904,
-            0.8271
+            0.7238,
+            0.7083,
+            0.7412
           ],
           "parle_s": [
             5.992,
@@ -23359,10 +23359,11 @@
             6.136
           ],
           "prise_extrait": 1,
-          "ratio_mesure": 0.8077
+          "ratio_mesure": 0.7238
         }
       },
-      "vitesse_langue": 0.851
+      "vitesse_langue": 0.7636,
+      "vitesse_mesuree": true
     },
     "sq": {
       "sonde": "duree",
@@ -24771,5 +24772,5 @@
     "Rasalgethi": 0.9679,
     "Sadaltager": 0.9896
   },
-  "lissage": "ratio = vitesse de la langue × vitesse de la voix (médianes croisées sur toute la table, 2026-10-11) ; mesure brute dans ratio_mesure"
+  "lissage": "ratio = vitesse de la langue × vitesse de la voix (médianes croisées sur toute la table, 2026-10-11) ; mesure brute dans ratio_mesure ; vitesse_mesuree = langue mesurée sur plusieurs phrases (phrases_multiples)"
 }
