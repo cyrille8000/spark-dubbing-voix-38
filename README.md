@@ -27,6 +27,11 @@ Tout est mesuré **en local avec le code de la prod**, jamais recopié quand il 
 5. **Ratio** = médiane des 3 prises de (parlé Gemini ÷ durée estimée). L'extrait d'écoute
    est la prise médiane, rognée de ses silences de tête et de queue. Changer de
    référence ne coûte rien : les prises sont dans `cache/`, seul le dénominateur change.
+6. **Lissage** (depuis le 2026-10-11, `scripts/lib/lissage.mjs`) : le doublage lit
+   `ratio = vitesse de la langue × vitesse de la voix`, deux médianes croisées sur toute
+   la table ; la médiane brute des prises reste en `ratio_mesure`. Une seule phrase par
+   langue : quand une voix lit CETTE phrase vite, ses 3 prises vont dans le même sens
+   (thaï, Sadachbia : 0,79 brut, 0,85 lissé, ~0,92 en vrai doublage).
 
 ## Lancer
 
@@ -45,7 +50,8 @@ Puis, depuis ce dépôt (Doppler connecté ; les clés ne s'affichent jamais) :
 node scripts/1-phrases.mjs      # phrases.json
 node scripts/2-duree.mjs        # duree.json (2-edge.mjs : l'ancienne référence Edge)
 node scripts/3-gemini.mjs       # cache/ : prises WAV + journal (reprend où il s'est arrêté)
-node scripts/4-assembler.mjs    # ratios.json, voices.json, gemini/*.mp3
+node scripts/4-assembler.mjs    # ratios.json (lissé), voices.json, gemini/*.mp3
+node scripts/4b-lisser.mjs      # (seul) relisser un ratios.json existant, sans rien remesurer
 node scripts/5-vers-backend.mjs # copie la table dans backend/.../shared/ratios-gemini/
 ```
 

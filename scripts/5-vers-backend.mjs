@@ -28,6 +28,7 @@ const cible = path.join(WORKERS, 'shared/ratios-gemini/ratios.json');
 ecrireJson(cible, {
   version: ratios.version, modele: ratios.modele, genere_le: ratios.genere_le,
   prises_par_voix: ratios.prises_par_voix, methode: ratios.methode, sonde: ratios.sonde,
+  lissage: ratios.lissage,
   source: 'dépôt spark-dubbing-voix-38 (scripts 1 à 5)',
   langues,
 });
