@@ -1,0 +1,442 @@
+{
+  "sources": [
+    "When we reached the top of the hill, the whole valley was hidden under a thick fog.",
+    "I have been learning to cook for a few months, and I am finally starting to enjoy it.",
+    "If you leave a little earlier tomorrow, you should avoid most of the traffic in town."
+  ],
+  "modele": "gpt-6-luna",
+  "langues": {
+    "bn": {
+      "nom": "Bengali",
+      "textes": [
+        "আমরা যখন পাহাড়ের চূড়ায় পৌঁছালাম, পুরো উপত্যকাটা ঘন কুয়াশায় ঢাকা ছিল।",
+        "আমি কয়েক মাস ধরে রান্না শিখছি, আর অবশেষে এটা উপভোগ করতে শুরু করেছি।",
+        "আগামীকাল একটু আগে বেরোলে, শহরের বেশিরভাগ যানজট এড়াতে পারবে।"
+      ]
+    },
+    "bg": {
+      "nom": "Bulgarian",
+      "textes": [
+        "Когато стигнахме върха на хълма, цялата долина беше скрита под гъста мъгла.",
+        "От няколко месеца се уча да готвя и най-накрая започвам да му се наслаждавам.",
+        "Ако утре тръгнеш малко по-рано, ще избегнеш по-голямата част от трафика в града."
+      ]
+    },
+    "ca": {
+      "nom": "Catalan",
+      "textes": [
+        "Quan vam arribar al cim del turó, tota la vall estava coberta per una boira espessa.",
+        "Fa uns mesos que estic aprenent a cuinar, i per fi començo a gaudir-ne.",
+        "Si demà surts una mica abans, evitaràs bona part del trànsit de la ciutat."
+      ]
+    },
+    "cmn": {
+      "nom": "Mandarin Chinese (Simplified)",
+      "textes": [
+        "我们到达山顶时，整个山谷都笼罩在浓雾之中。",
+        "我学做饭已经有几个月了，终于开始享受其中的乐趣了。",
+        "如果你明天早点出发，就能避开城里大部分的交通拥堵。"
+      ]
+    },
+    "cmn-tw": {
+      "nom": "Mandarin Chinese (Traditional, Taiwan)",
+      "textes": [
+        "我們走到山頂時，整個山谷都被濃霧籠罩。",
+        "我學做菜已經學了幾個月，終於開始享受其中的樂趣了。",
+        "你明天如果早一點出門，應該就能避開市區的大部分車潮。"
+      ]
+    },
+    "cs": {
+      "nom": "Czech",
+      "textes": [
+        "Když jsme dorazili na vrchol kopce, celé údolí bylo zahalené hustou mlhou.",
+        "Už se pár měsíců učím vařit a konečně mě to začíná bavit.",
+        "Když zítra vyrazíš o něco dřív, vyhneš se většině dopravní špičky ve městě."
+      ]
+    },
+    "da": {
+      "nom": "Danish",
+      "textes": [
+        "Da vi nåede toppen af bakken, lå hele dalen indhyllet i tæt tåge.",
+        "Jeg har lært at lave mad i et par måneder, og nu begynder jeg endelig at nyde det.",
+        "Hvis du tager lidt tidligere af sted i morgen, undgår du det meste af trafikken inde i byen."
+      ]
+    },
+    "nl": {
+      "nom": "Dutch",
+      "textes": [
+        "Toen we de top van de heuvel bereikten, lag de hele vallei verscholen onder een dikke mist.",
+        "Ik ben al een paar maanden aan het leren koken en begin er eindelijk plezier in te krijgen.",
+        "Als je morgen iets eerder vertrekt, vermijd je de meeste drukte in de stad."
+      ]
+    },
+    "ar-eg": {
+      "nom": "Egyptian Arabic",
+      "textes": [
+        "لما وصلنا لقمة التل، الوادي كله كان مستخبي تحت شبورة تقيلة.",
+        "بقالي كام شهر بتعلم أطبخ، وأخيرًا بدأت أستمتع بالموضوع.",
+        "لو مشيت بدري شوية بكرة، هتتجنب معظم الزحمة في البلد."
+      ]
+    },
+    "en": {
+      "nom": "English (United States)",
+      "textes": [
+        "When we reached the top of the hill, the whole valley was hidden under a thick fog.",
+        "I've been learning to cook for a few months, and I'm finally starting to enjoy it.",
+        "If you leave a little earlier tomorrow, you should avoid most of the traffic in town."
+      ]
+    },
+    "en-gb": {
+      "nom": "English (United Kingdom)",
+      "textes": [
+        "When we reached the top of the hill, the whole valley was hidden beneath a thick fog.",
+        "I've been learning to cook for a few months, and I'm finally starting to enjoy it.",
+        "If you leave a bit earlier tomorrow, you should avoid most of the traffic in town."
+      ]
+    },
+    "en-au": {
+      "nom": "English (Australia)",
+      "textes": [
+        "When we got to the top of the hill, the whole valley was blanketed in thick fog.",
+        "I’ve been learning to cook for a few months, and I’m finally starting to enjoy it.",
+        "If you head off a bit earlier tomorrow, you should miss most of the traffic in town."
+      ]
+    },
+    "en-in": {
+      "nom": "English (India)",
+      "textes": [
+        "When we reached the top of the hill, the whole valley was covered in thick fog.",
+        "I’ve been learning to cook for a few months now, and I’m finally starting to enjoy it.",
+        "If you leave a little earlier tomorrow, you should avoid most of the traffic in town."
+      ]
+    },
+    "et": {
+      "nom": "Estonian",
+      "textes": [
+        "Kui jõudsime mäe tippu, oli kogu org paksu udu sisse mattunud.",
+        "Olen paar kuud kokkamist õppinud ja lõpuks hakkan seda nautima.",
+        "Kui sa homme natuke varem teele asud, peaksid suuremast osast linnaliiklusest pääsema."
+      ]
+    },
+    "fi": {
+      "nom": "Finnish",
+      "textes": [
+        "Kun pääsimme mäen huipulle, koko laakso oli paksun sumun peitossa.",
+        "Olen opetellut kokkaamaan muutaman kuukauden, ja nyt alan vihdoin nauttia siitä.",
+        "Jos lähdet huomenna vähän aikaisemmin, vältyt suurimmalta osalta kaupungin ruuhkista."
+      ]
+    },
+    "fr": {
+      "nom": "French (France)",
+      "textes": [
+        "Quand on est arrivés en haut de la colline, toute la vallée était cachée sous un épais brouillard.",
+        "J’apprends à cuisiner depuis quelques mois et je commence enfin à y prendre plaisir.",
+        "Si tu pars un peu plus tôt demain, tu devrais éviter la plupart des embouteillages en ville."
+      ]
+    },
+    "fr-ca": {
+      "nom": "French (Canada)",
+      "textes": [
+        "Quand on est arrivés au sommet de la colline, toute la vallée était cachée sous un épais brouillard.",
+        "Ça fait quelques mois que j’apprends à cuisiner, et je commence enfin à aimer ça.",
+        "Si tu pars un peu plus tôt demain, tu devrais éviter la majeure partie de la circulation en ville."
+      ]
+    },
+    "ka": {
+      "nom": "Georgian",
+      "textes": [
+        "როცა ბორცვის მწვერვალს მივაღწიეთ, მთელი ხეობა სქელ ნისლში იყო გახვეული.",
+        "რამდენიმე თვეა, რაც საჭმლის კეთებას ვსწავლობ და ბოლოს და ბოლოს, ნელ-ნელა სიამოვნებასაც ვიღებ.",
+        "ხვალ ცოტა ადრე თუ გახვალ, ქალაქში საცობების უმეტესობას აიცილებ."
+      ]
+    },
+    "de": {
+      "nom": "German",
+      "textes": [
+        "Als wir oben auf dem Hügel ankamen, lag das ganze Tal unter dichtem Nebel verborgen.",
+        "Seit ein paar Monaten lerne ich kochen, und langsam macht es mir endlich Spaß.",
+        "Wenn du morgen etwas früher losfährst, solltest du den meisten Verkehr in der Stadt vermeiden."
+      ]
+    },
+    "el": {
+      "nom": "Greek",
+      "textes": [
+        "Όταν φτάσαμε στην κορυφή του λόφου, όλη η κοιλάδα ήταν κρυμμένη κάτω από μια πυκνή ομίχλη.",
+        "Μαθαίνω να μαγειρεύω εδώ και μερικούς μήνες και επιτέλους αρχίζω να το απολαμβάνω.",
+        "Αν φύγεις λίγο νωρίτερα αύριο, θα γλιτώσεις το μεγαλύτερο μέρος της κίνησης στην πόλη."
+      ]
+    },
+    "he": {
+      "nom": "Hebrew",
+      "textes": [
+        "כשהגענו לראש הגבעה, כל העמק היה מכוסה בערפל סמיך.",
+        "אני לומד לבשל כבר כמה חודשים, וסוף סוף אני מתחיל ליהנות מזה.",
+        "אם תצא מחר קצת יותר מוקדם, תוכל להימנע מרוב התנועה בעיר."
+      ]
+    },
+    "hi": {
+      "nom": "Hindi",
+      "textes": [
+        "जब हम पहाड़ी की चोटी पर पहुँचे, तो पूरी घाटी घने कोहरे में छिपी हुई थी।",
+        "मैं कुछ महीनों से खाना बनाना सीख रहा हूँ, और अब जाकर मुझे इसमें मज़ा आने लगा है।",
+        "अगर तुम कल थोड़ा जल्दी निकलोगे, तो शहर के ज़्यादातर ट्रैफ़िक से बच जाओगे।"
+      ]
+    },
+    "hu": {
+      "nom": "Hungarian",
+      "textes": [
+        "Amikor felértünk a domb tetejére, az egész völgyet sűrű köd borította.",
+        "Pár hónapja tanulok főzni, és végre kezdem élvezni.",
+        "Ha holnap egy kicsit korábban indulsz, elkerülheted a városi forgalom nagy részét."
+      ]
+    },
+    "is": {
+      "nom": "Icelandic",
+      "textes": [
+        "Þegar við komumst upp á hæðina var allur dalurinn hulinn þéttri þoku.",
+        "Ég hef verið að læra að elda í nokkra mánuði og er loksins farin að hafa gaman af því.",
+        "Ef þú leggur aðeins fyrr af stað á morgun ættirðu að sleppa við mestu umferðina í bænum."
+      ]
+    },
+    "id": {
+      "nom": "Indonesian",
+      "textes": [
+        "Saat kami sampai di puncak bukit, seluruh lembah tertutup kabut tebal.",
+        "Saya sudah belajar memasak selama beberapa bulan, dan akhirnya mulai menikmatinya.",
+        "Kalau besok berangkat sedikit lebih awal, kamu bisa menghindari sebagian besar kemacetan di kota."
+      ]
+    },
+    "fa": {
+      "nom": "Persian (Iran)",
+      "textes": [
+        "وقتی به بالای تپه رسیدیم، کل دره زیر مه غلیظی پنهان شده بود.",
+        "چند ماهه دارم آشپزی یاد می‌گیرم و بالاخره کم‌کم دارم ازش لذت می‌برم.",
+        "اگه فردا یه کم زودتر راه بیفتی، از بیشترِ ترافیک شهر در امان می‌مونی."
+      ]
+    },
+    "it": {
+      "nom": "Italian",
+      "textes": [
+        "Quando siamo arrivati in cima alla collina, tutta la valle era avvolta da una fitta nebbia.",
+        "È da qualche mese che sto imparando a cucinare e finalmente comincia a piacermi.",
+        "Se domani parti un po’ prima, dovresti evitare gran parte del traffico in città."
+      ]
+    },
+    "ja": {
+      "nom": "Japanese",
+      "textes": [
+        "丘の頂上に着いたとき、谷全体が濃い霧に覆われていました。",
+        "数か月前から料理を習い始めて、ようやく楽しくなってきました。",
+        "明日は少し早めに出れば、街の渋滞はだいたい避けられるよ。"
+      ]
+    },
+    "kk": {
+      "nom": "Kazakh",
+      "textes": [
+        "Төбенің басына жеткенде, бүкіл аңғарды қалың тұман басып жатты.",
+        "Бірнеше айдан бері тамақ пісіруді үйреніп жүрмін, ақыры одан ләззат ала бастадым.",
+        "Ертең сәл ертерек шықсаң, қаладағы кептелістің көбіне ұрынбайсың."
+      ]
+    },
+    "ko": {
+      "nom": "Korean",
+      "textes": [
+        "언덕 꼭대기에 도착했을 때, 계곡 전체가 짙은 안개에 뒤덮여 있었어요.",
+        "몇 달째 요리를 배우고 있는데, 드디어 요리가 즐거워지기 시작했어요.",
+        "내일 조금 일찍 출발하면 시내 교통 체증을 대부분 피할 수 있을 거예요."
+      ]
+    },
+    "lt": {
+      "nom": "Lithuanian",
+      "textes": [
+        "Kai pasiekėme kalvos viršūnę, visas slėnis buvo paskendęs tirštame rūke.",
+        "Jau kelis mėnesius mokausi gaminti, ir pagaliau tai man pradeda patikti.",
+        "Jei rytoj išvažiuosi kiek anksčiau, išvengsi daugumos spūsčių mieste."
+      ]
+    },
+    "ml": {
+      "nom": "Malayalam",
+      "textes": [
+        "ഞങ്ങൾ കുന്നിൻ മുകളിലെത്തിയപ്പോൾ താഴ്‌വര മുഴുവൻ കട്ടിയുള്ള മൂടൽമഞ്ഞിൽ മറഞ്ഞിരുന്നു.",
+        "കുറച്ച് മാസങ്ങളായി ഞാൻ പാചകം പഠിക്കുകയാണ്, ഇപ്പോൾ ഒടുവിൽ അത് ആസ്വദിച്ചു തുടങ്ങുകയാണ്.",
+        "നാളെ കുറച്ചുകൂടി നേരത്തെ ഇറങ്ങിയാൽ, നഗരത്തിലെ മിക്ക ട്രാഫിക്കും ഒഴിവാക്കാം."
+      ]
+    },
+    "mr": {
+      "nom": "Marathi",
+      "textes": [
+        "जेव्हा आम्ही टेकडीच्या माथ्यावर पोहोचलो, तेव्हा संपूर्ण दरी दाट धुक्याखाली लपली होती.",
+        "मी काही महिन्यांपासून स्वयंपाक करायला शिकतोय, आणि आता कुठे मला त्याचा आनंद मिळायला लागलाय.",
+        "तुम्ही उद्या थोडं लवकर निघालात, तर शहरातल्या बहुतेक ट्रॅफिकपासून वाचाल."
+      ]
+    },
+    "ne": {
+      "nom": "Nepali",
+      "textes": [
+        "जब हामी डाँडाको टुप्पोमा पुग्यौँ, पूरै उपत्यका बाक्लो कुहिरोले ढाकिएको थियो।",
+        "म केही महिनादेखि खाना पकाउन सिकिरहेको छु, र बल्ल मलाई त्यसको मजा आउन थालेको छ।",
+        "भोलि अलि चाँडै निस्किनुभयो भने, सहरको धेरैजसो ट्राफिकबाट बच्न सक्नुहुन्छ।"
+      ]
+    },
+    "nb": {
+      "nom": "Norwegian Bokmål",
+      "textes": [
+        "Da vi kom opp på toppen av åsen, lå hele dalen skjult under tett tåke.",
+        "Jeg har lært meg å lage mat i noen måneder nå, og begynner endelig å like det.",
+        "Hvis du drar litt tidligere i morgen, slipper du unna det meste av trafikken i byen."
+      ]
+    },
+    "pl": {
+      "nom": "Polish",
+      "textes": [
+        "Kiedy dotarliśmy na szczyt wzgórza, cała dolina była skryta pod gęstą mgłą.",
+        "Od kilku miesięcy uczę się gotować i w końcu zaczyna mi to sprawiać przyjemność.",
+        "Jeśli jutro wyjedziesz trochę wcześniej, unikniesz większości korków w mieście."
+      ]
+    },
+    "pt": {
+      "nom": "Portuguese (Brazil)",
+      "textes": [
+        "Quando chegamos ao topo da colina, o vale inteiro estava coberto por uma neblina densa.",
+        "Estou aprendendo a cozinhar há alguns meses e finalmente estou começando a gostar.",
+        "Se você sair um pouco mais cedo amanhã, deve evitar a maior parte do trânsito na cidade."
+      ]
+    },
+    "pt-pt": {
+      "nom": "Portuguese (Portugal)",
+      "textes": [
+        "Quando chegámos ao cimo da colina, o vale inteiro estava coberto por um nevoeiro cerrado.",
+        "Ando a aprender a cozinhar há uns meses e finalmente estou a começar a gostar.",
+        "Se saíres um bocadinho mais cedo amanhã, deves evitar a maior parte do trânsito na cidade."
+      ]
+    },
+    "ro": {
+      "nom": "Romanian",
+      "textes": [
+        "Când am ajuns în vârful dealului, toată valea era ascunsă sub o ceață deasă.",
+        "De câteva luni învăț să gătesc și, în sfârșit, începe să-mi placă.",
+        "Dacă pleci puțin mai devreme mâine, ar trebui să eviți cea mai mare parte a traficului din oraș."
+      ]
+    },
+    "ru": {
+      "nom": "Russian",
+      "textes": [
+        "Когда мы поднялись на вершину холма, вся долина скрылась под густым туманом.",
+        "Я уже несколько месяцев учусь готовить, и наконец-то мне начинает это нравиться.",
+        "Если завтра выедешь чуть пораньше, то избежишь большинства пробок в городе."
+      ]
+    },
+    "sr": {
+      "nom": "Serbian",
+      "textes": [
+        "Kad smo stigli na vrh brda, cela dolina bila je prekrivena gustom maglom.",
+        "Već nekoliko meseci učim da kuvam i konačno počinjem da uživam u tome.",
+        "Ako sutra kreneš malo ranije, trebalo bi da izbegneš većinu gužve u gradu."
+      ]
+    },
+    "sk": {
+      "nom": "Slovak",
+      "textes": [
+        "Keď sme dorazili na vrchol kopca, celé údolie bolo zahalené hustou hmlou.",
+        "Už sa pár mesiacov učím variť a konečne ma to začína baviť.",
+        "Ak zajtra vyrazíš o trochu skôr, mal by si sa vyhnúť väčšine dopravných zápch v meste."
+      ]
+    },
+    "sl": {
+      "nom": "Slovenian",
+      "textes": [
+        "Ko smo prišli na vrh hriba, je bila cela dolina skrita pod gosto meglo.",
+        "Že nekaj mesecev se učim kuhati in končno mi je to začelo biti všeč.",
+        "Če greš jutri malo prej, se boš izognil večini mestne gneče."
+      ]
+    },
+    "es": {
+      "nom": "Spanish (Spain)",
+      "textes": [
+        "Cuando llegamos a lo alto de la colina, todo el valle estaba cubierto por una espesa niebla.",
+        "Llevo unos meses aprendiendo a cocinar y por fin estoy empezando a disfrutarlo.",
+        "Si mañana sales un poco antes, evitarás la mayor parte del tráfico de la ciudad."
+      ]
+    },
+    "es-us": {
+      "nom": "Spanish (Latin America)",
+      "textes": [
+        "Cuando llegamos a la cima de la colina, todo el valle estaba cubierto por una espesa niebla.",
+        "Llevo unos meses aprendiendo a cocinar y por fin estoy empezando a disfrutarlo.",
+        "Si sales un poco más temprano mañana, deberías evitar la mayor parte del tráfico en la ciudad."
+      ]
+    },
+    "ar": {
+      "nom": "Modern Standard Arabic",
+      "textes": [
+        "عندما وصلنا إلى قمة التل، كان الضباب الكثيف يخفي الوادي بأكمله.",
+        "أتعلم الطبخ منذ بضعة أشهر، وبدأت أخيرًا أستمتع به.",
+        "إذا غادرتَ مبكرًا قليلًا غدًا، فستتجنب معظم الازدحام المروري في المدينة."
+      ]
+    },
+    "lv": {
+      "nom": "Latvian",
+      "textes": [
+        "Kad mēs sasniedzām kalna virsotni, visa ieleja bija paslēpta zem biezas miglas.",
+        "Jau dažus mēnešus mācos gatavot, un beidzot sāku to izbaudīt.",
+        "Ja rīt izbrauksi mazliet agrāk, pilsētā, visticamāk, nebūs tik liela satiksme."
+      ]
+    },
+    "sw": {
+      "nom": "Swahili",
+      "textes": [
+        "Tulipofika kileleni mwa kilima, bonde lote lilikuwa limefunikwa na ukungu mzito.",
+        "Nimekuwa nikijifunza kupika kwa miezi kadhaa, na hatimaye nimeanza kufurahia.",
+        "Ukienda mapema kidogo kesho, utaepuka msongamano mwingi wa magari mjini."
+      ]
+    },
+    "sv": {
+      "nom": "Swedish",
+      "textes": [
+        "När vi kom upp på toppen av kullen låg hela dalen dold under en tät dimma.",
+        "Jag har hållit på att lära mig laga mat i några månader, och nu börjar jag äntligen tycka att det är kul.",
+        "Om du åker lite tidigare i morgon slipper du det mesta av trafiken i stan."
+      ]
+    },
+    "te": {
+      "nom": "Telugu",
+      "textes": [
+        "మేము కొండ శిఖరానికి చేరుకునేసరికి, లోయంతా దట్టమైన పొగమంచుతో కప్పబడి ఉంది.",
+        "నేను కొన్ని నెలలుగా వంట చేయడం నేర్చుకుంటున్నాను, ఇప్పుడు ఎట్టకేలకు అది ఆస్వాదించడం మొదలుపెట్టాను.",
+        "రేపు కొంచెం ముందుగా బయలుదేరితే, పట్టణంలో ట్రాఫిక్‌లో చాలావరకు చిక్కుకోకుండా ఉండొచ్చు."
+      ]
+    },
+    "th": {
+      "nom": "Thai",
+      "textes": [
+        "พอเราขึ้นไปถึงยอดเขา หุบเขาทั้งหมดก็ถูกหมอกหนาปกคลุมไปหมด.",
+        "ฉันหัดทำอาหารมาสองสามเดือนแล้ว แล้วตอนนี้ก็เริ่มสนุกกับมันสักทีแล้วนะครับ",
+        "ถ้าพรุ่งนี้ออกเร็วขึ้นสักหน่อย ก็น่าจะเลี่ยงรถติดในเมืองได้เกือบหมดนะครับ"
+      ]
+    },
+    "sq": {
+      "nom": "Albanian",
+      "textes": [
+        "Kur arritëm në majë të kodrës, e gjithë lugina ishte e mbuluar nga një mjegull e dendur.",
+        "Kam disa muaj që po mësoj të gatuaj dhe më në fund po filloj ta shijoj.",
+        "Nëse nisesh pak më herët nesër, duhet t’i shmangësh shumicës së trafikut në qytet."
+      ]
+    },
+    "tr": {
+      "nom": "Turkish",
+      "textes": [
+        "Tepenin zirvesine vardığımızda, bütün vadi yoğun bir sisin altında kalmıştı.",
+        "Birkaç aydır yemek yapmayı öğreniyorum ve sonunda bundan keyif almaya başladım.",
+        "Yarın biraz daha erken çıkarsan şehir içi trafiğin çoğuna takılmazsın."
+      ]
+    },
+    "vi": {
+      "nom": "Vietnamese",
+      "textes": [
+        "Khi chúng tôi lên đến đỉnh đồi, cả thung lũng chìm trong màn sương dày đặc.",
+        "Tôi đã học nấu ăn được vài tháng rồi, và cuối cùng cũng bắt đầu thấy thích việc đó.",
+        "Nếu ngày mai bạn đi sớm hơn một chút thì sẽ tránh được hầu hết cảnh tắc đường trong thành phố."
+      ]
+    }
+  }
+}

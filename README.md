@@ -80,3 +80,20 @@ lancer avec `GEMINI_RELAIS=https://relais-gemini-voix-38.<compte>.workers.dev`, 
 SUPPRIMER (`npx wrangler delete`) et effacer `cache/relais.cle`.
 
 Mesures du 2026-10-04 : 7 110 prises, 0 échec, 1,69 M jetons audio (~30 $ au tarif plein).
+
+## Les 3 phrases du ratio des gammes à clé (2026-10-13)
+
+`phrases_ratio.json` : pour chaque langue que spark-duree estime (54), **3 phrases de taille
+moyenne** (83 à 85 caractères en anglais, ~5 s dites), traduites par le traducteur de la prod.
+Le doublage ElevenLabs et Inworld mesure le débit de chaque voix sur ces 3 phrases, les mêmes pour
+toutes les voix, et en garde la médiane (backend : `utils/verifier-voix-fournisseur.js`). Pas la
+phrase de la table Gemini : 141 caractères en français, trop longue.
+
+```bash
+node scripts/7-phrases-ratio.mjs --a-blanc        # la requête exacte, aucun appel
+node scripts/7-phrases-ratio.mjs                  # les traductions (162 appels, quelques centimes)
+node scripts/7-phrases-ratio.mjs --vers-backend   # backend/.../shared/phrases-ratio/phrases.json
+```
+
+Changer une phrase change ses mesures : une prise ne vaut que pour SA phrase (le texte est
+comparé), les voix seront remesurées sur celle-là seulement.
