@@ -3,9 +3,9 @@
 Les 30 voix Gemini 3.8 du doublage :
 
 - **les extraits d'écoute** du studio (`gemini/<langue>/<voix>.mp3`, catalogue `voices.json`),
-  79 langues et variantes ;
+  85 langues et variantes ;
 - **la table des ratios de débit** (`ratios.json`) que le doublage lit au lieu de mesurer,
-  54 langues depuis le 2026-10-11 (celles que spark-duree estime ; 79 avant).
+  60 langues depuis le 2026-10-22 (celles que spark-duree estime ; 54 du 2026-10-11 au 2026-10-22, 79 avant).
 
 Tout est mesuré **en local avec le code de la prod**, jamais recopié quand il s'importe.
 
@@ -16,7 +16,7 @@ Tout est mesuré **en local avec le code de la prod**, jamais recopié quand il 
 2. **Référence** (`duree.json`, depuis le 2026-10-11) : la durée parlée de la phrase
    ESTIMÉE par le Worker `spark-duree` — l'estimation que le doublage fait pour toute
    sonde depuis que Microsoft a coupé Edge (2026-10-10) —, texte nettoyé comme les
-   sondes. 54 langues. Avant : la phrase dite par la voix Edge de la langue (`edge.json`,
+   sondes. 60 langues. Avant : la phrase dite par la voix Edge de la langue (`edge.json`,
    gardé pour mémoire).
 3. **Prises Gemini** : chaque voix lit la phrase 3 fois, avec **la requête du doublage**
    (`buildGeminiApiRequest` de la prod : tiret de continuation, minuscule,
@@ -81,9 +81,17 @@ SUPPRIMER (`npx wrangler delete`) et effacer `cache/relais.cle`.
 
 Mesures du 2026-10-04 : 7 110 prises, 0 échec, 1,69 M jetons audio (~30 $ au tarif plein).
 
+**Six langues ajoutées le 2026-10-22** (basque, arménien, luxembourgeois, ukrainien, ourdou, gallois —
+les dernières langues de Piper que Gemini lit) : phrases, estimation, 540 prises par le relais en
+`wrangler dev --remote` (1,7 min, 0 échec, ~0,90 $), 3 phrases du ratio. Les 54 langues d'avant gardent
+EXACTEMENT leurs ratios : le lissage de la table entière les décalait de 1,2 % au plus ; les vitesses des
+30 voix restent celles du 2026-10-11 et chaque nouvelle langue reçoit la sienne contre elles (médiane de
+ratio mesuré ÷ vitesse de la voix). `voices.json` garde aussi les extraits des 25 langues qui ne sont
+plus proposées (4-assembler ne réécrit que les langues proposées).
+
 ## Les 3 phrases du ratio des gammes à clé (2026-10-13)
 
-`phrases_ratio.json` : pour chaque langue que spark-duree estime (54), **3 phrases de taille
+`phrases_ratio.json` : pour chaque langue que spark-duree estime (60), **3 phrases de taille
 moyenne** (83 à 85 caractères en anglais, ~5 s dites), traduites par le traducteur de la prod.
 Le doublage ElevenLabs et Inworld mesure le débit de chaque voix sur ces 3 phrases, les mêmes pour
 toutes les voix, et en garde la médiane (backend : `utils/verifier-voix-fournisseur.js`). Pas la

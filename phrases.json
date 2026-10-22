@@ -317,6 +317,30 @@
     "tr": {
       "nom": "Turkish",
       "texte": "Açıkçası buradan pek bir şey beklemiyordum ama yemekler çok lezzetliydi, çalışanlar da gerçekten çok nazikti."
+    },
+    "uk": {
+      "nom": "Ukrainian",
+      "texte": "Чесно кажучи, я не очікував від цього закладу нічого особливого, але їжа була дуже смачна, а персонал — надзвичайно привітний."
+    },
+    "ur": {
+      "nom": "Urdu",
+      "texte": "سچ کہوں تو مجھے اس جگہ سے زیادہ امید نہیں تھی، لیکن کھانا بہت لذیذ تھا اور عملہ بھی واقعی بہت مہربان تھا۔"
+    },
+    "eu": {
+      "nom": "Basque",
+      "texte": "Egia esan, ez nuen gauza handirik espero leku honetatik, baina janaria goxoa zegoen eta langileak oso jatorrak ziren."
+    },
+    "lb": {
+      "nom": "Luxembourgish",
+      "texte": "Éierlech gesot, ech hat net vill vun dëser Plaz erwaart, mee d'Iesse war lecker an d'Personal war wierklech léif."
+    },
+    "hy": {
+      "nom": "Armenian",
+      "texte": "Անկեղծ ասած՝ այս վայրից առանձնապես մեծ սպասելիքներ չունեի, բայց ուտելիքը շատ համեղ էր, իսկ անձնակազմը՝ իսկապես բարի։"
+    },
+    "cy": {
+      "nom": "Welsh",
+      "texte": "A dweud y gwir, doeddwn i ddim yn disgwyl llawer gan y lle yma, ond roedd y bwyd yn flasus iawn a’r staff yn garedig iawn."
     }
   }
 }

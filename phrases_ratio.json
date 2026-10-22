@@ -437,6 +437,54 @@
         "Tôi đã học nấu ăn được vài tháng rồi, và cuối cùng cũng bắt đầu thấy thích việc đó.",
         "Nếu ngày mai bạn đi sớm hơn một chút thì sẽ tránh được hầu hết cảnh tắc đường trong thành phố."
       ]
+    },
+    "hy": {
+      "nom": "Armenian",
+      "textes": [
+        "Երբ հասանք բլրի գագաթին, ամբողջ հովիտը պատված էր թանձր մառախուղով։",
+        "Արդեն մի քանի ամիս է՝ սովորում եմ ճաշ պատրաստել, ու վերջապես սկսում եմ հաճույք ստանալ դրանից։",
+        "Եթե վաղը մի քիչ ավելի շուտ դուրս գաս, քաղաքում խցանումների մեծ մասից կխուսափես։"
+      ]
+    },
+    "eu": {
+      "nom": "Basque",
+      "textes": [
+        "Muinoaren gailurrera iritsi ginenean, haran osoa laino lodi batek estaltzen zuen.",
+        "Duela hilabete batzuk hasi nintzen sukaldatzen ikasten, eta azkenean gustatzen hasi zait.",
+        "Bihar lehenago pixka bat ateratzen bazara, herriko trafiko gehiena saihestuko duzu."
+      ]
+    },
+    "lb": {
+      "nom": "Luxembourgish",
+      "textes": [
+        "Wéi mir uewen um Hiwwel ukomm sinn, war den Dall ganz ënner engem décken Niwwel verstoppt.",
+        "Ech léiere scho säit e puer Méint kachen, an elo fänkt et endlech un, mir Spaass ze maachen.",
+        "Wann s de muer e bësse méi fréi fortgees, solls de de gréissten Deel vum Verkéier an der Stad vermeiden."
+      ]
+    },
+    "uk": {
+      "nom": "Ukrainian",
+      "textes": [
+        "Коли ми дісталися вершини пагорба, усю долину вкривав густий туман.",
+        "Я вже кілька місяців вчуся готувати й нарешті починаю отримувати від цього задоволення.",
+        "Якщо завтра виїдеш трохи раніше, то оминеш більшість заторів у місті."
+      ]
+    },
+    "ur": {
+      "nom": "Urdu",
+      "textes": [
+        "جب ہم پہاڑی کی چوٹی پر پہنچے تو پوری وادی گھنی دھند میں چھپی ہوئی تھی۔",
+        "میں چند مہینوں سے کھانا پکانا سیکھ رہا ہوں، اور اب جا کر مجھے اس میں مزہ آنے لگا ہے۔",
+        "اگر آپ کل تھوڑا جلدی نکلیں تو شہر کے زیادہ تر ٹریفک سے بچ جائیں گے۔"
+      ]
+    },
+    "cy": {
+      "nom": "Welsh",
+      "textes": [
+        "Pan gyrhaeddon ni ben y bryn, roedd y dyffryn cyfan wedi'i guddio dan niwl trwchus.",
+        "Dw i wedi bod yn dysgu coginio ers ychydig fisoedd, ac o'r diwedd dw i'n dechrau ei fwynhau.",
+        "Os byddwch chi’n gadael ychydig yn gynharach yfory, dylech chi osgoi’r rhan fwyaf o’r traffig yn y dref."
+      ]
     }
   }
 }

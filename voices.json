@@ -4,7 +4,9 @@
   "languages": {
     "af": "Afrikaans",
     "am": "Amharic",
+    "hy": "Armenian",
     "bn": "Bengali",
+    "eu": "Basque",
     "bs": "Bosnian",
     "bg": "Bulgarian",
     "my": "Burmese",
@@ -47,6 +49,7 @@
     "ko": "Korean",
     "lo": "Lao",
     "lt": "Lithuanian",
+    "lb": "Luxembourgish",
     "mk": "Macedonian",
     "ml": "Malayalam",
     "mt": "Maltese",
@@ -80,12 +83,17 @@
     "th": "Thai",
     "sq": "Albanian",
     "tr": "Turkish",
-    "vi": "Vietnamese"
+    "vi": "Vietnamese",
+    "uk": "Ukrainian",
+    "ur": "Urdu",
+    "cy": "Welsh"
   },
   "phrases": {
     "af": "Eerlikwaar, ek het nie veel van hierdie plek verwag nie, maar die kos was heerlik en die personeel was regtig vriendelik.",
     "am": "እውነቱን ለመናገር፣ ከዚህ ቦታ ብዙ ነገር አልጠበቅኩም ነበር፣ ግን ምግቡ በጣም ጣፋጭ ነበር፣ ሰራተኞቹም በጣም ደግ ነበሩ።",
+    "hy": "Անկեղծ ասած՝ այս վայրից առանձնապես մեծ սպասելիքներ չունեի, բայց ուտելիքը շատ համեղ էր, իսկ անձնակազմը՝ իսկապես բարի։",
     "bn": "সত্যি বলতে, এই জায়গাটা নিয়ে আমার তেমন কোনো আশা ছিল না, কিন্তু খাবারটা দারুণ ছিল আর কর্মীরা খুবই আন্তরিক ছিলেন।",
+    "eu": "Egia esan, ez nuen gauza handirik espero leku honetatik, baina janaria goxoa zegoen eta langileak oso jatorrak ziren.",
     "bs": "Iskreno, nisam mnogo očekivao od ovog mjesta, ali hrana je bila ukusna, a osoblje zaista ljubazno.",
     "bg": "Честно казано, не очаквах кой знае какво от това място, но храната беше много вкусна, а персоналът — наистина любезен.",
     "my": "အမှန်အတိုင်းပြောရရင် ဒီနေရာကနေ သိပ်မျှော်လင့်မထားခဲ့ပေမယ့် အစားအစာက အရမ်းစားကောင်းပြီး ဝန်ထမ်းတွေကလည်း တကယ်ကို ကြင်နာကြပါတယ်။",
@@ -128,6 +136,7 @@
     "ko": "솔직히 여기 별 기대 안 했는데, 음식도 맛있고 직원분들도 정말 친절했어요.",
     "lo": "ເວົ້າຕາມກົງ, ຂ້ອຍບໍ່ໄດ້ຄາດຫວັງຫຍັງຫຼາຍຈາກຮ້ານນີ້ ແຕ່ອາຫານແຊບຫຼາຍ ແລະພະນັກງານກໍໃຈດີຫຼາຍ.",
     "lt": "Tiesą sakant, iš šios vietos daug nesitikėjau, bet maistas buvo labai skanus, o darbuotojai – tikrai malonūs.",
+    "lb": "Éierlech gesot, ech hat net vill vun dëser Plaz erwaart, mee d'Iesse war lecker an d'Personal war wierklech léif.",
     "mk": "Искрено, не очекував многу од ова место, но храната беше вкусна, а персоналот навистина љубезен.",
     "ml": "സത്യത്തിൽ, ഈ സ്ഥലത്തെക്കുറിച്ച് വലിയ പ്രതീക്ഷയൊന്നും ഉണ്ടായിരുന്നില്ല, പക്ഷേ ഭക്ഷണം വളരെ രുചികരമായിരുന്നു, ജീവനക്കാരും ശരിക്കും നല്ല പെരുമാറ്റമുള്ളവരായിരുന്നു.",
     "mt": "Biex ngħid il-verità, ma kontx qed nistenna wisq minn dan il-post, imma l-ikel kien delizzjuż u l-istaff kienu tassew qalbhom tajba.",
@@ -161,7 +170,10 @@
     "th": "พูดตรง ๆ นะ ตอนแรกฉันไม่ได้คาดหวังอะไรกับร้านนี้มาก แต่ทั้งอาหารอร่อยและพนักงานก็ใจดีมากจริง ๆ.",
     "sq": "Sinqerisht, nuk prisja shumë nga ky vend, por ushqimi ishte i shijshëm dhe stafi ishte vërtet i sjellshëm.",
     "tr": "Açıkçası buradan pek bir şey beklemiyordum ama yemekler çok lezzetliydi, çalışanlar da gerçekten çok nazikti.",
-    "vi": "Thật lòng mà nói, tôi không kỳ vọng gì nhiều ở chỗ này, nhưng đồ ăn rất ngon và nhân viên thì cực kỳ thân thiện."
+    "vi": "Thật lòng mà nói, tôi không kỳ vọng gì nhiều ở chỗ này, nhưng đồ ăn rất ngon và nhân viên thì cực kỳ thân thiện.",
+    "uk": "Чесно кажучи, я не очікував від цього закладу нічого особливого, але їжа була дуже смачна, а персонал — надзвичайно привітний.",
+    "ur": "سچ کہوں تو مجھے اس جگہ سے زیادہ امید نہیں تھی، لیکن کھانا بہت لذیذ تھا اور عملہ بھی واقعی بہت مہربان تھا۔",
+    "cy": "A dweud y gwir, doeddwn i ddim yn disgwyl llawer gan y lle yma, ond roedd y bwyd yn flasus iawn a’r staff yn garedig iawn."
   },
   "voices": {
     "Achernar": {
@@ -173,7 +185,9 @@
       "files": {
         "af": "gemini/af/achernar.mp3",
         "am": "gemini/am/achernar.mp3",
+        "hy": "gemini/hy/achernar.mp3",
         "bn": "gemini/bn/achernar.mp3",
+        "eu": "gemini/eu/achernar.mp3",
         "bs": "gemini/bs/achernar.mp3",
         "bg": "gemini/bg/achernar.mp3",
         "my": "gemini/my/achernar.mp3",
@@ -216,6 +230,7 @@
         "ko": "gemini/ko/achernar.mp3",
         "lo": "gemini/lo/achernar.mp3",
         "lt": "gemini/lt/achernar.mp3",
+        "lb": "gemini/lb/achernar.mp3",
         "mk": "gemini/mk/achernar.mp3",
         "ml": "gemini/ml/achernar.mp3",
         "mt": "gemini/mt/achernar.mp3",
@@ -249,7 +264,10 @@
         "th": "gemini/th/achernar.mp3",
         "sq": "gemini/sq/achernar.mp3",
         "tr": "gemini/tr/achernar.mp3",
-        "vi": "gemini/vi/achernar.mp3"
+        "vi": "gemini/vi/achernar.mp3",
+        "uk": "gemini/uk/achernar.mp3",
+        "ur": "gemini/ur/achernar.mp3",
+        "cy": "gemini/cy/achernar.mp3"
       }
     },
     "Laomedeia": {
@@ -261,7 +279,9 @@
       "files": {
         "af": "gemini/af/laomedeia.mp3",
         "am": "gemini/am/laomedeia.mp3",
+        "hy": "gemini/hy/laomedeia.mp3",
         "bn": "gemini/bn/laomedeia.mp3",
+        "eu": "gemini/eu/laomedeia.mp3",
         "bs": "gemini/bs/laomedeia.mp3",
         "bg": "gemini/bg/laomedeia.mp3",
         "my": "gemini/my/laomedeia.mp3",
@@ -304,6 +324,7 @@
         "ko": "gemini/ko/laomedeia.mp3",
         "lo": "gemini/lo/laomedeia.mp3",
         "lt": "gemini/lt/laomedeia.mp3",
+        "lb": "gemini/lb/laomedeia.mp3",
         "mk": "gemini/mk/laomedeia.mp3",
         "ml": "gemini/ml/laomedeia.mp3",
         "mt": "gemini/mt/laomedeia.mp3",
@@ -337,7 +358,10 @@
         "th": "gemini/th/laomedeia.mp3",
         "sq": "gemini/sq/laomedeia.mp3",
         "tr": "gemini/tr/laomedeia.mp3",
-        "vi": "gemini/vi/laomedeia.mp3"
+        "vi": "gemini/vi/laomedeia.mp3",
+        "uk": "gemini/uk/laomedeia.mp3",
+        "ur": "gemini/ur/laomedeia.mp3",
+        "cy": "gemini/cy/laomedeia.mp3"
       }
     },
     "Leda": {
@@ -349,7 +373,9 @@
       "files": {
         "af": "gemini/af/leda.mp3",
         "am": "gemini/am/leda.mp3",
+        "hy": "gemini/hy/leda.mp3",
         "bn": "gemini/bn/leda.mp3",
+        "eu": "gemini/eu/leda.mp3",
         "bs": "gemini/bs/leda.mp3",
         "bg": "gemini/bg/leda.mp3",
         "my": "gemini/my/leda.mp3",
@@ -392,6 +418,7 @@
         "ko": "gemini/ko/leda.mp3",
         "lo": "gemini/lo/leda.mp3",
         "lt": "gemini/lt/leda.mp3",
+        "lb": "gemini/lb/leda.mp3",
         "mk": "gemini/mk/leda.mp3",
         "ml": "gemini/ml/leda.mp3",
         "mt": "gemini/mt/leda.mp3",
@@ -425,7 +452,10 @@
         "th": "gemini/th/leda.mp3",
         "sq": "gemini/sq/leda.mp3",
         "tr": "gemini/tr/leda.mp3",
-        "vi": "gemini/vi/leda.mp3"
+        "vi": "gemini/vi/leda.mp3",
+        "uk": "gemini/uk/leda.mp3",
+        "ur": "gemini/ur/leda.mp3",
+        "cy": "gemini/cy/leda.mp3"
       }
     },
     "Zephyr": {
@@ -437,7 +467,9 @@
       "files": {
         "af": "gemini/af/zephyr.mp3",
         "am": "gemini/am/zephyr.mp3",
+        "hy": "gemini/hy/zephyr.mp3",
         "bn": "gemini/bn/zephyr.mp3",
+        "eu": "gemini/eu/zephyr.mp3",
         "bs": "gemini/bs/zephyr.mp3",
         "bg": "gemini/bg/zephyr.mp3",
         "my": "gemini/my/zephyr.mp3",
@@ -480,6 +512,7 @@
         "ko": "gemini/ko/zephyr.mp3",
         "lo": "gemini/lo/zephyr.mp3",
         "lt": "gemini/lt/zephyr.mp3",
+        "lb": "gemini/lb/zephyr.mp3",
         "mk": "gemini/mk/zephyr.mp3",
         "ml": "gemini/ml/zephyr.mp3",
         "mt": "gemini/mt/zephyr.mp3",
@@ -513,7 +546,10 @@
         "th": "gemini/th/zephyr.mp3",
         "sq": "gemini/sq/zephyr.mp3",
         "tr": "gemini/tr/zephyr.mp3",
-        "vi": "gemini/vi/zephyr.mp3"
+        "vi": "gemini/vi/zephyr.mp3",
+        "uk": "gemini/uk/zephyr.mp3",
+        "ur": "gemini/ur/zephyr.mp3",
+        "cy": "gemini/cy/zephyr.mp3"
       }
     },
     "Aoede": {
@@ -525,7 +561,9 @@
       "files": {
         "af": "gemini/af/aoede.mp3",
         "am": "gemini/am/aoede.mp3",
+        "hy": "gemini/hy/aoede.mp3",
         "bn": "gemini/bn/aoede.mp3",
+        "eu": "gemini/eu/aoede.mp3",
         "bs": "gemini/bs/aoede.mp3",
         "bg": "gemini/bg/aoede.mp3",
         "my": "gemini/my/aoede.mp3",
@@ -568,6 +606,7 @@
         "ko": "gemini/ko/aoede.mp3",
         "lo": "gemini/lo/aoede.mp3",
         "lt": "gemini/lt/aoede.mp3",
+        "lb": "gemini/lb/aoede.mp3",
         "mk": "gemini/mk/aoede.mp3",
         "ml": "gemini/ml/aoede.mp3",
         "mt": "gemini/mt/aoede.mp3",
@@ -601,7 +640,10 @@
         "th": "gemini/th/aoede.mp3",
         "sq": "gemini/sq/aoede.mp3",
         "tr": "gemini/tr/aoede.mp3",
-        "vi": "gemini/vi/aoede.mp3"
+        "vi": "gemini/vi/aoede.mp3",
+        "uk": "gemini/uk/aoede.mp3",
+        "ur": "gemini/ur/aoede.mp3",
+        "cy": "gemini/cy/aoede.mp3"
       }
     },
     "Autonoe": {
@@ -613,7 +655,9 @@
       "files": {
         "af": "gemini/af/autonoe.mp3",
         "am": "gemini/am/autonoe.mp3",
+        "hy": "gemini/hy/autonoe.mp3",
         "bn": "gemini/bn/autonoe.mp3",
+        "eu": "gemini/eu/autonoe.mp3",
         "bs": "gemini/bs/autonoe.mp3",
         "bg": "gemini/bg/autonoe.mp3",
         "my": "gemini/my/autonoe.mp3",
@@ -656,6 +700,7 @@
         "ko": "gemini/ko/autonoe.mp3",
         "lo": "gemini/lo/autonoe.mp3",
         "lt": "gemini/lt/autonoe.mp3",
+        "lb": "gemini/lb/autonoe.mp3",
         "mk": "gemini/mk/autonoe.mp3",
         "ml": "gemini/ml/autonoe.mp3",
         "mt": "gemini/mt/autonoe.mp3",
@@ -689,7 +734,10 @@
         "th": "gemini/th/autonoe.mp3",
         "sq": "gemini/sq/autonoe.mp3",
         "tr": "gemini/tr/autonoe.mp3",
-        "vi": "gemini/vi/autonoe.mp3"
+        "vi": "gemini/vi/autonoe.mp3",
+        "uk": "gemini/uk/autonoe.mp3",
+        "ur": "gemini/ur/autonoe.mp3",
+        "cy": "gemini/cy/autonoe.mp3"
       }
     },
     "Callirrhoe": {
@@ -701,7 +749,9 @@
       "files": {
         "af": "gemini/af/callirrhoe.mp3",
         "am": "gemini/am/callirrhoe.mp3",
+        "hy": "gemini/hy/callirrhoe.mp3",
         "bn": "gemini/bn/callirrhoe.mp3",
+        "eu": "gemini/eu/callirrhoe.mp3",
         "bs": "gemini/bs/callirrhoe.mp3",
         "bg": "gemini/bg/callirrhoe.mp3",
         "my": "gemini/my/callirrhoe.mp3",
@@ -744,6 +794,7 @@
         "ko": "gemini/ko/callirrhoe.mp3",
         "lo": "gemini/lo/callirrhoe.mp3",
         "lt": "gemini/lt/callirrhoe.mp3",
+        "lb": "gemini/lb/callirrhoe.mp3",
         "mk": "gemini/mk/callirrhoe.mp3",
         "ml": "gemini/ml/callirrhoe.mp3",
         "mt": "gemini/mt/callirrhoe.mp3",
@@ -777,7 +828,10 @@
         "th": "gemini/th/callirrhoe.mp3",
         "sq": "gemini/sq/callirrhoe.mp3",
         "tr": "gemini/tr/callirrhoe.mp3",
-        "vi": "gemini/vi/callirrhoe.mp3"
+        "vi": "gemini/vi/callirrhoe.mp3",
+        "uk": "gemini/uk/callirrhoe.mp3",
+        "ur": "gemini/ur/callirrhoe.mp3",
+        "cy": "gemini/cy/callirrhoe.mp3"
       }
     },
     "Despina": {
@@ -789,7 +843,9 @@
       "files": {
         "af": "gemini/af/despina.mp3",
         "am": "gemini/am/despina.mp3",
+        "hy": "gemini/hy/despina.mp3",
         "bn": "gemini/bn/despina.mp3",
+        "eu": "gemini/eu/despina.mp3",
         "bs": "gemini/bs/despina.mp3",
         "bg": "gemini/bg/despina.mp3",
         "my": "gemini/my/despina.mp3",
@@ -832,6 +888,7 @@
         "ko": "gemini/ko/despina.mp3",
         "lo": "gemini/lo/despina.mp3",
         "lt": "gemini/lt/despina.mp3",
+        "lb": "gemini/lb/despina.mp3",
         "mk": "gemini/mk/despina.mp3",
         "ml": "gemini/ml/despina.mp3",
         "mt": "gemini/mt/despina.mp3",
@@ -865,7 +922,10 @@
         "th": "gemini/th/despina.mp3",
         "sq": "gemini/sq/despina.mp3",
         "tr": "gemini/tr/despina.mp3",
-        "vi": "gemini/vi/despina.mp3"
+        "vi": "gemini/vi/despina.mp3",
+        "uk": "gemini/uk/despina.mp3",
+        "ur": "gemini/ur/despina.mp3",
+        "cy": "gemini/cy/despina.mp3"
       }
     },
     "Erinome": {
@@ -877,7 +937,9 @@
       "files": {
         "af": "gemini/af/erinome.mp3",
         "am": "gemini/am/erinome.mp3",
+        "hy": "gemini/hy/erinome.mp3",
         "bn": "gemini/bn/erinome.mp3",
+        "eu": "gemini/eu/erinome.mp3",
         "bs": "gemini/bs/erinome.mp3",
         "bg": "gemini/bg/erinome.mp3",
         "my": "gemini/my/erinome.mp3",
@@ -920,6 +982,7 @@
         "ko": "gemini/ko/erinome.mp3",
         "lo": "gemini/lo/erinome.mp3",
         "lt": "gemini/lt/erinome.mp3",
+        "lb": "gemini/lb/erinome.mp3",
         "mk": "gemini/mk/erinome.mp3",
         "ml": "gemini/ml/erinome.mp3",
         "mt": "gemini/mt/erinome.mp3",
@@ -953,7 +1016,10 @@
         "th": "gemini/th/erinome.mp3",
         "sq": "gemini/sq/erinome.mp3",
         "tr": "gemini/tr/erinome.mp3",
-        "vi": "gemini/vi/erinome.mp3"
+        "vi": "gemini/vi/erinome.mp3",
+        "uk": "gemini/uk/erinome.mp3",
+        "ur": "gemini/ur/erinome.mp3",
+        "cy": "gemini/cy/erinome.mp3"
       }
     },
     "Gacrux": {
@@ -965,7 +1031,9 @@
       "files": {
         "af": "gemini/af/gacrux.mp3",
         "am": "gemini/am/gacrux.mp3",
+        "hy": "gemini/hy/gacrux.mp3",
         "bn": "gemini/bn/gacrux.mp3",
+        "eu": "gemini/eu/gacrux.mp3",
         "bs": "gemini/bs/gacrux.mp3",
         "bg": "gemini/bg/gacrux.mp3",
         "my": "gemini/my/gacrux.mp3",
@@ -1008,6 +1076,7 @@
         "ko": "gemini/ko/gacrux.mp3",
         "lo": "gemini/lo/gacrux.mp3",
         "lt": "gemini/lt/gacrux.mp3",
+        "lb": "gemini/lb/gacrux.mp3",
         "mk": "gemini/mk/gacrux.mp3",
         "ml": "gemini/ml/gacrux.mp3",
         "mt": "gemini/mt/gacrux.mp3",
@@ -1041,7 +1110,10 @@
         "th": "gemini/th/gacrux.mp3",
         "sq": "gemini/sq/gacrux.mp3",
         "tr": "gemini/tr/gacrux.mp3",
-        "vi": "gemini/vi/gacrux.mp3"
+        "vi": "gemini/vi/gacrux.mp3",
+        "uk": "gemini/uk/gacrux.mp3",
+        "ur": "gemini/ur/gacrux.mp3",
+        "cy": "gemini/cy/gacrux.mp3"
       }
     },
     "Kore": {
@@ -1053,7 +1125,9 @@
       "files": {
         "af": "gemini/af/kore.mp3",
         "am": "gemini/am/kore.mp3",
+        "hy": "gemini/hy/kore.mp3",
         "bn": "gemini/bn/kore.mp3",
+        "eu": "gemini/eu/kore.mp3",
         "bs": "gemini/bs/kore.mp3",
         "bg": "gemini/bg/kore.mp3",
         "my": "gemini/my/kore.mp3",
@@ -1096,6 +1170,7 @@
         "ko": "gemini/ko/kore.mp3",
         "lo": "gemini/lo/kore.mp3",
         "lt": "gemini/lt/kore.mp3",
+        "lb": "gemini/lb/kore.mp3",
         "mk": "gemini/mk/kore.mp3",
         "ml": "gemini/ml/kore.mp3",
         "mt": "gemini/mt/kore.mp3",
@@ -1129,7 +1204,10 @@
         "th": "gemini/th/kore.mp3",
         "sq": "gemini/sq/kore.mp3",
         "tr": "gemini/tr/kore.mp3",
-        "vi": "gemini/vi/kore.mp3"
+        "vi": "gemini/vi/kore.mp3",
+        "uk": "gemini/uk/kore.mp3",
+        "ur": "gemini/ur/kore.mp3",
+        "cy": "gemini/cy/kore.mp3"
       }
     },
     "Sulafat": {
@@ -1141,7 +1219,9 @@
       "files": {
         "af": "gemini/af/sulafat.mp3",
         "am": "gemini/am/sulafat.mp3",
+        "hy": "gemini/hy/sulafat.mp3",
         "bn": "gemini/bn/sulafat.mp3",
+        "eu": "gemini/eu/sulafat.mp3",
         "bs": "gemini/bs/sulafat.mp3",
         "bg": "gemini/bg/sulafat.mp3",
         "my": "gemini/my/sulafat.mp3",
@@ -1184,6 +1264,7 @@
         "ko": "gemini/ko/sulafat.mp3",
         "lo": "gemini/lo/sulafat.mp3",
         "lt": "gemini/lt/sulafat.mp3",
+        "lb": "gemini/lb/sulafat.mp3",
         "mk": "gemini/mk/sulafat.mp3",
         "ml": "gemini/ml/sulafat.mp3",
         "mt": "gemini/mt/sulafat.mp3",
@@ -1217,7 +1298,10 @@
         "th": "gemini/th/sulafat.mp3",
         "sq": "gemini/sq/sulafat.mp3",
         "tr": "gemini/tr/sulafat.mp3",
-        "vi": "gemini/vi/sulafat.mp3"
+        "vi": "gemini/vi/sulafat.mp3",
+        "uk": "gemini/uk/sulafat.mp3",
+        "ur": "gemini/ur/sulafat.mp3",
+        "cy": "gemini/cy/sulafat.mp3"
       }
     },
     "Vindemiatrix": {
@@ -1229,7 +1313,9 @@
       "files": {
         "af": "gemini/af/vindemiatrix.mp3",
         "am": "gemini/am/vindemiatrix.mp3",
+        "hy": "gemini/hy/vindemiatrix.mp3",
         "bn": "gemini/bn/vindemiatrix.mp3",
+        "eu": "gemini/eu/vindemiatrix.mp3",
         "bs": "gemini/bs/vindemiatrix.mp3",
         "bg": "gemini/bg/vindemiatrix.mp3",
         "my": "gemini/my/vindemiatrix.mp3",
@@ -1272,6 +1358,7 @@
         "ko": "gemini/ko/vindemiatrix.mp3",
         "lo": "gemini/lo/vindemiatrix.mp3",
         "lt": "gemini/lt/vindemiatrix.mp3",
+        "lb": "gemini/lb/vindemiatrix.mp3",
         "mk": "gemini/mk/vindemiatrix.mp3",
         "ml": "gemini/ml/vindemiatrix.mp3",
         "mt": "gemini/mt/vindemiatrix.mp3",
@@ -1305,7 +1392,10 @@
         "th": "gemini/th/vindemiatrix.mp3",
         "sq": "gemini/sq/vindemiatrix.mp3",
         "tr": "gemini/tr/vindemiatrix.mp3",
-        "vi": "gemini/vi/vindemiatrix.mp3"
+        "vi": "gemini/vi/vindemiatrix.mp3",
+        "uk": "gemini/uk/vindemiatrix.mp3",
+        "ur": "gemini/ur/vindemiatrix.mp3",
+        "cy": "gemini/cy/vindemiatrix.mp3"
       }
     },
     "Algenib": {
@@ -1317,7 +1407,9 @@
       "files": {
         "af": "gemini/af/algenib.mp3",
         "am": "gemini/am/algenib.mp3",
+        "hy": "gemini/hy/algenib.mp3",
         "bn": "gemini/bn/algenib.mp3",
+        "eu": "gemini/eu/algenib.mp3",
         "bs": "gemini/bs/algenib.mp3",
         "bg": "gemini/bg/algenib.mp3",
         "my": "gemini/my/algenib.mp3",
@@ -1360,6 +1452,7 @@
         "ko": "gemini/ko/algenib.mp3",
         "lo": "gemini/lo/algenib.mp3",
         "lt": "gemini/lt/algenib.mp3",
+        "lb": "gemini/lb/algenib.mp3",
         "mk": "gemini/mk/algenib.mp3",
         "ml": "gemini/ml/algenib.mp3",
         "mt": "gemini/mt/algenib.mp3",
@@ -1393,7 +1486,10 @@
         "th": "gemini/th/algenib.mp3",
         "sq": "gemini/sq/algenib.mp3",
         "tr": "gemini/tr/algenib.mp3",
-        "vi": "gemini/vi/algenib.mp3"
+        "vi": "gemini/vi/algenib.mp3",
+        "uk": "gemini/uk/algenib.mp3",
+        "ur": "gemini/ur/algenib.mp3",
+        "cy": "gemini/cy/algenib.mp3"
       }
     },
     "Algieba": {
@@ -1405,7 +1501,9 @@
       "files": {
         "af": "gemini/af/algieba.mp3",
         "am": "gemini/am/algieba.mp3",
+        "hy": "gemini/hy/algieba.mp3",
         "bn": "gemini/bn/algieba.mp3",
+        "eu": "gemini/eu/algieba.mp3",
         "bs": "gemini/bs/algieba.mp3",
         "bg": "gemini/bg/algieba.mp3",
         "my": "gemini/my/algieba.mp3",
@@ -1448,6 +1546,7 @@
         "ko": "gemini/ko/algieba.mp3",
         "lo": "gemini/lo/algieba.mp3",
         "lt": "gemini/lt/algieba.mp3",
+        "lb": "gemini/lb/algieba.mp3",
         "mk": "gemini/mk/algieba.mp3",
         "ml": "gemini/ml/algieba.mp3",
         "mt": "gemini/mt/algieba.mp3",
@@ -1481,7 +1580,10 @@
         "th": "gemini/th/algieba.mp3",
         "sq": "gemini/sq/algieba.mp3",
         "tr": "gemini/tr/algieba.mp3",
-        "vi": "gemini/vi/algieba.mp3"
+        "vi": "gemini/vi/algieba.mp3",
+        "uk": "gemini/uk/algieba.mp3",
+        "ur": "gemini/ur/algieba.mp3",
+        "cy": "gemini/cy/algieba.mp3"
       }
     },
     "Charon": {
@@ -1493,7 +1595,9 @@
       "files": {
         "af": "gemini/af/charon.mp3",
         "am": "gemini/am/charon.mp3",
+        "hy": "gemini/hy/charon.mp3",
         "bn": "gemini/bn/charon.mp3",
+        "eu": "gemini/eu/charon.mp3",
         "bs": "gemini/bs/charon.mp3",
         "bg": "gemini/bg/charon.mp3",
         "my": "gemini/my/charon.mp3",
@@ -1536,6 +1640,7 @@
         "ko": "gemini/ko/charon.mp3",
         "lo": "gemini/lo/charon.mp3",
         "lt": "gemini/lt/charon.mp3",
+        "lb": "gemini/lb/charon.mp3",
         "mk": "gemini/mk/charon.mp3",
         "ml": "gemini/ml/charon.mp3",
         "mt": "gemini/mt/charon.mp3",
@@ -1569,7 +1674,10 @@
         "th": "gemini/th/charon.mp3",
         "sq": "gemini/sq/charon.mp3",
         "tr": "gemini/tr/charon.mp3",
-        "vi": "gemini/vi/charon.mp3"
+        "vi": "gemini/vi/charon.mp3",
+        "uk": "gemini/uk/charon.mp3",
+        "ur": "gemini/ur/charon.mp3",
+        "cy": "gemini/cy/charon.mp3"
       }
     },
     "Enceladus": {
@@ -1581,7 +1689,9 @@
       "files": {
         "af": "gemini/af/enceladus.mp3",
         "am": "gemini/am/enceladus.mp3",
+        "hy": "gemini/hy/enceladus.mp3",
         "bn": "gemini/bn/enceladus.mp3",
+        "eu": "gemini/eu/enceladus.mp3",
         "bs": "gemini/bs/enceladus.mp3",
         "bg": "gemini/bg/enceladus.mp3",
         "my": "gemini/my/enceladus.mp3",
@@ -1624,6 +1734,7 @@
         "ko": "gemini/ko/enceladus.mp3",
         "lo": "gemini/lo/enceladus.mp3",
         "lt": "gemini/lt/enceladus.mp3",
+        "lb": "gemini/lb/enceladus.mp3",
         "mk": "gemini/mk/enceladus.mp3",
         "ml": "gemini/ml/enceladus.mp3",
         "mt": "gemini/mt/enceladus.mp3",
@@ -1657,7 +1768,10 @@
         "th": "gemini/th/enceladus.mp3",
         "sq": "gemini/sq/enceladus.mp3",
         "tr": "gemini/tr/enceladus.mp3",
-        "vi": "gemini/vi/enceladus.mp3"
+        "vi": "gemini/vi/enceladus.mp3",
+        "uk": "gemini/uk/enceladus.mp3",
+        "ur": "gemini/ur/enceladus.mp3",
+        "cy": "gemini/cy/enceladus.mp3"
       }
     },
     "Sadachbia": {
@@ -1669,7 +1783,9 @@
       "files": {
         "af": "gemini/af/sadachbia.mp3",
         "am": "gemini/am/sadachbia.mp3",
+        "hy": "gemini/hy/sadachbia.mp3",
         "bn": "gemini/bn/sadachbia.mp3",
+        "eu": "gemini/eu/sadachbia.mp3",
         "bs": "gemini/bs/sadachbia.mp3",
         "bg": "gemini/bg/sadachbia.mp3",
         "my": "gemini/my/sadachbia.mp3",
@@ -1712,6 +1828,7 @@
         "ko": "gemini/ko/sadachbia.mp3",
         "lo": "gemini/lo/sadachbia.mp3",
         "lt": "gemini/lt/sadachbia.mp3",
+        "lb": "gemini/lb/sadachbia.mp3",
         "mk": "gemini/mk/sadachbia.mp3",
         "ml": "gemini/ml/sadachbia.mp3",
         "mt": "gemini/mt/sadachbia.mp3",
@@ -1745,7 +1862,10 @@
         "th": "gemini/th/sadachbia.mp3",
         "sq": "gemini/sq/sadachbia.mp3",
         "tr": "gemini/tr/sadachbia.mp3",
-        "vi": "gemini/vi/sadachbia.mp3"
+        "vi": "gemini/vi/sadachbia.mp3",
+        "uk": "gemini/uk/sadachbia.mp3",
+        "ur": "gemini/ur/sadachbia.mp3",
+        "cy": "gemini/cy/sadachbia.mp3"
       }
     },
     "Achird": {
@@ -1757,7 +1877,9 @@
       "files": {
         "af": "gemini/af/achird.mp3",
         "am": "gemini/am/achird.mp3",
+        "hy": "gemini/hy/achird.mp3",
         "bn": "gemini/bn/achird.mp3",
+        "eu": "gemini/eu/achird.mp3",
         "bs": "gemini/bs/achird.mp3",
         "bg": "gemini/bg/achird.mp3",
         "my": "gemini/my/achird.mp3",
@@ -1800,6 +1922,7 @@
         "ko": "gemini/ko/achird.mp3",
         "lo": "gemini/lo/achird.mp3",
         "lt": "gemini/lt/achird.mp3",
+        "lb": "gemini/lb/achird.mp3",
         "mk": "gemini/mk/achird.mp3",
         "ml": "gemini/ml/achird.mp3",
         "mt": "gemini/mt/achird.mp3",
@@ -1833,7 +1956,10 @@
         "th": "gemini/th/achird.mp3",
         "sq": "gemini/sq/achird.mp3",
         "tr": "gemini/tr/achird.mp3",
-        "vi": "gemini/vi/achird.mp3"
+        "vi": "gemini/vi/achird.mp3",
+        "uk": "gemini/uk/achird.mp3",
+        "ur": "gemini/ur/achird.mp3",
+        "cy": "gemini/cy/achird.mp3"
       }
     },
     "Alnilam": {
@@ -1845,7 +1971,9 @@
       "files": {
         "af": "gemini/af/alnilam.mp3",
         "am": "gemini/am/alnilam.mp3",
+        "hy": "gemini/hy/alnilam.mp3",
         "bn": "gemini/bn/alnilam.mp3",
+        "eu": "gemini/eu/alnilam.mp3",
         "bs": "gemini/bs/alnilam.mp3",
         "bg": "gemini/bg/alnilam.mp3",
         "my": "gemini/my/alnilam.mp3",
@@ -1888,6 +2016,7 @@
         "ko": "gemini/ko/alnilam.mp3",
         "lo": "gemini/lo/alnilam.mp3",
         "lt": "gemini/lt/alnilam.mp3",
+        "lb": "gemini/lb/alnilam.mp3",
         "mk": "gemini/mk/alnilam.mp3",
         "ml": "gemini/ml/alnilam.mp3",
         "mt": "gemini/mt/alnilam.mp3",
@@ -1921,7 +2050,10 @@
         "th": "gemini/th/alnilam.mp3",
         "sq": "gemini/sq/alnilam.mp3",
         "tr": "gemini/tr/alnilam.mp3",
-        "vi": "gemini/vi/alnilam.mp3"
+        "vi": "gemini/vi/alnilam.mp3",
+        "uk": "gemini/uk/alnilam.mp3",
+        "ur": "gemini/ur/alnilam.mp3",
+        "cy": "gemini/cy/alnilam.mp3"
       }
     },
     "Fenrir": {
@@ -1933,7 +2065,9 @@
       "files": {
         "af": "gemini/af/fenrir.mp3",
         "am": "gemini/am/fenrir.mp3",
+        "hy": "gemini/hy/fenrir.mp3",
         "bn": "gemini/bn/fenrir.mp3",
+        "eu": "gemini/eu/fenrir.mp3",
         "bs": "gemini/bs/fenrir.mp3",
         "bg": "gemini/bg/fenrir.mp3",
         "my": "gemini/my/fenrir.mp3",
@@ -1976,6 +2110,7 @@
         "ko": "gemini/ko/fenrir.mp3",
         "lo": "gemini/lo/fenrir.mp3",
         "lt": "gemini/lt/fenrir.mp3",
+        "lb": "gemini/lb/fenrir.mp3",
         "mk": "gemini/mk/fenrir.mp3",
         "ml": "gemini/ml/fenrir.mp3",
         "mt": "gemini/mt/fenrir.mp3",
@@ -2009,7 +2144,10 @@
         "th": "gemini/th/fenrir.mp3",
         "sq": "gemini/sq/fenrir.mp3",
         "tr": "gemini/tr/fenrir.mp3",
-        "vi": "gemini/vi/fenrir.mp3"
+        "vi": "gemini/vi/fenrir.mp3",
+        "uk": "gemini/uk/fenrir.mp3",
+        "ur": "gemini/ur/fenrir.mp3",
+        "cy": "gemini/cy/fenrir.mp3"
       }
     },
     "Iapetus": {
@@ -2021,7 +2159,9 @@
       "files": {
         "af": "gemini/af/iapetus.mp3",
         "am": "gemini/am/iapetus.mp3",
+        "hy": "gemini/hy/iapetus.mp3",
         "bn": "gemini/bn/iapetus.mp3",
+        "eu": "gemini/eu/iapetus.mp3",
         "bs": "gemini/bs/iapetus.mp3",
         "bg": "gemini/bg/iapetus.mp3",
         "my": "gemini/my/iapetus.mp3",
@@ -2064,6 +2204,7 @@
         "ko": "gemini/ko/iapetus.mp3",
         "lo": "gemini/lo/iapetus.mp3",
         "lt": "gemini/lt/iapetus.mp3",
+        "lb": "gemini/lb/iapetus.mp3",
         "mk": "gemini/mk/iapetus.mp3",
         "ml": "gemini/ml/iapetus.mp3",
         "mt": "gemini/mt/iapetus.mp3",
@@ -2097,7 +2238,10 @@
         "th": "gemini/th/iapetus.mp3",
         "sq": "gemini/sq/iapetus.mp3",
         "tr": "gemini/tr/iapetus.mp3",
-        "vi": "gemini/vi/iapetus.mp3"
+        "vi": "gemini/vi/iapetus.mp3",
+        "uk": "gemini/uk/iapetus.mp3",
+        "ur": "gemini/ur/iapetus.mp3",
+        "cy": "gemini/cy/iapetus.mp3"
       }
     },
     "Orus": {
@@ -2109,7 +2253,9 @@
       "files": {
         "af": "gemini/af/orus.mp3",
         "am": "gemini/am/orus.mp3",
+        "hy": "gemini/hy/orus.mp3",
         "bn": "gemini/bn/orus.mp3",
+        "eu": "gemini/eu/orus.mp3",
         "bs": "gemini/bs/orus.mp3",
         "bg": "gemini/bg/orus.mp3",
         "my": "gemini/my/orus.mp3",
@@ -2152,6 +2298,7 @@
         "ko": "gemini/ko/orus.mp3",
         "lo": "gemini/lo/orus.mp3",
         "lt": "gemini/lt/orus.mp3",
+        "lb": "gemini/lb/orus.mp3",
         "mk": "gemini/mk/orus.mp3",
         "ml": "gemini/ml/orus.mp3",
         "mt": "gemini/mt/orus.mp3",
@@ -2185,7 +2332,10 @@
         "th": "gemini/th/orus.mp3",
         "sq": "gemini/sq/orus.mp3",
         "tr": "gemini/tr/orus.mp3",
-        "vi": "gemini/vi/orus.mp3"
+        "vi": "gemini/vi/orus.mp3",
+        "uk": "gemini/uk/orus.mp3",
+        "ur": "gemini/ur/orus.mp3",
+        "cy": "gemini/cy/orus.mp3"
       }
     },
     "Schedar": {
@@ -2197,7 +2347,9 @@
       "files": {
         "af": "gemini/af/schedar.mp3",
         "am": "gemini/am/schedar.mp3",
+        "hy": "gemini/hy/schedar.mp3",
         "bn": "gemini/bn/schedar.mp3",
+        "eu": "gemini/eu/schedar.mp3",
         "bs": "gemini/bs/schedar.mp3",
         "bg": "gemini/bg/schedar.mp3",
         "my": "gemini/my/schedar.mp3",
@@ -2240,6 +2392,7 @@
         "ko": "gemini/ko/schedar.mp3",
         "lo": "gemini/lo/schedar.mp3",
         "lt": "gemini/lt/schedar.mp3",
+        "lb": "gemini/lb/schedar.mp3",
         "mk": "gemini/mk/schedar.mp3",
         "ml": "gemini/ml/schedar.mp3",
         "mt": "gemini/mt/schedar.mp3",
@@ -2273,7 +2426,10 @@
         "th": "gemini/th/schedar.mp3",
         "sq": "gemini/sq/schedar.mp3",
         "tr": "gemini/tr/schedar.mp3",
-        "vi": "gemini/vi/schedar.mp3"
+        "vi": "gemini/vi/schedar.mp3",
+        "uk": "gemini/uk/schedar.mp3",
+        "ur": "gemini/ur/schedar.mp3",
+        "cy": "gemini/cy/schedar.mp3"
       }
     },
     "Umbriel": {
@@ -2285,7 +2441,9 @@
       "files": {
         "af": "gemini/af/umbriel.mp3",
         "am": "gemini/am/umbriel.mp3",
+        "hy": "gemini/hy/umbriel.mp3",
         "bn": "gemini/bn/umbriel.mp3",
+        "eu": "gemini/eu/umbriel.mp3",
         "bs": "gemini/bs/umbriel.mp3",
         "bg": "gemini/bg/umbriel.mp3",
         "my": "gemini/my/umbriel.mp3",
@@ -2328,6 +2486,7 @@
         "ko": "gemini/ko/umbriel.mp3",
         "lo": "gemini/lo/umbriel.mp3",
         "lt": "gemini/lt/umbriel.mp3",
+        "lb": "gemini/lb/umbriel.mp3",
         "mk": "gemini/mk/umbriel.mp3",
         "ml": "gemini/ml/umbriel.mp3",
         "mt": "gemini/mt/umbriel.mp3",
@@ -2361,7 +2520,10 @@
         "th": "gemini/th/umbriel.mp3",
         "sq": "gemini/sq/umbriel.mp3",
         "tr": "gemini/tr/umbriel.mp3",
-        "vi": "gemini/vi/umbriel.mp3"
+        "vi": "gemini/vi/umbriel.mp3",
+        "uk": "gemini/uk/umbriel.mp3",
+        "ur": "gemini/ur/umbriel.mp3",
+        "cy": "gemini/cy/umbriel.mp3"
       }
     },
     "Zubenelgenubi": {
@@ -2373,7 +2535,9 @@
       "files": {
         "af": "gemini/af/zubenelgenubi.mp3",
         "am": "gemini/am/zubenelgenubi.mp3",
+        "hy": "gemini/hy/zubenelgenubi.mp3",
         "bn": "gemini/bn/zubenelgenubi.mp3",
+        "eu": "gemini/eu/zubenelgenubi.mp3",
         "bs": "gemini/bs/zubenelgenubi.mp3",
         "bg": "gemini/bg/zubenelgenubi.mp3",
         "my": "gemini/my/zubenelgenubi.mp3",
@@ -2416,6 +2580,7 @@
         "ko": "gemini/ko/zubenelgenubi.mp3",
         "lo": "gemini/lo/zubenelgenubi.mp3",
         "lt": "gemini/lt/zubenelgenubi.mp3",
+        "lb": "gemini/lb/zubenelgenubi.mp3",
         "mk": "gemini/mk/zubenelgenubi.mp3",
         "ml": "gemini/ml/zubenelgenubi.mp3",
         "mt": "gemini/mt/zubenelgenubi.mp3",
@@ -2449,7 +2614,10 @@
         "th": "gemini/th/zubenelgenubi.mp3",
         "sq": "gemini/sq/zubenelgenubi.mp3",
         "tr": "gemini/tr/zubenelgenubi.mp3",
-        "vi": "gemini/vi/zubenelgenubi.mp3"
+        "vi": "gemini/vi/zubenelgenubi.mp3",
+        "uk": "gemini/uk/zubenelgenubi.mp3",
+        "ur": "gemini/ur/zubenelgenubi.mp3",
+        "cy": "gemini/cy/zubenelgenubi.mp3"
       }
     },
     "Puck": {
@@ -2461,7 +2629,9 @@
       "files": {
         "af": "gemini/af/puck.mp3",
         "am": "gemini/am/puck.mp3",
+        "hy": "gemini/hy/puck.mp3",
         "bn": "gemini/bn/puck.mp3",
+        "eu": "gemini/eu/puck.mp3",
         "bs": "gemini/bs/puck.mp3",
         "bg": "gemini/bg/puck.mp3",
         "my": "gemini/my/puck.mp3",
@@ -2504,6 +2674,7 @@
         "ko": "gemini/ko/puck.mp3",
         "lo": "gemini/lo/puck.mp3",
         "lt": "gemini/lt/puck.mp3",
+        "lb": "gemini/lb/puck.mp3",
         "mk": "gemini/mk/puck.mp3",
         "ml": "gemini/ml/puck.mp3",
         "mt": "gemini/mt/puck.mp3",
@@ -2537,7 +2708,10 @@
         "th": "gemini/th/puck.mp3",
         "sq": "gemini/sq/puck.mp3",
         "tr": "gemini/tr/puck.mp3",
-        "vi": "gemini/vi/puck.mp3"
+        "vi": "gemini/vi/puck.mp3",
+        "uk": "gemini/uk/puck.mp3",
+        "ur": "gemini/ur/puck.mp3",
+        "cy": "gemini/cy/puck.mp3"
       }
     },
     "Pulcherrima": {
@@ -2549,7 +2723,9 @@
       "files": {
         "af": "gemini/af/pulcherrima.mp3",
         "am": "gemini/am/pulcherrima.mp3",
+        "hy": "gemini/hy/pulcherrima.mp3",
         "bn": "gemini/bn/pulcherrima.mp3",
+        "eu": "gemini/eu/pulcherrima.mp3",
         "bs": "gemini/bs/pulcherrima.mp3",
         "bg": "gemini/bg/pulcherrima.mp3",
         "my": "gemini/my/pulcherrima.mp3",
@@ -2592,6 +2768,7 @@
         "ko": "gemini/ko/pulcherrima.mp3",
         "lo": "gemini/lo/pulcherrima.mp3",
         "lt": "gemini/lt/pulcherrima.mp3",
+        "lb": "gemini/lb/pulcherrima.mp3",
         "mk": "gemini/mk/pulcherrima.mp3",
         "ml": "gemini/ml/pulcherrima.mp3",
         "mt": "gemini/mt/pulcherrima.mp3",
@@ -2625,7 +2802,10 @@
         "th": "gemini/th/pulcherrima.mp3",
         "sq": "gemini/sq/pulcherrima.mp3",
         "tr": "gemini/tr/pulcherrima.mp3",
-        "vi": "gemini/vi/pulcherrima.mp3"
+        "vi": "gemini/vi/pulcherrima.mp3",
+        "uk": "gemini/uk/pulcherrima.mp3",
+        "ur": "gemini/ur/pulcherrima.mp3",
+        "cy": "gemini/cy/pulcherrima.mp3"
       }
     },
     "Rasalgethi": {
@@ -2637,7 +2817,9 @@
       "files": {
         "af": "gemini/af/rasalgethi.mp3",
         "am": "gemini/am/rasalgethi.mp3",
+        "hy": "gemini/hy/rasalgethi.mp3",
         "bn": "gemini/bn/rasalgethi.mp3",
+        "eu": "gemini/eu/rasalgethi.mp3",
         "bs": "gemini/bs/rasalgethi.mp3",
         "bg": "gemini/bg/rasalgethi.mp3",
         "my": "gemini/my/rasalgethi.mp3",
@@ -2680,6 +2862,7 @@
         "ko": "gemini/ko/rasalgethi.mp3",
         "lo": "gemini/lo/rasalgethi.mp3",
         "lt": "gemini/lt/rasalgethi.mp3",
+        "lb": "gemini/lb/rasalgethi.mp3",
         "mk": "gemini/mk/rasalgethi.mp3",
         "ml": "gemini/ml/rasalgethi.mp3",
         "mt": "gemini/mt/rasalgethi.mp3",
@@ -2713,7 +2896,10 @@
         "th": "gemini/th/rasalgethi.mp3",
         "sq": "gemini/sq/rasalgethi.mp3",
         "tr": "gemini/tr/rasalgethi.mp3",
-        "vi": "gemini/vi/rasalgethi.mp3"
+        "vi": "gemini/vi/rasalgethi.mp3",
+        "uk": "gemini/uk/rasalgethi.mp3",
+        "ur": "gemini/ur/rasalgethi.mp3",
+        "cy": "gemini/cy/rasalgethi.mp3"
       }
     },
     "Sadaltager": {
@@ -2725,7 +2911,9 @@
       "files": {
         "af": "gemini/af/sadaltager.mp3",
         "am": "gemini/am/sadaltager.mp3",
+        "hy": "gemini/hy/sadaltager.mp3",
         "bn": "gemini/bn/sadaltager.mp3",
+        "eu": "gemini/eu/sadaltager.mp3",
         "bs": "gemini/bs/sadaltager.mp3",
         "bg": "gemini/bg/sadaltager.mp3",
         "my": "gemini/my/sadaltager.mp3",
@@ -2768,6 +2956,7 @@
         "ko": "gemini/ko/sadaltager.mp3",
         "lo": "gemini/lo/sadaltager.mp3",
         "lt": "gemini/lt/sadaltager.mp3",
+        "lb": "gemini/lb/sadaltager.mp3",
         "mk": "gemini/mk/sadaltager.mp3",
         "ml": "gemini/ml/sadaltager.mp3",
         "mt": "gemini/mt/sadaltager.mp3",
@@ -2801,7 +2990,10 @@
         "th": "gemini/th/sadaltager.mp3",
         "sq": "gemini/sq/sadaltager.mp3",
         "tr": "gemini/tr/sadaltager.mp3",
-        "vi": "gemini/vi/sadaltager.mp3"
+        "vi": "gemini/vi/sadaltager.mp3",
+        "uk": "gemini/uk/sadaltager.mp3",
+        "ur": "gemini/ur/sadaltager.mp3",
+        "cy": "gemini/cy/sadaltager.mp3"
       }
     }
   }

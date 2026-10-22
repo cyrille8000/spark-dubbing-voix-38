@@ -217,6 +217,30 @@
     "vi": {
       "texte": "Thật lòng mà nói, tôi không kỳ vọng gì nhiều ở chỗ này, nhưng đồ ăn rất ngon và nhân viên thì cực kỳ thân thiện.",
       "duree_s": 5.318
+    },
+    "eu": {
+      "texte": "Egia esan, ez nuen gauza handirik espero leku honetatik, baina janaria goxoa zegoen eta langileak oso jatorrak ziren.",
+      "duree_s": 6.467
+    },
+    "hy": {
+      "texte": "Անկեղծ ասած՝ այս վայրից առանձնապես մեծ սպասելիքներ չունեի, բայց ուտելիքը շատ համեղ էր, իսկ անձնակազմը՝ իսկապես բարի։",
+      "duree_s": 6.108
+    },
+    "lb": {
+      "texte": "Éierlech gesot, ech hat net vill vun dëser Plaz erwaart, mee d'Iesse war lecker an d'Personal war wierklech léif.",
+      "duree_s": 4.61
+    },
+    "uk": {
+      "texte": "Чесно кажучи, я не очікував від цього закладу нічого особливого, але їжа була дуже смачна, а персонал   надзвичайно привітний.",
+      "duree_s": 9.625
+    },
+    "ur": {
+      "texte": "سچ کہوں تو مجھے اس جگہ سے زیادہ امید نہیں تھی، لیکن کھانا بہت لذیذ تھا اور عملہ بھی واقعی بہت مہربان تھا۔",
+      "duree_s": 6.386
+    },
+    "cy": {
+      "texte": "A dweud y gwir, doeddwn i ddim yn disgwyl llawer gan y lle yma, ond roedd y bwyd yn flasus iawn a’r staff yn garedig iawn.",
+      "duree_s": 6.096
     }
   }
 }

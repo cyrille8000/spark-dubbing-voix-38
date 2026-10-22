@@ -5,7 +5,7 @@
 // langue, déjà écrites dans cette langue ; le ratio = la médiane des 3. Une lecture un peu
 // rapide ou lente d'une phrase ne fait plus le ratio de tout le doublage.
 //
-// Langues : celles que spark-duree estime (champ `duree` du catalogue, 54) — les seules
+// Langues : celles que spark-duree estime (champ `duree` du catalogue, 60) — les seules
 // proposées en ElevenLabs et Inworld. Les 3 phrases sont traduites par le traducteur de la prod
 // (OpenAI, effort bas). Pas celle de la table Gemini (phrases.json) : 106 caractères en anglais,
 // 141 en français — trop longue. Écrit phrases_ratio.json ; une phrase déjà traduite est gardée.
