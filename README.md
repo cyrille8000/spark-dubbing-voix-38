@@ -105,3 +105,20 @@ node scripts/7-phrases-ratio.mjs --vers-backend   # backend/.../shared/phrases-r
 
 Changer une phrase change ses mesures : une prise ne vaut que pour SA phrase (le texte est
 comparé), les voix seront remesurées sur celle-là seulement.
+
+## Les coûts d'estimation des opérations du studio (2026-11-17)
+
+La table `backend/cloudflare/workers/shared/couts-estimation/couts.json`, sur laquelle les opérations IA du studio
+RÉSERVENT leur coût avant de partir (`spark-dubbing-api/src/utils/facturation/estimation.js`) :
+
+1. `node scripts/8-couts-estimation.mjs` — la voix, avec la requête de la prod, pour Gemini 3.8 Flash (Voix Studio,
+   60 langues) et 3.8 Flash-Lite (le one shot, 49 langues) : la voix la plus lente de chaque langue, 6 textes (un court,
+   4 moyens, un long) × 2 prises ; puis les 100 tons du studio sur fr, ja, ar, cmn. Journal `cache/couts.jsonl`. Par le
+   relais (voir plus haut), à supprimer après.
+2. `node scripts/9-couts-reecriture.mjs --prompts <fichier>` — la réécriture (LLM) : les prompts EXACTS de
+   `build_variation_messages` (spark-adjust-evaluator), écrits par un test Rust temporaire, 60 langues × 6 textes ×
+   raccourcir/allonger. Journal `cache/couts-reecriture.jsonl`.
+3. `node scripts/10-table-couts.mjs` — la table : par modèle et langue, `par_appel` (pire texte court) +
+   `par_caractere` (pire texte long), × 1,2 arrondis au-dessus ; le facteur de chaque ton ; la réécriture par langue.
+
+Le 2026-11-17 : 2 908 prises de voix (≈ 8,5 $) et 720 réécritures (≈ 0,46 $).

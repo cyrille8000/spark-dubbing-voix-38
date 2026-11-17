@@ -41,8 +41,9 @@ export function texteEdge(text) {
  *  ton, `standalone_take` absent), construite par la fonction de la prod. Les
  *  drapeaux Doppler `TTS_NO_NONVERBAL` et `TTS_PREPEND_CONTINUATION_DASH` sont
  *  absents ou à true en prod : `env` vide = leurs valeurs. */
-export function requeteGemini({ voix, texte, langue }) {
-  const r = buildGeminiApiRequest({ env: {}, speechParts: [{ text: texte, emotion_tags: [] }], language: langue });
+export function requeteGemini({ voix, texte, langue, ton = null }) {
+  // `ton` (2026-11-17, les coûts des régénérations avec une émotion) : le ton posé dans le studio, comme la prod.
+  const r = buildGeminiApiRequest({ env: {}, speechParts: [{ text: texte, emotion_tags: ton ? [ton] : [] }], language: langue });
   return {
     corps: {
       contents: [{ role: 'user', parts: r.parts }],

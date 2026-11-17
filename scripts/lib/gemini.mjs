@@ -48,15 +48,15 @@ function uneCle() {
 const ESSAIS = 20;
 
 /** Une prise : `{ pcm: Int16Array, taux, jetons_entree, jetons_audio, essais }`. */
-export async function priseGemini({ voix, texte, langue }) {
-  const { corps } = requeteGemini({ voix, texte, langue });
+export async function priseGemini({ voix, texte, langue, modele = MODELE_TTS, ton = null }) {
+  const { corps } = requeteGemini({ voix, texte, langue, ton });
   let derniere = '';
   for (let essai = 1; essai <= ESSAIS; essai++) {
     const cle = uneCle();
     const debut = Date.now();
     let rep;
     try {
-      rep = await fetch(`${API_GEMINI}/v1beta/models/${MODELE_TTS}:generateContent`, {
+      rep = await fetch(`${API_GEMINI}/v1beta/models/${modele}:generateContent`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', 'x-goog-api-key': cle, ...ENTETE_RELAIS },
         body: JSON.stringify(corps),
